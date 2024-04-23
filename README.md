@@ -1,4 +1,5 @@
-# Human-Resources-Management-System (İnsan Kaynakları Yönetim Sistemi (İKYS) Geliştirilmesi)
+# Human-Resources-Management-System 
+# (İnsan Kaynakları Yönetim Sistemi (İKYS) Geliştirilmesi)
 
 
 # Takım Elemanları
