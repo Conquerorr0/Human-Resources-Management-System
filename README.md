@@ -20,10 +20,12 @@
 
 ## Projenin Potansiyel Çıktıları:
 
-### Ticari: Geliştirilen İKYS, şirketlerin insan kaynakları süreçlerini daha etkin bir şekilde yönetmelerine olanak tanıyarak işletme maliyetlerini azaltacak ve rekabet avantajı sağlayacaktır.
-### Sosyal: İKYS, çalışanların izin ve performans yönetimi gibi süreçlerini daha şeffaf ve adil bir şekilde yönetmelerine yardımcı olarak çalışan memnuniyetini artıracak ve kurumsal kültürü 
- güçlendirecektir.
-### İnovasyon: Yenilikçi özelliklerle donatılan İKYS, şirketlerin rekabetçiliğini artıracak ve insan kaynakları yönetiminde yeni standartlar belirleyecektir.
+### Ticari: 
+ Geliştirilen İKYS, şirketlerin insan kaynakları süreçlerini daha etkin bir şekilde yönetmelerine olanak tanıyarak işletme maliyetlerini azaltacak ve rekabet avantajı sağlayacaktır.
+### Sosyal:
+ İKYS, çalışanların izin ve performans yönetimi gibi süreçlerini daha şeffaf ve adil bir şekilde yönetmelerine yardımcı olarak çalışan memnuniyetini artıracak ve kurumsal kültürü güçlendirecektir.
+### İnovasyon: 
+ Yenilikçi özelliklerle donatılan İKYS, şirketlerin rekabetçiliğini artıracak ve insan kaynakları yönetiminde yeni standartlar belirleyecektir.
 
 # Amaç ve Hedefler, Paydaşlar
  Proje önerisinin amacı ve hedefleri ana hatlarıyla açık, gerçekçi ve dönem projesi süresince ulaşılabilir nitelikte yazılacaktır.
