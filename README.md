@@ -8,11 +8,6 @@
 - Mehmet Nur Kavan
 
 # Proje Konusunun Kapsamı ve Önemi, Projenin Yenilikçi Yönü, Projenin Potansiyel Çıktıları
- Projenin ele almayı amaçladığı sorunu veya ihtiyacı açıkça belirtin.
-Proje önerisinde ele alınan konunun kapsamı, sınırları ve önemi açıklanacaktır.
-Yenilikçi yönü yazılırken projenin farklılığı hangi eksikliği nasıl gidereceği veya hangi soruna nasıl bir çözüm geliştireceği açıklanacaktır. 
-Proje başarıyla gerçekleştirildiği takdirde projeden elde edilmesi öngörülen çıktılar/etkiler (ticari, sosyal, Start-up şirketi vb.) kısa ve net cümlelerle belirtilecektir.
-
 Proje Konusunun Kapsamı ve Önemi:
 Bu proje, bir şirketin insan kaynakları yönetim süreçlerini dijitalleştirmek ve kolaylaştırmak amacıyla bir İnsan Kaynakları Yönetim Sistemi (İKYS) geliştirmeyi hedeflemektedir. İKYS, işe alım, personel yönetimi, performans değerlendirme, eğitim ve gelişim gibi insan kaynakları süreçlerini yönetmek için bir platform sağlayacaktır. Bu sistem, insan kaynakları departmanının verimliliğini artırarak işletmenin genel performansına olumlu katkı sağlayacaktır. Ayrıca, kağıt tabanlı süreçlerin dijitalleştirilmesiyle çevre dostu bir yaklaşım da benimsenecektir.
 
