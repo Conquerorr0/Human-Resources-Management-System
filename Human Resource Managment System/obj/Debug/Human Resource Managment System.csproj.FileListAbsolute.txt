@@ -1,0 +1,21 @@
+C:\Users\User\Desktop\Klasörler\Human Resource Managment System\Human Resource Managment System\bin\Debug\Human Resource Managment System.exe.config
+C:\Users\User\Desktop\Klasörler\Human Resource Managment System\Human Resource Managment System\bin\Debug\Human Resource Managment System.exe
+C:\Users\User\Desktop\Klasörler\Human Resource Managment System\Human Resource Managment System\bin\Debug\Human Resource Managment System.pdb
+C:\Users\User\Desktop\Klasörler\Human Resource Managment System\Human Resource Managment System\obj\Debug\Human Resource Managment System.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Klasörler\Human Resource Managment System\Human Resource Managment System\obj\Debug\Human_Resource_Managment_System.Properties.Resources.resources
+C:\Users\User\Desktop\Klasörler\Human Resource Managment System\Human Resource Managment System\obj\Debug\Human Resource Managment System.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Klasörler\Human Resource Managment System\Human Resource Managment System\obj\Debug\Human Resource Managment System.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Klasörler\Human Resource Managment System\Human Resource Managment System\obj\Debug\Human Resource Managment System.exe
+C:\Users\User\Desktop\Klasörler\Human Resource Managment System\Human Resource Managment System\obj\Debug\Human Resource Managment System.pdb
+C:\Users\User\Desktop\Klasörler\Human Resource Managment System\Human Resource Managment System\obj\Debug\Human_Resource_Managment_System.windowSıgnIn.resources
+C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\Human Resource Managment System\bin\Debug\Human Resource Managment System.exe.config
+C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\Human Resource Managment System\bin\Debug\Human Resource Managment System.exe
+C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\Human Resource Managment System\bin\Debug\Human Resource Managment System.pdb
+C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\Human Resource Managment System\obj\Debug\Human Resource Managment System.csproj.AssemblyReference.cache
+C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\Human Resource Managment System\obj\Debug\Human_Resource_Managment_System.windowSıgnIn.resources
+C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\Human Resource Managment System\obj\Debug\Human_Resource_Managment_System.Form2.resources
+C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\Human Resource Managment System\obj\Debug\Human_Resource_Managment_System.Properties.Resources.resources
+C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\Human Resource Managment System\obj\Debug\Human Resource Managment System.csproj.GenerateResource.cache
+C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\Human Resource Managment System\obj\Debug\Human Resource Managment System.csproj.CoreCompileInputs.cache
+C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\Human Resource Managment System\obj\Debug\Human Resource Managment System.exe
+C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\Human Resource Managment System\obj\Debug\Human Resource Managment System.pdb
