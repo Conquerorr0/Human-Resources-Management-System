@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B18A10B-BD4A-41E5-B247-06259EBFE006}|MAP\\MAP.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\map\\options\\appuserembloyeemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B18A10B-BD4A-41E5-B247-06259EBFE006}|MAP\\MAP.csproj|solutionrelative:map\\options\\appuserembloyeemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\entities\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\entities\\models\\appusersemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\appusersemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B18A10B-BD4A-41E5-B247-06259EBFE006}|MAP\\MAP.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\map\\options\\basemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B18A10B-BD4A-41E5-B247-06259EBFE006}|MAP\\MAP.csproj|solutionrelative:map\\options\\basemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\entities\\enums\\datastatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B18A10B-BD4A-41E5-B247-06259EBFE006}|MAP\\MAP.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\map\\options\\appuserembloyeemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B18A10B-BD4A-41E5-B247-06259EBFE006}|MAP\\MAP.csproj|solutionrelative:map\\options\\appuserembloyeemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\entities\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\entities\\models\\appusersemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\appusersemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\entities\\enums\\datastatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\enums\\datastatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\entities\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\entities\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\entities\\models\\appuserempoyeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\entities\\models\\appuserempoyeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\appuserempoyeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD3C1EED-D236-4FF9-BD14-FE9D51318E34}|WinUI\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\winui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD3C1EED-D236-4FF9-BD14-FE9D51318E34}|WinUI\\WinUI.csproj|solutionrelative:winui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,33 +38,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppUserEmbloyeeMap.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\MAP\\Options\\AppUserEmbloyeeMap.cs",
-              "RelativeDocumentMoniker": "MAP\\Options\\AppUserEmbloyeeMap.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\MAP\\Options\\AppUserEmbloyeeMap.cs",
-              "RelativeToolTip": "MAP\\Options\\AppUserEmbloyeeMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T12:54:13.198Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "BaseMap.cs",
               "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\MAP\\Options\\BaseMap.cs",
               "RelativeDocumentMoniker": "MAP\\Options\\BaseMap.cs",
               "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\MAP\\Options\\BaseMap.cs",
               "RelativeToolTip": "MAP\\Options\\BaseMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T12:35:07.651Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppUserEmbloyeeMap.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\MAP\\Options\\AppUserEmbloyeeMap.cs",
+              "RelativeDocumentMoniker": "MAP\\Options\\AppUserEmbloyeeMap.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\MAP\\Options\\AppUserEmbloyeeMap.cs",
+              "RelativeToolTip": "MAP\\Options\\AppUserEmbloyeeMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T12:54:13.198Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Entities\\Models\\FeedBack.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T11:09:44.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T11:09:44.454Z"
             },
             {
               "$type": "Document",
@@ -93,12 +91,11 @@
               "RelativeToolTip": "Entities\\Models\\AppUserEmpoyeeProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T10:20:49.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T10:20:49.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AppUsersEmployee.cs",
               "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\AppUsersEmployee.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\AppUsersEmployee.cs",
@@ -106,12 +103,11 @@
               "RelativeToolTip": "Entities\\Models\\AppUsersEmployee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T10:15:26.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T10:15:26.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\BaseEntity.cs",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "Entities\\Models\\BaseEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T07:59:23.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T07:59:23.473Z"
             },
             {
               "$type": "Document",
@@ -132,24 +127,7 @@
               "RelativeToolTip": "Entities\\Enums\\DataStatus.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T07:57:02.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI\\Form1.cs",
-              "RelativeDocumentMoniker": "WinUI\\Form1.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI\\Form1.cs [Design]",
-              "RelativeToolTip": "WinUI\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T07:29:48.374Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "WhenOpened": "2024-05-17T07:57:02.478Z"
             }
           ]
         }

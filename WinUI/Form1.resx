@@ -46,11 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-<<<<<<< HEAD
-            : System.Serialization.Formatters.Binary.BinaryFormatter
-=======
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
->>>>>>> ff41e3278c9c9f71e90c307ddcdc613b5a4cff3b
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -64,10 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-<<<<<<< HEAD
-=======
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
->>>>>>> ff41e3278c9c9f71e90c307ddcdc613b5a4cff3b
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -76,16 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-<<<<<<< HEAD
-              <xsd:attribute name="name" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-=======
               <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
               <xsd:attribute ref="xml:space" />
->>>>>>> ff41e3278c9c9f71e90c307ddcdc613b5a4cff3b
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -100,16 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-<<<<<<< HEAD
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-=======
               <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
               <xsd:attribute ref="xml:space" />
->>>>>>> ff41e3278c9c9f71e90c307ddcdc613b5a4cff3b
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -131,24 +112,32 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-<<<<<<< HEAD
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-=======
     <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="hide" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon\hide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnShowHide.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        rAAAAKwBhgk01AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEaSURBVEhL7dO/
+        S4JBHMfxJ8O0aPAvaIqGaAhyaWttajQa/Q9aApegrdzao8Ah6IfifxI4WTTpLESJkUT2/pz3hScVfLT1
+        PvCCuy93xz1390QhISF/ksEr6lhQYY6UUcOi640khTYGOFZhxhShuR9YUWFSStCgbxyokDD76ENzz1WY
+        lC28QYOkhwKm5Qgaa/PesY2xPEMDHnGGH9+/xQZGs4kH2MKXuPbtFsbu8QpVLLve8B5ssjzhDvdo+Jo5
+        hZJGBTeuNyW2mxfos+MLii6z6dv6ypmi+9BFf2EdWez6mhbcg17KGj6h48wjcU6ghXSu8dhL0VFYLqCa
+        HVOirOIQ2nk8HXShf8ayBL2knOv9M3p+O8NmSIhLFP0CRyVJIVmWz38AAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="show" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon\show.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnHMShowHide.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        rAAAAKwBhgk01AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEaSURBVEhL7dO/
+        S4JBHMfxJ8O0aPAvaIqGaAhyaWttajQa/Q9aApegrdzao8Ah6IfifxI4WTTpLESJkUT2/pz3hScVfLT1
+        PvCCuy93xz1390QhISF/ksEr6lhQYY6UUcOi640khTYGOFZhxhShuR9YUWFSStCgbxyokDD76ENzz1WY
+        lC28QYOkhwKm5Qgaa/PesY2xPEMDHnGGH9+/xQZGs4kH2MKXuPbtFsbu8QpVLLve8B5ssjzhDvdo+Jo5
+        hZJGBTeuNyW2mxfos+MLii6z6dv6ypmi+9BFf2EdWez6mhbcg17KGj6h48wjcU6ghXSu8dhL0VFYLqCa
+        HVOirOIQ2nk8HXShf8ayBL2knOv9M3p+O8NmSIhLFP0CRyVJIVmWz38AAAAASUVORK5CYII=
+</value>
   </data>
->>>>>>> ff41e3278c9c9f71e90c307ddcdc613b5a4cff3b
 </root>

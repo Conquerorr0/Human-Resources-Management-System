@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,10 +64,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+=======
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+>>>>>>> ff41e3278c9c9f71e90c307ddcdc613b5a4cff3b
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+<<<<<<< HEAD
+=======
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+>>>>>>> ff41e3278c9c9f71e90c307ddcdc613b5a4cff3b
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -76,5 +95,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Icon\hide.png" />
+    <Content Include="Icon\show %281%29.png" />
+    <Content Include="Icon\show.png" />
+    <Content Include="Icon\view.png" />
+  </ItemGroup>
+>>>>>>> ff41e3278c9c9f71e90c307ddcdc613b5a4cff3b
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
