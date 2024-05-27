@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{CD14E493-56AC-4074-BCAC-AFE28DA5AE54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinUI", "WinUI\WinUI.csproj", "{BD3C1EED-D236-4FF9-BD14-FE9D51318E34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinUI", "WinUI1\WinUI.csproj", "{B5B57E96-D384-4B9F-90D1-048704306427}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{CD14E493-56AC-4074-BCAC-AFE28DA5AE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD14E493-56AC-4074-BCAC-AFE28DA5AE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD14E493-56AC-4074-BCAC-AFE28DA5AE54}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD3C1EED-D236-4FF9-BD14-FE9D51318E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD3C1EED-D236-4FF9-BD14-FE9D51318E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD3C1EED-D236-4FF9-BD14-FE9D51318E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD3C1EED-D236-4FF9-BD14-FE9D51318E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B57E96-D384-4B9F-90D1-048704306427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B57E96-D384-4B9F-90D1-048704306427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B57E96-D384-4B9F-90D1-048704306427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B57E96-D384-4B9F-90D1-048704306427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

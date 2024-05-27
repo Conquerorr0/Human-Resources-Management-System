@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\WinUI1\bin\Release\WinUI1.exe.config
+C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\WinUI1\bin\Release\WinUI1.exe
+C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\WinUI1\bin\Release\WinUI1.pdb
+C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\WinUI1\obj\Release\WinUI.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\WinUI1\obj\Release\WinUI1.Form1.resources
+C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\WinUI1\obj\Release\WinUI1.Form2.resources
+C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\WinUI1\obj\Release\WinUI1.Properties.Resources.resources
+C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\WinUI1\obj\Release\WinUI.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\WinUI1\obj\Release\WinUI.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\WinUI1\obj\Release\WinUI1.exe
+C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\WinUI1\obj\Release\WinUI1.pdb
