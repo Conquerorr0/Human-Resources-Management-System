@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B18A10B-BD4A-41E5-B247-06259EBFE006}|MAP\\MAP.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\map\\options\\basemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B18A10B-BD4A-41E5-B247-06259EBFE006}|MAP\\MAP.csproj|c:\\users\\user\\desktop\\klas\u00F6rler\\hrms\\human-resources-management-system\\map\\options\\basemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B18A10B-BD4A-41E5-B247-06259EBFE006}|MAP\\MAP.csproj|solutionrelative:map\\options\\basemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B18A10B-BD4A-41E5-B247-06259EBFE006}|MAP\\MAP.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\map\\options\\appuserembloyeemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B18A10B-BD4A-41E5-B247-06259EBFE006}|MAP\\MAP.csproj|C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\map\\options\\appuserembloyeemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B18A10B-BD4A-41E5-B247-06259EBFE006}|MAP\\MAP.csproj|solutionrelative:map\\options\\appuserembloyeemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\entities\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\entities\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\entities\\models\\appusersemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\entities\\models\\appusersemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\appusersemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\entities\\enums\\datastatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\entities\\enums\\datastatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\enums\\datastatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\entities\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\entities\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\entities\\models\\appuserempoyeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\entities\\models\\appuserempoyeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\appuserempoyeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,8 +38,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -48,11 +56,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BaseMap.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\MAP\\Options\\BaseMap.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\MAP\\Options\\BaseMap.cs",
               "RelativeDocumentMoniker": "MAP\\Options\\BaseMap.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\MAP\\Options\\BaseMap.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\MAP\\Options\\BaseMap.cs",
               "RelativeToolTip": "MAP\\Options\\BaseMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T12:35:07.651Z",
               "EditorCaption": ""
@@ -61,9 +69,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AppUserEmbloyeeMap.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\MAP\\Options\\AppUserEmbloyeeMap.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\MAP\\Options\\AppUserEmbloyeeMap.cs",
               "RelativeDocumentMoniker": "MAP\\Options\\AppUserEmbloyeeMap.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\MAP\\Options\\AppUserEmbloyeeMap.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\MAP\\Options\\AppUserEmbloyeeMap.cs",
               "RelativeToolTip": "MAP\\Options\\AppUserEmbloyeeMap.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,9 +81,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "FeedBack.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\FeedBack.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\Entities\\Models\\FeedBack.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\FeedBack.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\FeedBack.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\Entities\\Models\\FeedBack.cs",
               "RelativeToolTip": "Entities\\Models\\FeedBack.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,9 +93,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "AppUserEmpoyeeProfile.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\AppUserEmpoyeeProfile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\Entities\\Models\\AppUserEmpoyeeProfile.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\AppUserEmpoyeeProfile.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\AppUserEmpoyeeProfile.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\Entities\\Models\\AppUserEmpoyeeProfile.cs",
               "RelativeToolTip": "Entities\\Models\\AppUserEmpoyeeProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -97,9 +105,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AppUsersEmployee.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\AppUsersEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\Entities\\Models\\AppUsersEmployee.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\AppUsersEmployee.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\AppUsersEmployee.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\Entities\\Models\\AppUsersEmployee.cs",
               "RelativeToolTip": "Entities\\Models\\AppUsersEmployee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -109,9 +117,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\Entities\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\Entities\\Models\\BaseEntity.cs",
               "RelativeToolTip": "Entities\\Models\\BaseEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -121,13 +129,23 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "DataStatus.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Enums\\DataStatus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\Entities\\Enums\\DataStatus.cs",
               "RelativeDocumentMoniker": "Entities\\Enums\\DataStatus.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Enums\\DataStatus.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Klas\u00F6rler\\HRMS\\Human-Resources-Management-System\\Entities\\Enums\\DataStatus.cs",
               "RelativeToolTip": "Entities\\Enums\\DataStatus.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T07:57:02.478Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 342,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
