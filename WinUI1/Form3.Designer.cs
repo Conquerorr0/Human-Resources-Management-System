@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.lblFullName = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtUsername = new System.Windows.Forms.TextBox();
             this.lblPhoneNumber = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblMessage = new System.Windows.Forms.Label();
@@ -49,14 +49,14 @@
             this.lblFullName.TabIndex = 0;
             this.lblFullName.Text = "Ad Soyad:";
             // 
-            // textBox1
+            // txtUsername
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(287, 47);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(301, 30);
-            this.textBox1.TabIndex = 1;
+            this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtUsername.Location = new System.Drawing.Point(287, 47);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(4);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(301, 26);
+            this.txtUsername.TabIndex = 1;
             // 
             // lblPhoneNumber
             // 
@@ -65,7 +65,7 @@
             this.lblPhoneNumber.Location = new System.Drawing.Point(91, 99);
             this.lblPhoneNumber.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPhoneNumber.Name = "lblPhoneNumber";
-            this.lblPhoneNumber.Size = new System.Drawing.Size(189, 25);
+            this.lblPhoneNumber.Size = new System.Drawing.Size(154, 20);
             this.lblPhoneNumber.TabIndex = 2;
             this.lblPhoneNumber.Text = "Telefon Numarası:";
             // 
@@ -76,7 +76,7 @@
             this.lblEmail.Location = new System.Drawing.Point(91, 153);
             this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(72, 25);
+            this.lblEmail.Size = new System.Drawing.Size(58, 20);
             this.lblEmail.TabIndex = 3;
             this.lblEmail.Text = "Email:";
             // 
@@ -87,7 +87,7 @@
             this.lblMessage.Location = new System.Drawing.Point(93, 202);
             this.lblMessage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(110, 25);
+            this.lblMessage.Size = new System.Drawing.Size(88, 20);
             this.lblMessage.TabIndex = 4;
             this.lblMessage.Text = "Mesajınız:";
             // 
@@ -96,7 +96,7 @@
             this.txtPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtPhoneNumber.Location = new System.Drawing.Point(287, 100);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
-            this.txtPhoneNumber.Size = new System.Drawing.Size(299, 30);
+            this.txtPhoneNumber.Size = new System.Drawing.Size(299, 26);
             this.txtPhoneNumber.TabIndex = 5;
             // 
             // txtEmail
@@ -104,7 +104,7 @@
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtEmail.Location = new System.Drawing.Point(285, 153);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(301, 30);
+            this.txtEmail.Size = new System.Drawing.Size(301, 26);
             this.txtEmail.TabIndex = 6;
             // 
             // txtMessage
@@ -125,10 +125,11 @@
             this.btnSend.TabIndex = 8;
             this.btnSend.Text = "GÖNDER";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(663, 717);
@@ -139,10 +140,10 @@
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.lblPhoneNumber);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.lblFullName);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form3";
             this.Text = "Form3";
             this.ResumeLayout(false);
@@ -153,7 +154,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblFullName;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label lblPhoneNumber;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblMessage;

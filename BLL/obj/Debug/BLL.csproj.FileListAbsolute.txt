@@ -1,0 +1,6 @@
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\BLL\bin\Debug\BLL.dll
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\BLL\bin\Debug\BLL.pdb
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\BLL\obj\Debug\BLL.dll
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\BLL\obj\Debug\BLL.pdb

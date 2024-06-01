@@ -10,3 +10,9 @@ C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\Entities
 C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\Entities\obj\Debug\Entities.dll
 C:\Users\User\Desktop\Klasörler\HRMS\Human-Resources-Management-System\Entities\obj\Debug\Entities.pdb
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\Entities\bin\Debug\Entities.dll
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\Entities\bin\Debug\Entities.pdb
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\Entities\obj\Debug\Entities.dll
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\Entities\obj\Debug\Entities.pdb
