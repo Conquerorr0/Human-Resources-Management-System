@@ -84,7 +84,7 @@ namespace WinUI1
         private void button1_Click(object sender, EventArgs e)
         {
                 //login
-                if (string.IsNullOrEmpty(txtUsername.Text) && string.IsNullOrEmpty(txtPassword.Text))
+                if (string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(txtPassword.Text))
                 {
                     MessageBox.Show("Lütfen tüm bilgileri doldurunuz!");
                 }
@@ -101,12 +101,18 @@ namespace WinUI1
                             {
                                 if (txtPassword.Text == passresult)
                                 {
+                            if (get.Value.isUser==false)
+                            {
+                                MessageBox.Show("Hoşgeldin " + txtUsername.Text + " hesabınizin onaylanılması bekleniliyor!");
+                            }else
+                            {
                                     usernamepass = txtUsername.Text;
                                     Form2 form = new Form2();
                                     form.Show();
                                     this.Hide();
                                     MessageBox.Show("Hoşgeldin " + txtUsername.Text);
                             }
+                        }
                             }
                         }
                         Console.WriteLine("Giris Yapildi!");
@@ -152,7 +158,7 @@ namespace WinUI1
         private void btnRegister_Click(object sender, EventArgs e)
         {
             //login
-            if (string.IsNullOrEmpty(txtRegisterUsername.Text) && string.IsNullOrEmpty(txtRegisterPassword.Text))
+            if (string.IsNullOrEmpty(txtRegisterUsername.Text) || string.IsNullOrEmpty(txtRegisterPassword.Text))
             {
                 MessageBox.Show("Lütfen tüm bilgileri doldurunuz!");
             }
@@ -164,17 +170,14 @@ namespace WinUI1
                 {
                     username = txtRegisterUsername.Text,
                     password = txtRegisterPassword.Text,
-                    id=randomId,
+                    id = randomId,
+                    isUser = false
                 };
-
 
                 FirebaseResponse response = client.Set("Users/" + randomId, register);
 
                 register res = response.ResultAs<register>();
-                Form2 form = new Form2();
-                form.Show();
-                this.Hide();
-                MessageBox.Show("Kayit başarılı");
+                MessageBox.Show("Kayit başarılı. Hesabınızın onaylanılması bekleniliyor!");
 
                 randomId = String.Empty;
                 txtRegisterUsername.Text = String.Empty;
