@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WinUI1"
   ],
+  "SelectedNode": "\\WinUI1\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
