@@ -12,6 +12,7 @@ using FireSharp.Config;
 using FireSharp.Interfaces;
 using FireSharp.Response;
 using Microsoft.Win32;
+using Entities.Models;
 
 
 namespace WinUI1
@@ -60,7 +61,7 @@ namespace WinUI1
                 }
             }
         }
-
+        
         public static string usernamepass;
         
 
@@ -122,25 +123,23 @@ namespace WinUI1
 
         private void btnShowHide_Click(object sender, EventArgs e)
         {
-            
-
             if (isHide)
             {
                 txtPassword.PasswordChar = '\0'; // Show text
                 txtRegisterPassword.PasswordChar = '\0'; // Show text
-                btnShowHide.Image = Image.FromFile("C:\\Users\\User\\Desktop\\Klasörler\\HRMS\\Human-Resources-Management-System\\WinUI1\\Icon\\show.png");
-                btnShowHide1.Image = Image.FromFile("C:\\Users\\User\\Desktop\\Klasörler\\HRMS\\Human-Resources-Management-System\\WinUI1\\Icon\\show.png");
+                btnShowHide.Image = imageList1.Images["show.png"]; // "show" resmini kullan
+                btnShowHide1.Image = imageList1.Images["show.png"]; // "show" resmini kullan
             }
             else
             {
                 txtPassword.PasswordChar = '*'; // Mask text with *
                 txtRegisterPassword.PasswordChar = '*';
-                btnShowHide.Image = Image.FromFile("C:\\Users\\User\\Desktop\\Klasörler\\HRMS\\Human-Resources-Management-System\\WinUI1\\Icon\\hide.png");
-                btnShowHide1.Image = Image.FromFile("C:\\Users\\User\\Desktop\\Klasörler\\HRMS\\Human-Resources-Management-System\\WinUI1\\Icon\\hide.png");
-
+                btnShowHide.Image = imageList1.Images["hide.png"]; // "hide" resmini kullan
+                btnShowHide1.Image = imageList1.Images["hide.png"]; // "hide" resmini kullan
             }
             isHide = !isHide;
         }
+
 
         private void txtPassword_TextChanged(object sender, EventArgs e)
         {

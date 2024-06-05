@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Entities.Models
 {
     
-    internal class register
+    public class register
     {
         //Create a class for register... using this .
         public string username { get; set; }

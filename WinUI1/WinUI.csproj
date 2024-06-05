@@ -78,8 +78,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="recourse.cs" />
-    <Compile Include="register.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,6 +114,14 @@
   <ItemGroup>
     <Content Include="Icon\hide.png" />
     <Content Include="Icon\show.png" />
+    <None Include="Resources\show.png" />
+    <None Include="Resources\hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{d27c927a-4dec-4472-9077-c018354e4eb6}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

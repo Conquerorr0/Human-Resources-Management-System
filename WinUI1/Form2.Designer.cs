@@ -78,13 +78,13 @@
             this.marriedStatus,
             this.personnalGender,
             this.personnalWage});
-            this.dataGridView1.Location = new System.Drawing.Point(-1, 52);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(-1, 64);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1289, 522);
+            this.dataGridView1.Size = new System.Drawing.Size(1719, 642);
             this.dataGridView1.TabIndex = 0;
             // 
             // personnalName
@@ -175,43 +175,41 @@
             "Departman 1",
             "Departman 2",
             "Departman 3"});
-            this.cmDepartmants.Location = new System.Drawing.Point(110, 17);
-            this.cmDepartmants.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmDepartmants.Location = new System.Drawing.Point(147, 21);
+            this.cmDepartmants.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmDepartmants.Name = "cmDepartmants";
-            this.cmDepartmants.Size = new System.Drawing.Size(102, 21);
+            this.cmDepartmants.Size = new System.Drawing.Size(135, 24);
             this.cmDepartmants.TabIndex = 1;
             // 
             // lblDepartmant
             // 
             this.lblDepartmant.BackColor = System.Drawing.Color.Transparent;
-            this.lblDepartmant.Location = new System.Drawing.Point(46, 20);
-            this.lblDepartmant.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblDepartmant.Location = new System.Drawing.Point(61, 25);
             this.lblDepartmant.Name = "lblDepartmant";
-            this.lblDepartmant.Size = new System.Drawing.Size(58, 15);
+            this.lblDepartmant.Size = new System.Drawing.Size(77, 18);
             this.lblDepartmant.TabIndex = 2;
             this.lblDepartmant.Text = "Departman: ";
             // 
             // lblAge
             // 
             this.lblAge.AutoSize = true;
-            this.lblAge.Location = new System.Drawing.Point(229, 20);
-            this.lblAge.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblAge.Location = new System.Drawing.Point(305, 25);
             this.lblAge.Name = "lblAge";
-            this.lblAge.Size = new System.Drawing.Size(31, 13);
+            this.lblAge.Size = new System.Drawing.Size(37, 16);
             this.lblAge.TabIndex = 3;
             this.lblAge.Text = "Yaş: ";
             // 
             // ageCount
             // 
-            this.ageCount.Location = new System.Drawing.Point(262, 18);
-            this.ageCount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ageCount.Location = new System.Drawing.Point(349, 22);
+            this.ageCount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ageCount.Minimum = new decimal(new int[] {
             18,
             0,
             0,
             0});
             this.ageCount.Name = "ageCount";
-            this.ageCount.Size = new System.Drawing.Size(40, 20);
+            this.ageCount.Size = new System.Drawing.Size(53, 22);
             this.ageCount.TabIndex = 4;
             this.ageCount.Value = new decimal(new int[] {
             18,
@@ -222,10 +220,9 @@
             // lblAddress
             // 
             this.lblAddress.AutoSize = true;
-            this.lblAddress.Location = new System.Drawing.Point(325, 20);
-            this.lblAddress.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblAddress.Location = new System.Drawing.Point(433, 25);
             this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(40, 13);
+            this.lblAddress.Size = new System.Drawing.Size(49, 16);
             this.lblAddress.TabIndex = 5;
             this.lblAddress.Text = "Adres: ";
             // 
@@ -315,64 +312,61 @@
             "Kilis",
             "Osmaniye",
             "Düzce"});
-            this.cbAddress.Location = new System.Drawing.Point(366, 16);
-            this.cbAddress.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbAddress.Location = new System.Drawing.Point(488, 20);
+            this.cbAddress.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbAddress.Name = "cbAddress";
-            this.cbAddress.Size = new System.Drawing.Size(133, 21);
+            this.cbAddress.Size = new System.Drawing.Size(176, 24);
             this.cbAddress.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(517, 20);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(689, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 13);
+            this.label1.Size = new System.Drawing.Size(88, 16);
             this.label1.TabIndex = 7;
             this.label1.Text = "Çocuk Sayısı:";
             // 
             // childCount
             // 
-            this.childCount.Location = new System.Drawing.Point(587, 19);
-            this.childCount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.childCount.Location = new System.Drawing.Point(783, 23);
+            this.childCount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.childCount.Name = "childCount";
-            this.childCount.Size = new System.Drawing.Size(32, 20);
+            this.childCount.Size = new System.Drawing.Size(43, 22);
             this.childCount.TabIndex = 8;
             // 
             // lblMarriedStatus
             // 
             this.lblMarriedStatus.AutoSize = true;
-            this.lblMarriedStatus.Location = new System.Drawing.Point(637, 20);
-            this.lblMarriedStatus.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblMarriedStatus.Location = new System.Drawing.Point(849, 25);
             this.lblMarriedStatus.Name = "lblMarriedStatus";
-            this.lblMarriedStatus.Size = new System.Drawing.Size(27, 13);
+            this.lblMarriedStatus.Size = new System.Drawing.Size(32, 16);
             this.lblMarriedStatus.TabIndex = 9;
             this.lblMarriedStatus.Text = "Evli:";
             // 
             // cbMarried
             // 
             this.cbMarried.AutoSize = true;
-            this.cbMarried.Location = new System.Drawing.Point(665, 20);
-            this.cbMarried.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbMarried.Location = new System.Drawing.Point(887, 25);
+            this.cbMarried.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbMarried.Name = "cbMarried";
-            this.cbMarried.Size = new System.Drawing.Size(15, 14);
+            this.cbMarried.Size = new System.Drawing.Size(18, 17);
             this.cbMarried.TabIndex = 10;
             this.cbMarried.UseVisualStyleBackColor = true;
             // 
             // lblWage
             // 
             this.lblWage.AutoSize = true;
-            this.lblWage.Location = new System.Drawing.Point(704, 20);
-            this.lblWage.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblWage.Location = new System.Drawing.Point(939, 25);
             this.lblWage.Name = "lblWage";
-            this.lblWage.Size = new System.Drawing.Size(36, 13);
+            this.lblWage.Size = new System.Drawing.Size(44, 16);
             this.lblWage.TabIndex = 11;
             this.lblWage.Text = "Maaş:";
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(742, 17);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown1.Location = new System.Drawing.Point(989, 21);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             150000,
             0,
@@ -384,7 +378,7 @@
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(90, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 22);
             this.numericUpDown1.TabIndex = 12;
             this.numericUpDown1.Value = new decimal(new int[] {
             17002,
@@ -394,30 +388,31 @@
             // 
             // btnLessWage
             // 
-            this.btnLessWage.Location = new System.Drawing.Point(836, 16);
-            this.btnLessWage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLessWage.Location = new System.Drawing.Point(1115, 20);
+            this.btnLessWage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLessWage.Name = "btnLessWage";
-            this.btnLessWage.Size = new System.Drawing.Size(38, 19);
+            this.btnLessWage.Size = new System.Drawing.Size(51, 23);
             this.btnLessWage.TabIndex = 13;
             this.btnLessWage.Text = "Az";
             this.btnLessWage.UseVisualStyleBackColor = true;
+            this.btnLessWage.Click += new System.EventHandler(this.btnLessWage_Click);
             // 
             // btnMoreWage
             // 
-            this.btnMoreWage.Location = new System.Drawing.Point(879, 16);
-            this.btnMoreWage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMoreWage.Location = new System.Drawing.Point(1172, 20);
+            this.btnMoreWage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMoreWage.Name = "btnMoreWage";
-            this.btnMoreWage.Size = new System.Drawing.Size(41, 19);
+            this.btnMoreWage.Size = new System.Drawing.Size(55, 23);
             this.btnMoreWage.TabIndex = 14;
             this.btnMoreWage.Text = "Çok";
             this.btnMoreWage.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1292, 573);
+            this.ClientSize = new System.Drawing.Size(1723, 705);
             this.Controls.Add(this.btnMoreWage);
             this.Controls.Add(this.btnLessWage);
             this.Controls.Add(this.numericUpDown1);
@@ -433,7 +428,7 @@
             this.Controls.Add(this.lblDepartmant);
             this.Controls.Add(this.cmDepartmants);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form2";
             this.Text = "Kullanıcı Bilgileri";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

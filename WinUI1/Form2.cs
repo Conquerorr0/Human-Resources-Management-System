@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entities.Models;
 
 namespace WinUI1
 {
@@ -15,6 +16,11 @@ namespace WinUI1
         public Form2()
         {
             InitializeComponent();
+        }
+
+        private void btnLessWage_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

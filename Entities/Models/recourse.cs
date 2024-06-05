@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
-    internal class recourse
+    public class recourse
     {
         //Create a class for register... using this .
         public string username { get; set; }
