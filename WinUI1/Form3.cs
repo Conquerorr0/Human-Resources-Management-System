@@ -1,4 +1,4 @@
-﻿using Entities.Models;
+﻿
 using FireSharp.Config;
 using FireSharp.Interfaces;
 using FireSharp.Response;
