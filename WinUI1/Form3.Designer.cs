@@ -37,6 +37,13 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtMessage = new System.Windows.Forms.TextBox();
             this.btnSend = new System.Windows.Forms.Button();
+            this.ageCount = new System.Windows.Forms.NumericUpDown();
+            this.lblAge = new System.Windows.Forms.Label();
+            this.comboBoxEnnglishLevel = new System.Windows.Forms.ComboBox();
+            this.labelEnglishLavel = new System.Windows.Forms.Label();
+            this.labelCv = new System.Windows.Forms.Label();
+            this.buttonCv = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.ageCount)).BeginInit();
             this.SuspendLayout();
             // 
             // lblFullName
@@ -84,7 +91,7 @@
             // 
             this.lblMessage.AutoSize = true;
             this.lblMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblMessage.Location = new System.Drawing.Point(93, 202);
+            this.lblMessage.Location = new System.Drawing.Point(93, 358);
             this.lblMessage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(88, 20);
@@ -110,10 +117,10 @@
             // txtMessage
             // 
             this.txtMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMessage.Location = new System.Drawing.Point(92, 240);
+            this.txtMessage.Location = new System.Drawing.Point(92, 402);
             this.txtMessage.Multiline = true;
             this.txtMessage.Name = "txtMessage";
-            this.txtMessage.Size = new System.Drawing.Size(495, 351);
+            this.txtMessage.Size = new System.Drawing.Size(495, 189);
             this.txtMessage.TabIndex = 7;
             // 
             // btnSend
@@ -127,12 +134,92 @@
             this.btnSend.UseVisualStyleBackColor = true;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
+            // ageCount
+            // 
+            this.ageCount.Location = new System.Drawing.Point(285, 212);
+            this.ageCount.Margin = new System.Windows.Forms.Padding(2);
+            this.ageCount.Minimum = new decimal(new int[] {
+            18,
+            0,
+            0,
+            0});
+            this.ageCount.Name = "ageCount";
+            this.ageCount.Size = new System.Drawing.Size(40, 23);
+            this.ageCount.TabIndex = 10;
+            this.ageCount.Value = new decimal(new int[] {
+            18,
+            0,
+            0,
+            0});
+            // 
+            // lblAge
+            // 
+            this.lblAge.AutoSize = true;
+            this.lblAge.Location = new System.Drawing.Point(94, 212);
+            this.lblAge.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblAge.Name = "lblAge";
+            this.lblAge.Size = new System.Drawing.Size(45, 17);
+            this.lblAge.TabIndex = 9;
+            this.lblAge.Text = "Yaş: ";
+            // 
+            // comboBoxEnnglishLevel
+            // 
+            this.comboBoxEnnglishLevel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxEnnglishLevel.FormattingEnabled = true;
+            this.comboBoxEnnglishLevel.Items.AddRange(new object[] {
+            "A1",
+            "A2",
+            "B1",
+            "B2",
+            "C1",
+            "C2"});
+            this.comboBoxEnnglishLevel.Location = new System.Drawing.Point(285, 259);
+            this.comboBoxEnnglishLevel.Name = "comboBoxEnnglishLevel";
+            this.comboBoxEnnglishLevel.Size = new System.Drawing.Size(121, 25);
+            this.comboBoxEnnglishLevel.TabIndex = 11;
+            // 
+            // labelEnglishLavel
+            // 
+            this.labelEnglishLavel.AutoSize = true;
+            this.labelEnglishLavel.Location = new System.Drawing.Point(92, 259);
+            this.labelEnglishLavel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelEnglishLavel.Name = "labelEnglishLavel";
+            this.labelEnglishLavel.Size = new System.Drawing.Size(142, 17);
+            this.labelEnglishLavel.TabIndex = 12;
+            this.labelEnglishLavel.Text = "İngilizce Seviyesi: ";
+            // 
+            // labelCv
+            // 
+            this.labelCv.AutoSize = true;
+            this.labelCv.Location = new System.Drawing.Point(94, 309);
+            this.labelCv.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelCv.Name = "labelCv";
+            this.labelCv.Size = new System.Drawing.Size(33, 17);
+            this.labelCv.TabIndex = 13;
+            this.labelCv.Text = "CV:";
+            // 
+            // buttonCv
+            // 
+            this.buttonCv.Location = new System.Drawing.Point(285, 309);
+            this.buttonCv.Name = "buttonCv";
+            this.buttonCv.Size = new System.Drawing.Size(121, 23);
+            this.buttonCv.TabIndex = 14;
+            this.buttonCv.Text = "Pdf Ekle";
+            this.buttonCv.UseVisualStyleBackColor = true;
+            this.buttonCv.Click += new System.EventHandler(this.buttonCv_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(663, 717);
+            this.Controls.Add(this.buttonCv);
+            this.Controls.Add(this.labelCv);
+            this.Controls.Add(this.labelEnglishLavel);
+            this.Controls.Add(this.comboBoxEnnglishLevel);
+            this.Controls.Add(this.ageCount);
+            this.Controls.Add(this.lblAge);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtMessage);
             this.Controls.Add(this.txtEmail);
@@ -146,6 +233,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form3";
             this.Text = "Form3";
+            ((System.ComponentModel.ISupportInitialize)(this.ageCount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -162,5 +250,11 @@
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtMessage;
         private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.NumericUpDown ageCount;
+        private System.Windows.Forms.Label lblAge;
+        private System.Windows.Forms.ComboBox comboBoxEnnglishLevel;
+        private System.Windows.Forms.Label labelEnglishLavel;
+        private System.Windows.Forms.Label labelCv;
+        private System.Windows.Forms.Button buttonCv;
     }
 }

@@ -12,3 +12,17 @@ C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\MAP\ob
 C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.csproj.Up2Date
 C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.dll
 C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.pdb
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\MAP.dll.config
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\MAP.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\MAP.pdb
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\Entities.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\EntityFramework.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\Entities.pdb
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\EntityFramework.xml
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.csproj.AssemblyReference.cache
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.csproj.CoreCompileInputs.cache
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.csproj.Up2Date
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.pdb
