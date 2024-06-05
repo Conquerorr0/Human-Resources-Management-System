@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\user\\desktop\\human-resources-management-system\\winui1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\user\\desktop\\human-resources-management-system\\winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\user\\desktop\\human-resources-management-system\\winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\user\\desktop\\human-resources-management-system\\winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -17,8 +29,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 305,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +46,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Program.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Program.cs",
+              "RelativeToolTip": "WinUI1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T12:27:59.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form3.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
+              "RelativeToolTip": "WinUI1\\Form3.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T12:27:50.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form3.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Form3.cs [Design]",
+              "RelativeToolTip": "WinUI1\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T12:27:45.081Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
               "RelativeDocumentMoniker": "WinUI1\\Form1.cs",
@@ -47,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
               "RelativeDocumentMoniker": "WinUI1\\Form1.cs",
@@ -60,7 +110,7 @@
           ]
         },
         {
-          "DockedWidth": 342,
+          "DockedWidth": 237,
           "SelectedChildIndex": -1,
           "Children": [
             {
