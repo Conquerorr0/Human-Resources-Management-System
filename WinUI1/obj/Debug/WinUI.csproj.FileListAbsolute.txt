@@ -50,6 +50,7 @@ C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI.c
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Form1.resources
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Form2.resources
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Form3.resources
+<<<<<<< HEAD
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\WinUI1.exe.config
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\WinUI1.exe
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\WinUI1.pdb
@@ -154,3 +155,8 @@ C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Man
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\System.ValueTuple.xml
+=======
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\BLL.dll
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\BLL.pdb
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Hiring.resources
+>>>>>>> ae622936f17e96ba31452634860f2121831b9ae6
