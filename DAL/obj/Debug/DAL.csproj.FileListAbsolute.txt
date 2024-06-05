@@ -1,0 +1,6 @@
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\DAL\bin\Debug\DAL.dll
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\DAL\bin\Debug\DAL.pdb
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\DAL\obj\Debug\DAL.dll
+C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\DAL\obj\Debug\DAL.pdb

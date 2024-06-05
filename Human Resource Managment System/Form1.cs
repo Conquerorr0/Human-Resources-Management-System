@@ -43,6 +43,16 @@ namespace Human_Resource_Managment_System
         private void button1_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Giris Yapildi!");
+            
+        }
+
+        private void windowSıgnIn_Load(object sender, EventArgs e)
+        {   
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+
+          
+           
         }
     }
 }
