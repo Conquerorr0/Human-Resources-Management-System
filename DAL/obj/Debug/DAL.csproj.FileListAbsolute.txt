@@ -4,3 +4,12 @@ C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\DAL\ob
 C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\DAL\obj\Debug\DAL.dll
 C:\Users\kavan\Source\Repos\Conquerorr0\Human-Resources-Management-System\DAL\obj\Debug\DAL.pdb
+C:\Users\User\Desktop\Human-Resources-Management-System\DAL\bin\Debug\DAL.dll
+C:\Users\User\Desktop\Human-Resources-Management-System\DAL\bin\Debug\DAL.pdb
+C:\Users\User\Desktop\Human-Resources-Management-System\DAL\bin\Debug\Entities.dll
+C:\Users\User\Desktop\Human-Resources-Management-System\DAL\bin\Debug\Entities.pdb
+C:\Users\User\Desktop\Human-Resources-Management-System\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Human-Resources-Management-System\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Human-Resources-Management-System\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\User\Desktop\Human-Resources-Management-System\DAL\obj\Debug\DAL.dll
+C:\Users\User\Desktop\Human-Resources-Management-System\DAL\obj\Debug\DAL.pdb

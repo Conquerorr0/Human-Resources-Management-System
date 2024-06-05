@@ -50,3 +50,6 @@ C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI.c
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Form1.resources
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Form2.resources
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Form3.resources
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\BLL.dll
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\BLL.pdb
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Hiring.resources
