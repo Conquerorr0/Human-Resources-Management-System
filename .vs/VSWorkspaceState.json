@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WinUI1"
   ],
-  "SelectedNode": "\\Human Resource Managment System.sln",
+  "SelectedNode": "\\WinUI1\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

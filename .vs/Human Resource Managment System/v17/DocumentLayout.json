@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\winui1\\izinislemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\izinislemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\winui1\\anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\winui1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,19 +59,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "izinIslemleri.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.cs",
+              "RelativeDocumentMoniker": "WinUI1\\izinIslemleri.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.cs [Design]",
+              "RelativeToolTip": "WinUI1\\izinIslemleri.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T16:42:22.769Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Anket.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Anket.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Anket.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Anket.cs [Design]",
+              "RelativeToolTip": "WinUI1\\Anket.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T16:36:03.101Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Program.cs",
               "RelativeDocumentMoniker": "WinUI1\\Program.cs",
               "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Program.cs",
               "RelativeToolTip": "WinUI1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T12:27:59.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
               "RelativeDocumentMoniker": "WinUI1\\Form3.cs",
@@ -75,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
               "RelativeDocumentMoniker": "WinUI1\\Form3.cs",
@@ -86,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
               "RelativeDocumentMoniker": "WinUI1\\Form1.cs",
@@ -98,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
               "RelativeDocumentMoniker": "WinUI1\\Form1.cs",
