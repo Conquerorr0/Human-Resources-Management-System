@@ -10,6 +10,7 @@ using FireSharp.Response;
 using FireSharp.Interfaces;
 using Newtonsoft.Json;
 using Entities;
+using Entities.Models;
 
 namespace WinUI1
 {
@@ -45,6 +46,8 @@ namespace WinUI1
             }
             // Firebase'den verileri yükle
             LoadDataFromFirebase();
+
+            LoadInterviewDataFromFirebase();
         }
 
         // İnternet bağlantısını kontrol et
@@ -83,10 +86,10 @@ namespace WinUI1
                         phoneNumber = r.phoneNumber,
                         username = r.username
                     }).ToList();
-                    
+
                     // DataGridView'in DataSource özelliğini bu listeye bağlama
                     dataGridView1.DataSource = recourseList;
-                    
+
                 }
                 else
                 {
@@ -95,11 +98,49 @@ namespace WinUI1
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Veri yüklenirken bir hata oluştu: {ex.Message}");
+                MessageBox.Show($"Veri yüklenirken bir hata oluştu:  {ex.Message}");
             }
         }
 
+        private async void LoadInterviewDataFromFirebase()
+        {
+            try
+            {
+                FirebaseResponse response = await _firebaseClient.GetAsync("Interview");
 
+                if (response.Body != "null")
+                {
+                    // Firebase'den çekilen JSON verisini uygun formata dönüştürme
+                    Dictionary<string, Interview> firebaseData = JsonConvert.DeserializeObject<Dictionary<string, Interview>>(response.Body);
+
+                    // DataGridView2'ye veriyi atama
+                    var interviewList = firebaseData.Values.Select(i => new Interview
+                    {
+                        date = i.date,
+                        departmant = i.departmant,
+                        name = i.name,
+                        status = i.status
+                    }).ToList();
+
+                    // DataGridView2'nin DataSource özelliğini bu listeye bağlama
+                    dataGridView2.DataSource = interviewList;
+
+                    // Kolonların başlıklarını düzenleme (isteğe bağlı)
+                    dataGridView2.Columns["name"].HeaderText = "Name";
+                    dataGridView2.Columns["date"].HeaderText = "Date";
+                    dataGridView2.Columns["departmant"].HeaderText = "Departmant";
+                    dataGridView2.Columns["status"].HeaderText = "Status";
+                }
+                else
+                {
+                    MessageBox.Show("Veri bulunamadı.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Veri yüklenirken bir hata oluştu:i {ex.Message}");
+            }
+        }
         private void FilterButton_Click(object sender, EventArgs e)
         {
             // Kriterlerin oluşturulması
@@ -162,7 +203,7 @@ namespace WinUI1
                 string age = row.Cells["age"].Value.ToString();
                 string englishLevel = row.Cells["englishLevel"].Value.ToString();
                 string cvlink = row.Cells["cvUrl"].Value.ToString();
-                string message = row.Cells["message"].Value.ToString(); 
+                string message = row.Cells["message"].Value.ToString();
 
                 lblPersonName.Text = username;
                 lblPhoneNumber.Text = phoneNumber;
@@ -182,7 +223,7 @@ namespace WinUI1
 
         private void btnAccept_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private async void btnReject_Click(object sender, EventArgs e)
@@ -207,5 +248,110 @@ namespace WinUI1
                 MessageBox.Show("Lütfen silmek istediğiniz satırı seçin.");
             }
         }
+
+        private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                Info.Visible = true;
+                DataGridViewRow row = dataGridView2.Rows[e.RowIndex];
+                string name = row.Cells["name"].Value.ToString();
+                string departmant = row.Cells["departmant"].Value.ToString();
+                string date = row.Cells["date"].Value.ToString();
+                string status = row.Cells["status"].Value.ToString();
+
+                lblCandidateName.Text = name;
+                lblDepartmant.Text = departmant;
+                lblDate.Text = date;
+                lblStatus.Text = status;
+
+                txtDeleteInterview.Text = name;
+                lblInterviewTime.Text = date;
+            }
+        }
+
+        private async void btnAddInterview_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Kullanıcıdan verileri al
+                string name = txtName.Text;
+                string department = cbDepartmant.SelectedItem.ToString();
+                string date = calendar.SelectionStart.ToString("dd.MM.yyyy");
+                string status = "Beklemede";
+
+                // ID oluşturma
+                string interviewId = Guid.NewGuid().ToString();
+
+                // Veriyi Firebase'e ekle
+                var interview = new Interview
+                {
+                    id = interviewId,
+                    name = name,
+                    date = date,
+                    departmant = department,
+                    status = status
+                };
+
+                FirebaseResponse response = await _firebaseClient.PushAsync("Interview", interview);
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    MessageBox.Show("Veri başarıyla eklendi.");
+
+                    // DataGridView'e yeni veriyi ekleme
+                    var dataSource = dataGridView2.DataSource as List<Interview>;
+                    dataSource.Add(interview);
+                    dataGridView2.DataSource = null;
+                    dataGridView2.DataSource = dataSource;
+                }
+                else
+                {
+                    MessageBox.Show("Veri eklenirken bir hata oluştu.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Veri eklenirken bir hata oluştu: {ex.Message}");
+            }
+        }
+
+
+        private async void btnDelete_Click(object sender, EventArgs e)
+        {
+            // Seçili satırın kontrolünü yapın
+            if (dataGridView2.SelectedRows.Count > 0)
+            {
+                try
+                {
+                    // Seçili satırın indeksini alın
+                    int selectedIndex = dataGridView2.SelectedRows[0].Index;
+
+                    // DataGridView'den silinecek satıra karşılık gelen verinin ID'sini alın
+                    string interviewId = dataGridView2.Rows[selectedIndex].Cells["id"].Value.ToString();
+
+                    // Firebase'den veriyi sil
+                    FirebaseResponse response = await _firebaseClient.DeleteAsync("Interview/" + interviewId);
+                    if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                    {
+                        // Firebase'den başarıyla silindiyse, DataGridView'den de silme işlemini gerçekleştir
+                        dataGridView2.Rows.RemoveAt(selectedIndex);
+                        MessageBox.Show("Veri başarıyla silindi.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Veri silinirken bir hata oluştu.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Veri silinirken bir hata oluştu: {ex.Message}");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Lütfen silmek istediğiniz bir satırı seçin.");
+            }
+        }
+
     }
 }

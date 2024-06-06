@@ -47,6 +47,7 @@
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.lblPersonName = new System.Windows.Forms.Label();
             this.TablePanel = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnFilter = new System.Windows.Forms.Button();
             this.cbEnglishLevel = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -55,20 +56,20 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.Info = new System.Windows.Forms.Panel();
+            this.lblStatus = new System.Windows.Forms.Label();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.lblDepartmant = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             this.lblCandidateName = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.candidateName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.departmant = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.time = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.cbDepartmant = new System.Windows.Forms.ComboBox();
+            this.Label13 = new System.Windows.Forms.Label();
             this.btnAddInterview = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.cbMinute = new System.Windows.Forms.ComboBox();
-            this.cbHour = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.lblInterviewTime = new System.Windows.Forms.Label();
@@ -77,7 +78,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.calendar = new System.Windows.Forms.MonthCalendar();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.PanelInfo.SuspendLayout();
@@ -309,6 +309,13 @@
             this.TablePanel.Size = new System.Drawing.Size(773, 706);
             this.TablePanel.TabIndex = 4;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(443, 39);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(264, 22);
+            this.textBox1.TabIndex = 24;
+            // 
             // btnFilter
             // 
             this.btnFilter.Location = new System.Drawing.Point(351, 35);
@@ -399,11 +406,78 @@
             // 
             // Info
             // 
+            this.Info.Controls.Add(this.lblStatus);
+            this.Info.Controls.Add(this.lblDate);
+            this.Info.Controls.Add(this.lblDepartmant);
+            this.Info.Controls.Add(this.label17);
+            this.Info.Controls.Add(this.label18);
+            this.Info.Controls.Add(this.label19);
             this.Info.Controls.Add(this.lblCandidateName);
             this.Info.Location = new System.Drawing.Point(642, 213);
             this.Info.Name = "Info";
             this.Info.Size = new System.Drawing.Size(620, 464);
             this.Info.TabIndex = 3;
+            this.Info.Visible = false;
+            // 
+            // lblStatus
+            // 
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblStatus.Location = new System.Drawing.Point(288, 231);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(59, 20);
+            this.lblStatus.TabIndex = 17;
+            this.lblStatus.Text = "label5";
+            // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblDate.Location = new System.Drawing.Point(288, 178);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(59, 20);
+            this.lblDate.TabIndex = 16;
+            this.lblDate.Text = "label5";
+            // 
+            // lblDepartmant
+            // 
+            this.lblDepartmant.AutoSize = true;
+            this.lblDepartmant.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblDepartmant.Location = new System.Drawing.Point(288, 137);
+            this.lblDepartmant.Name = "lblDepartmant";
+            this.lblDepartmant.Size = new System.Drawing.Size(59, 20);
+            this.lblDepartmant.TabIndex = 15;
+            this.lblDepartmant.Text = "label5";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label17.Location = new System.Drawing.Point(95, 231);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(152, 20);
+            this.label17.TabIndex = 13;
+            this.label17.Text = "Mülakat Durumu:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label18.Location = new System.Drawing.Point(95, 178);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(134, 20);
+            this.label18.TabIndex = 12;
+            this.label18.Text = "Mülakat Tarihi:";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label19.Location = new System.Drawing.Point(95, 137);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(107, 20);
+            this.label19.TabIndex = 11;
+            this.label19.Text = "Departman:";
             // 
             // lblCandidateName
             // 
@@ -418,50 +492,13 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.candidateName,
-            this.departmant,
-            this.time,
-            this.status});
             this.dataGridView2.Location = new System.Drawing.Point(-4, 206);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(640, 470);
             this.dataGridView2.TabIndex = 2;
-            // 
-            // candidateName
-            // 
-            this.candidateName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.candidateName.HeaderText = "İsim ";
-            this.candidateName.MinimumWidth = 6;
-            this.candidateName.Name = "candidateName";
-            this.candidateName.ReadOnly = true;
-            this.candidateName.Width = 63;
-            // 
-            // departmant
-            // 
-            this.departmant.HeaderText = "Başvurulan Departman";
-            this.departmant.MinimumWidth = 6;
-            this.departmant.Name = "departmant";
-            this.departmant.ReadOnly = true;
-            this.departmant.Width = 125;
-            // 
-            // time
-            // 
-            this.time.HeaderText = "Mülakat Tarihi";
-            this.time.MinimumWidth = 6;
-            this.time.Name = "time";
-            this.time.ReadOnly = true;
-            this.time.Width = 125;
-            // 
-            // status
-            // 
-            this.status.HeaderText = "Mülakat Durumu";
-            this.status.MinimumWidth = 6;
-            this.status.Name = "status";
-            this.status.ReadOnly = true;
-            this.status.Width = 125;
+            this.dataGridView2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
             // 
             // tabControl2
             // 
@@ -475,12 +512,10 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.cbDepartmant);
+            this.tabPage3.Controls.Add(this.Label13);
             this.tabPage3.Controls.Add(this.btnAddInterview);
             this.tabPage3.Controls.Add(this.txtName);
-            this.tabPage3.Controls.Add(this.label4);
-            this.tabPage3.Controls.Add(this.cbMinute);
-            this.tabPage3.Controls.Add(this.cbHour);
-            this.tabPage3.Controls.Add(this.label3);
             this.tabPage3.Controls.Add(this.label2);
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Name = "tabPage3";
@@ -489,6 +524,27 @@
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Mülakat Ekle";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // cbDepartmant
+            // 
+            this.cbDepartmant.FormattingEnabled = true;
+            this.cbDepartmant.Items.AddRange(new object[] {
+            "Departman1",
+            "Departman2",
+            "Departman3"});
+            this.cbDepartmant.Location = new System.Drawing.Point(316, 62);
+            this.cbDepartmant.Name = "cbDepartmant";
+            this.cbDepartmant.Size = new System.Drawing.Size(150, 24);
+            this.cbDepartmant.TabIndex = 8;
+            // 
+            // Label13
+            // 
+            this.Label13.AutoSize = true;
+            this.Label13.Location = new System.Drawing.Point(225, 70);
+            this.Label13.Name = "Label13";
+            this.Label13.Size = new System.Drawing.Size(77, 16);
+            this.Label13.TabIndex = 7;
+            this.Label13.Text = "Departman:";
             // 
             // btnAddInterview
             // 
@@ -499,6 +555,7 @@
             this.btnAddInterview.TabIndex = 6;
             this.btnAddInterview.Text = "EKLE";
             this.btnAddInterview.UseVisualStyleBackColor = true;
+            this.btnAddInterview.Click += new System.EventHandler(this.btnAddInterview_Click);
             // 
             // txtName
             // 
@@ -508,72 +565,6 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(150, 22);
             this.txtName.TabIndex = 5;
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(324, 61);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(13, 33);
-            this.label4.TabIndex = 4;
-            this.label4.Text = ":";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // cbMinute
-            // 
-            this.cbMinute.FormattingEnabled = true;
-            this.cbMinute.Items.AddRange(new object[] {
-            "00",
-            "10",
-            "20",
-            "30",
-            "40",
-            "50"});
-            this.cbMinute.Location = new System.Drawing.Point(341, 68);
-            this.cbMinute.Name = "cbMinute";
-            this.cbMinute.Size = new System.Drawing.Size(52, 24);
-            this.cbMinute.TabIndex = 3;
-            // 
-            // cbHour
-            // 
-            this.cbHour.FormattingEnabled = true;
-            this.cbHour.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23"});
-            this.cbHour.Location = new System.Drawing.Point(269, 67);
-            this.cbHour.Name = "cbHour";
-            this.cbHour.Size = new System.Drawing.Size(52, 24);
-            this.cbHour.TabIndex = 2;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(225, 70);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 16);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Saat:";
             // 
             // label2
             // 
@@ -616,6 +607,7 @@
             this.btnDelete.TabIndex = 13;
             this.btnDelete.Text = "SİL";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // txtDeleteInterview
             // 
@@ -652,13 +644,6 @@
             this.calendar.Name = "calendar";
             this.calendar.TabIndex = 0;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(443, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(264, 22);
-            this.textBox1.TabIndex = 24;
-            // 
             // Hiring
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -677,6 +662,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.Info.ResumeLayout(false);
+            this.Info.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.tabControl2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
@@ -705,11 +691,7 @@
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cbMinute;
-        private System.Windows.Forms.ComboBox cbHour;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Button btnAddInterview;
         private System.Windows.Forms.Button btnDelete;
@@ -718,10 +700,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lblInterviewTime;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn candidateName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn departmant;
-        private System.Windows.Forms.DataGridViewTextBoxColumn time;
-        private System.Windows.Forms.DataGridViewTextBoxColumn status;
         private System.Windows.Forms.Panel Info;
         private System.Windows.Forms.Label lblCandidateName;
         private System.Windows.Forms.Label Label11;
@@ -739,5 +717,13 @@
         private System.Windows.Forms.Label lblMessage;
         private System.Windows.Forms.Button btnFilter;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblStatus;
+        private System.Windows.Forms.Label lblDate;
+        private System.Windows.Forms.Label lblDepartmant;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.ComboBox cbDepartmant;
+        private System.Windows.Forms.Label Label13;
     }
 }
