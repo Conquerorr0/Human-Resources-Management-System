@@ -43,7 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\DataStatus.cs" />
-    <Compile Include="Models\AppUserEmpoyeeProfile.cs" />
+    <Compile Include="FilterCriteria.cs" />
+    <Compile Include="Models\AppUserEmployeeProfile.cs" />
     <Compile Include="Models\AppUsersEmployee.cs" />
     <Compile Include="Models\BaseEntity.cs" />
     <Compile Include="Models\FeedBack.cs" />

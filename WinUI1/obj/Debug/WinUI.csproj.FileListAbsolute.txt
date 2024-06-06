@@ -53,3 +53,5 @@ C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\BLL.dll
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\BLL.pdb
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Hiring.resources
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\DAL.dll
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\DAL.pdb

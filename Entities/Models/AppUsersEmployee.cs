@@ -12,7 +12,7 @@ namespace Entities.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string department { get; set; }
-        public string age { get; set; } 
+        public double age { get; set; } 
         public string phone { get; set; }
         [MaxLength(100)]
         [EmailAddress(ErrorMessage = "Invalid Email Address")]
@@ -22,8 +22,9 @@ namespace Entities.Models
         public bool  married { get; set; }
         public string gender { get; set; }  
         public double wage { get; set; }
+        public string languageLevel { get; set; }
         //AppUserEmpoyeeProfile
-        public virtual AppUserEmpoyeeProfile EmpoyeeProfile { get; set; }
+        public virtual AppUserEmployeeProfile EmpoyeeProfile { get; set; }
 
 
     }

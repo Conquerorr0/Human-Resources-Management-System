@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
-    public  class AppUserEmpoyeeProfile :BaseEntity
+    public  class AppUserEmployeeProfile :BaseEntity
     {
         public string userName {  get; set; }   
         public string password { get; set; }

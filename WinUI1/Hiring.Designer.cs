@@ -31,6 +31,11 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.PanelInfo = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cv = new System.Windows.Forms.LinkLabel();
+            this.lblMessage = new System.Windows.Forms.Label();
+            this.btnReject = new System.Windows.Forms.Button();
+            this.btnAccept = new System.Windows.Forms.Button();
             this.lblLanguage = new System.Windows.Forms.Label();
             this.lblAge = new System.Windows.Forms.Label();
             this.lblMail = new System.Windows.Forms.Label();
@@ -42,16 +47,11 @@
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.lblPersonName = new System.Windows.Forms.Label();
             this.TablePanel = new System.Windows.Forms.Panel();
+            this.btnFilter = new System.Windows.Forms.Button();
             this.cbEnglishLevel = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmDepartmants = new System.Windows.Forms.ComboBox();
-            this.btnMoreWage = new System.Windows.Forms.Button();
-            this.btnLessWage = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.lblWage = new System.Windows.Forms.Label();
             this.ageCount = new System.Windows.Forms.NumericUpDown();
             this.Label = new System.Windows.Forms.Label();
-            this.lblDepartmant = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.personName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -82,16 +82,10 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.calendar = new System.Windows.Forms.MonthCalendar();
-            this.btnAccept = new System.Windows.Forms.Button();
-            this.btnReject = new System.Windows.Forms.Button();
-            this.lblMessage = new System.Windows.Forms.Label();
-            this.cv = new System.Windows.Forms.LinkLabel();
-            this.label5 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.PanelInfo.SuspendLayout();
             this.TablePanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ageCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage2.SuspendLayout();
@@ -145,12 +139,67 @@
             this.PanelInfo.Name = "PanelInfo";
             this.PanelInfo.Size = new System.Drawing.Size(508, 694);
             this.PanelInfo.TabIndex = 5;
+            this.PanelInfo.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(38, 347);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 20);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "CV:";
+            // 
+            // cv
+            // 
+            this.cv.AutoSize = true;
+            this.cv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cv.Location = new System.Drawing.Point(104, 343);
+            this.cv.Name = "cv";
+            this.cv.Size = new System.Drawing.Size(110, 25);
+            this.cv.TabIndex = 14;
+            this.cv.TabStop = true;
+            this.cv.Text = "linkLabel1";
+            // 
+            // lblMessage
+            // 
+            this.lblMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblMessage.Location = new System.Drawing.Point(38, 413);
+            this.lblMessage.Name = "lblMessage";
+            this.lblMessage.Size = new System.Drawing.Size(300, 184);
+            this.lblMessage.TabIndex = 13;
+            this.lblMessage.Text = "label5";
+            // 
+            // btnReject
+            // 
+            this.btnReject.BackColor = System.Drawing.Color.Red;
+            this.btnReject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnReject.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnReject.Location = new System.Drawing.Point(205, 614);
+            this.btnReject.Name = "btnReject";
+            this.btnReject.Size = new System.Drawing.Size(113, 41);
+            this.btnReject.TabIndex = 12;
+            this.btnReject.Text = "REDDET";
+            this.btnReject.UseVisualStyleBackColor = false;
+            // 
+            // btnAccept
+            // 
+            this.btnAccept.BackColor = System.Drawing.Color.Lime;
+            this.btnAccept.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAccept.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnAccept.Location = new System.Drawing.Point(52, 614);
+            this.btnAccept.Name = "btnAccept";
+            this.btnAccept.Size = new System.Drawing.Size(113, 41);
+            this.btnAccept.TabIndex = 11;
+            this.btnAccept.Text = "KABUL ET";
+            this.btnAccept.UseVisualStyleBackColor = false;
             // 
             // lblLanguage
             // 
             this.lblLanguage.AutoSize = true;
             this.lblLanguage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblLanguage.Location = new System.Drawing.Point(241, 301);
+            this.lblLanguage.Location = new System.Drawing.Point(245, 301);
             this.lblLanguage.Name = "lblLanguage";
             this.lblLanguage.Size = new System.Drawing.Size(59, 20);
             this.lblLanguage.TabIndex = 10;
@@ -160,7 +209,7 @@
             // 
             this.lblAge.AutoSize = true;
             this.lblAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblAge.Location = new System.Drawing.Point(121, 255);
+            this.lblAge.Location = new System.Drawing.Point(105, 255);
             this.lblAge.Name = "lblAge";
             this.lblAge.Size = new System.Drawing.Size(59, 20);
             this.lblAge.TabIndex = 9;
@@ -170,7 +219,7 @@
             // 
             this.lblMail.AutoSize = true;
             this.lblMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblMail.Location = new System.Drawing.Point(121, 211);
+            this.lblMail.Location = new System.Drawing.Point(105, 211);
             this.lblMail.Name = "lblMail";
             this.lblMail.Size = new System.Drawing.Size(59, 20);
             this.lblMail.TabIndex = 8;
@@ -180,7 +229,7 @@
             // 
             this.lblPhoneNumber.AutoSize = true;
             this.lblPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblPhoneNumber.Location = new System.Drawing.Point(241, 170);
+            this.lblPhoneNumber.Location = new System.Drawing.Point(225, 170);
             this.lblPhoneNumber.Name = "lblPhoneNumber";
             this.lblPhoneNumber.Size = new System.Drawing.Size(59, 20);
             this.lblPhoneNumber.TabIndex = 7;
@@ -190,7 +239,7 @@
             // 
             this.Label11.AutoSize = true;
             this.Label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Label11.Location = new System.Drawing.Point(48, 301);
+            this.Label11.Location = new System.Drawing.Point(32, 301);
             this.Label11.Name = "Label11";
             this.Label11.Size = new System.Drawing.Size(187, 20);
             this.Label11.TabIndex = 6;
@@ -200,7 +249,7 @@
             // 
             this.Label10.AutoSize = true;
             this.Label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Label10.Location = new System.Drawing.Point(48, 255);
+            this.Label10.Location = new System.Drawing.Point(32, 255);
             this.Label10.Name = "Label10";
             this.Label10.Size = new System.Drawing.Size(46, 20);
             this.Label10.TabIndex = 5;
@@ -210,7 +259,7 @@
             // 
             this.Label9.AutoSize = true;
             this.Label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Label9.Location = new System.Drawing.Point(48, 211);
+            this.Label9.Location = new System.Drawing.Point(32, 211);
             this.Label9.Name = "Label9";
             this.Label9.Size = new System.Drawing.Size(62, 20);
             this.Label9.TabIndex = 4;
@@ -220,7 +269,7 @@
             // 
             this.Label8.AutoSize = true;
             this.Label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Label8.Location = new System.Drawing.Point(48, 170);
+            this.Label8.Location = new System.Drawing.Point(32, 170);
             this.Label8.Name = "Label8";
             this.Label8.Size = new System.Drawing.Size(163, 20);
             this.Label8.TabIndex = 3;
@@ -249,21 +298,26 @@
             // 
             // TablePanel
             // 
+            this.TablePanel.Controls.Add(this.btnFilter);
             this.TablePanel.Controls.Add(this.cbEnglishLevel);
             this.TablePanel.Controls.Add(this.label1);
-            this.TablePanel.Controls.Add(this.cmDepartmants);
-            this.TablePanel.Controls.Add(this.btnMoreWage);
-            this.TablePanel.Controls.Add(this.btnLessWage);
-            this.TablePanel.Controls.Add(this.numericUpDown1);
-            this.TablePanel.Controls.Add(this.lblWage);
             this.TablePanel.Controls.Add(this.ageCount);
             this.TablePanel.Controls.Add(this.Label);
-            this.TablePanel.Controls.Add(this.lblDepartmant);
             this.TablePanel.Controls.Add(this.dataGridView1);
             this.TablePanel.Location = new System.Drawing.Point(-3, -12);
             this.TablePanel.Name = "TablePanel";
             this.TablePanel.Size = new System.Drawing.Size(918, 706);
             this.TablePanel.TabIndex = 4;
+            // 
+            // btnFilter
+            // 
+            this.btnFilter.Location = new System.Drawing.Point(401, 31);
+            this.btnFilter.Name = "btnFilter";
+            this.btnFilter.Size = new System.Drawing.Size(69, 29);
+            this.btnFilter.TabIndex = 23;
+            this.btnFilter.Text = "Filtrele";
+            this.btnFilter.UseVisualStyleBackColor = true;
+            this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
             // 
             // cbEnglishLevel
             // 
@@ -276,7 +330,7 @@
             "B2",
             "C1",
             "C2"});
-            this.cbEnglishLevel.Location = new System.Drawing.Point(796, 33);
+            this.cbEnglishLevel.Location = new System.Drawing.Point(305, 34);
             this.cbEnglishLevel.Name = "cbEnglishLevel";
             this.cbEnglishLevel.Size = new System.Drawing.Size(80, 24);
             this.cbEnglishLevel.TabIndex = 20;
@@ -284,81 +338,15 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(677, 37);
+            this.label1.Location = new System.Drawing.Point(186, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 16);
             this.label1.TabIndex = 19;
             this.label1.Text = "İngilizce Seviyesi:";
             // 
-            // cmDepartmants
-            // 
-            this.cmDepartmants.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmDepartmants.FormattingEnabled = true;
-            this.cmDepartmants.Items.AddRange(new object[] {
-            "Departman 1",
-            "Departman 2",
-            "Departman 3"});
-            this.cmDepartmants.Location = new System.Drawing.Point(112, 32);
-            this.cmDepartmants.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.cmDepartmants.Name = "cmDepartmants";
-            this.cmDepartmants.Size = new System.Drawing.Size(106, 24);
-            this.cmDepartmants.TabIndex = 7;
-            // 
-            // btnMoreWage
-            // 
-            this.btnMoreWage.Location = new System.Drawing.Point(606, 32);
-            this.btnMoreWage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnMoreWage.Name = "btnMoreWage";
-            this.btnMoreWage.Size = new System.Drawing.Size(55, 23);
-            this.btnMoreWage.TabIndex = 18;
-            this.btnMoreWage.Text = "Çok";
-            this.btnMoreWage.UseVisualStyleBackColor = true;
-            // 
-            // btnLessWage
-            // 
-            this.btnLessWage.Location = new System.Drawing.Point(549, 32);
-            this.btnLessWage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnLessWage.Name = "btnLessWage";
-            this.btnLessWage.Size = new System.Drawing.Size(51, 23);
-            this.btnLessWage.TabIndex = 17;
-            this.btnLessWage.Text = "Az";
-            this.btnLessWage.UseVisualStyleBackColor = true;
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(423, 33);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            150000,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            17002,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 22);
-            this.numericUpDown1.TabIndex = 16;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            17002,
-            0,
-            0,
-            0});
-            // 
-            // lblWage
-            // 
-            this.lblWage.AutoSize = true;
-            this.lblWage.Location = new System.Drawing.Point(373, 35);
-            this.lblWage.Name = "lblWage";
-            this.lblWage.Size = new System.Drawing.Size(44, 16);
-            this.lblWage.TabIndex = 15;
-            this.lblWage.Text = "Maaş:";
-            // 
             // ageCount
             // 
-            this.ageCount.Location = new System.Drawing.Point(293, 32);
+            this.ageCount.Location = new System.Drawing.Point(113, 35);
             this.ageCount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ageCount.Minimum = new decimal(new int[] {
             18,
@@ -377,20 +365,11 @@
             // Label
             // 
             this.Label.AutoSize = true;
-            this.Label.Location = new System.Drawing.Point(249, 35);
+            this.Label.Location = new System.Drawing.Point(69, 38);
             this.Label.Name = "Label";
             this.Label.Size = new System.Drawing.Size(37, 16);
             this.Label.TabIndex = 9;
             this.Label.Text = "Yaş: ";
-            // 
-            // lblDepartmant
-            // 
-            this.lblDepartmant.BackColor = System.Drawing.Color.Transparent;
-            this.lblDepartmant.Location = new System.Drawing.Point(28, 36);
-            this.lblDepartmant.Name = "lblDepartmant";
-            this.lblDepartmant.Size = new System.Drawing.Size(120, 18);
-            this.lblDepartmant.TabIndex = 8;
-            this.lblDepartmant.Text = "Departman: ";
             // 
             // dataGridView1
             // 
@@ -405,8 +384,10 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(902, 628);
+            this.dataGridView1.Size = new System.Drawing.Size(902, 614);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.Click += new System.EventHandler(this.dataGridView1_Click);
             // 
             // personName
             // 
@@ -717,60 +698,6 @@
             this.calendar.Name = "calendar";
             this.calendar.TabIndex = 0;
             // 
-            // btnAccept
-            // 
-            this.btnAccept.BackColor = System.Drawing.Color.Lime;
-            this.btnAccept.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnAccept.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnAccept.Location = new System.Drawing.Point(52, 614);
-            this.btnAccept.Name = "btnAccept";
-            this.btnAccept.Size = new System.Drawing.Size(113, 41);
-            this.btnAccept.TabIndex = 11;
-            this.btnAccept.Text = "KABUL ET";
-            this.btnAccept.UseVisualStyleBackColor = false;
-            // 
-            // btnReject
-            // 
-            this.btnReject.BackColor = System.Drawing.Color.Red;
-            this.btnReject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnReject.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnReject.Location = new System.Drawing.Point(205, 614);
-            this.btnReject.Name = "btnReject";
-            this.btnReject.Size = new System.Drawing.Size(113, 41);
-            this.btnReject.TabIndex = 12;
-            this.btnReject.Text = "REDDET";
-            this.btnReject.UseVisualStyleBackColor = false;
-            // 
-            // lblMessage
-            // 
-            this.lblMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblMessage.Location = new System.Drawing.Point(54, 413);
-            this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(300, 184);
-            this.lblMessage.TabIndex = 13;
-            this.lblMessage.Text = "label5";
-            // 
-            // cv
-            // 
-            this.cv.AutoSize = true;
-            this.cv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cv.Location = new System.Drawing.Point(120, 343);
-            this.cv.Name = "cv";
-            this.cv.Size = new System.Drawing.Size(110, 25);
-            this.cv.TabIndex = 14;
-            this.cv.TabStop = true;
-            this.cv.Text = "linkLabel1";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(54, 347);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 20);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "CV:";
-            // 
             // Hiring
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -785,7 +712,6 @@
             this.PanelInfo.PerformLayout();
             this.TablePanel.ResumeLayout(false);
             this.TablePanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ageCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage2.ResumeLayout(false);
@@ -811,14 +737,8 @@
         private System.Windows.Forms.Panel TablePanel;
         private System.Windows.Forms.ComboBox cbEnglishLevel;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnMoreWage;
-        private System.Windows.Forms.Button btnLessWage;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Label lblWage;
         private System.Windows.Forms.NumericUpDown ageCount;
         private System.Windows.Forms.Label Label;
-        private System.Windows.Forms.Label lblDepartmant;
-        private System.Windows.Forms.ComboBox cmDepartmants;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn personName;
         private System.Windows.Forms.DataGridViewTextBoxColumn phone;
@@ -861,5 +781,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.LinkLabel cv;
         private System.Windows.Forms.Label lblMessage;
+        private System.Windows.Forms.Button btnFilter;
     }
 }
