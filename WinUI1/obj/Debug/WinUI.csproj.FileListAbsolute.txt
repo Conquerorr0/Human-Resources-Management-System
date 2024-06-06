@@ -55,3 +55,14 @@ C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\BLL.pdb
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Hiring.resources
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\DAL.dll
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\DAL.pdb
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI.csproj.App.config

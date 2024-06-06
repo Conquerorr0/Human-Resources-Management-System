@@ -22,19 +22,9 @@ namespace DAL
         {
             var query = _employees.AsQueryable();
 
-            if (!string.IsNullOrEmpty(criteria.Department))
-                query = query.Where(e => e.department == criteria.Department);
-
             if (criteria.Age.HasValue)
                 query = query.Where(e => e.age == criteria.Age.Value);
 
-            if (criteria.Salary.HasValue)
-            {
-                if (criteria.SalaryLessThanOrEqual)
-                    query = query.Where(e => e.wage <= criteria.Salary.Value);
-                else
-                    query = query.Where(e => e.wage >= criteria.Salary.Value);
-            }
 
             if (!string.IsNullOrEmpty(criteria.LanguageLevel))
                 query = query.Where(e => e.languageLevel == criteria.LanguageLevel);

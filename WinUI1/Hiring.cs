@@ -1,23 +1,104 @@
 ﻿using BLL;
-using Entities;
 using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using FireSharp;
+using FireSharp.Config;
+using FireSharp.Response;
+using FireSharp.Interfaces;
+using Newtonsoft.Json;
+using Entities;
 
 namespace WinUI1
 {
     public partial class Hiring : Form
     {
         private readonly EmployeeService _employeeService;
+        private readonly IFirebaseClient _firebaseClient;
 
         public Hiring()
         {
             InitializeComponent();
             _employeeService = new EmployeeService();
-            LoadData();
+
+            // Firebase bağlantısı için gerekli ayarları yapın
+            IFirebaseConfig config = new FirebaseConfig
+            {
+                AuthSecret = "6Z0KM9sVW6mj8zOqeOLgS1FtJy9jRamR81JUEYKc",
+                BasePath = "https://humanresourcemanagmentsy-588b9-default-rtdb.europe-west1.firebasedatabase.app/"
+            };
+
+            _firebaseClient = new FireSharp.FirebaseClient(config);
+            if (_firebaseClient == null)
+            {
+                MessageBox.Show("Bağlantı Kurulamadı!");
+                Application.Exit();
+            }
+
+            // İnternet bağlantısını kontrol et
+            if (!connectionCheck())
+            {
+                MessageBox.Show("İnternet Bağlantınızı Kontrol Ediniz!");
+                Application.Exit();
+            }
+            // Firebase'den verileri yükle
+            LoadDataFromFirebase();
         }
+
+        // İnternet bağlantısını kontrol et
+        private static bool connectionCheck()
+        {
+            try
+            {
+                return new System.Net.NetworkInformation.Ping().Send("www.google.com", 1000).Status == System.Net.NetworkInformation.IPStatus.Success;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        private async void LoadDataFromFirebase()
+        {
+            try
+            {
+                FirebaseResponse response = await _firebaseClient.GetAsync("Recourse");
+
+                if (response.Body != "null")
+                {
+                    // Firebase'den çekilen JSON verisini uygun formata dönüştürme
+                    Dictionary<string, recourse> firebaseData = JsonConvert.DeserializeObject<Dictionary<string, recourse>>(response.Body);
+
+                    // DataGridView'e veriyi atama
+                    var recourseList = firebaseData.Values.Select(r => new recourse
+                    {
+                        age = r.age,
+                        cvUrl = r.cvUrl,
+                        email = r.email,
+                        englishLevel = r.englishLevel,
+                        id = r.id,
+                        message = r.message,
+                        phoneNumber = r.phoneNumber,
+                        username = r.username
+                    }).ToList();
+                    
+                    // DataGridView'in DataSource özelliğini bu listeye bağlama
+                    dataGridView1.DataSource = recourseList;
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Veri bulunamadı.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Veri yüklenirken bir hata oluştu: {ex.Message}");
+            }
+        }
+
 
         private void FilterButton_Click(object sender, EventArgs e)
         {
@@ -39,24 +120,24 @@ namespace WinUI1
             // Filtrelenmiş çalışanların alınması
             var filteredEmployees = _employeeService.GetFilteredEmployees(criteria);
 
-            // DataGridView sütunlarını temizle
-            dataGridView1.Columns.Clear();
-
             // DataGridView'e veriyi atama
             dataGridView1.DataSource = filteredEmployees;
         }
 
-
         private void ResetButton_Click(object sender, EventArgs e)
         {
-            ageCount.Value = 18; // Clear the NumericUpDown control
-            cbEnglishLevel.SelectedIndex = -1; // Clear the ComboBox selection
+            ageCount.Value = 18; // NumericUpDown kontrolünü sıfırla
+            cbEnglishLevel.SelectedIndex = -1; // ComboBox seçimini temizle
+        }
 
-            LoadData(); // Load sample data
+        private void cv_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Buraya tıklandığında yapılacak işlemleri ekleyin
         }
 
         private void btnFilter_Click(object sender, EventArgs e)
         {
+            // Filtreleme butonu işlemleri
             if (btnFilter.Text == "Filtrele")
             {
                 FilterButton_Click(sender, e);
@@ -69,63 +150,28 @@ namespace WinUI1
             }
         }
 
-        private void LoadData()
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            // DataGridView sütunlarını oluştur
-            dataGridView1.Columns.Clear(); // Mevcut sütunları temizle
-
-            // İsim Soyisim sütunu
-            var nameColumn = new DataGridViewTextBoxColumn();
-            nameColumn.HeaderText = "İsim Soyisim";
-            nameColumn.DataPropertyName = "FirstName";
-            dataGridView1.Columns.Add(nameColumn);
-
-            // Telefon Numarası sütunu
-            var phoneColumn = new DataGridViewTextBoxColumn();
-            phoneColumn.HeaderText = "Telefon Numarası";
-            phoneColumn.DataPropertyName = "phone";
-            dataGridView1.Columns.Add(phoneColumn);
-
-            // Email sütunu
-            var emailColumn = new DataGridViewTextBoxColumn();
-            emailColumn.HeaderText = "Email";
-            emailColumn.DataPropertyName = "email";
-            dataGridView1.Columns.Add(emailColumn);
-
-            // Yaş sütunu
-            var ageColumn = new DataGridViewTextBoxColumn();
-            ageColumn.HeaderText = "Yaş";
-            ageColumn.DataPropertyName = "age";
-            dataGridView1.Columns.Add(ageColumn);
-
-            // Yabancı Dil Seviyesi sütunu
-            var languageLevelColumn = new DataGridViewTextBoxColumn();
-            languageLevelColumn.HeaderText = "Yabancı Dil Seviyesi";
-            languageLevelColumn.DataPropertyName = "languageLevel";
-            dataGridView1.Columns.Add(languageLevelColumn);
-
-            // Örnek veri oluşturma
-            List<AppUsersEmployee> sampleData = new List<AppUsersEmployee>
+            if (e.RowIndex >= 0)
             {
-                new AppUsersEmployee { FirstName = "John", phone = "123456789", email = "john@example.com", age = 30, languageLevel = "C1" },
-                new AppUsersEmployee { FirstName = "Jane", phone = "987654321", email = "jane@example.com", age = 25, languageLevel = "C2" },
-                new AppUsersEmployee { FirstName = "Alice", phone = "456123789", email = "alice@example.com", age = 35, languageLevel = "C1" },
-                new AppUsersEmployee { FirstName = "Bob", phone = "987321654", email = "bob@example.com", age = 40, languageLevel = "B1" },
-                new AppUsersEmployee { FirstName = "Eve", phone = "654789321", email = "eve@example.com", age = 28, languageLevel = "B2" }
-            };
+                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+                string username = row.Cells["username"].Value.ToString();
+                string phoneNumber = row.Cells["phoneNumber"].Value.ToString();
+                string email = row.Cells["Email"].Value.ToString();
+                string age = row.Cells["age"].Value.ToString();
+                string englishLevel = row.Cells["englishLevel"].Value.ToString();
+                string cvlink = row.Cells["cvUrl"].Value.ToString();
+                string message = row.Cells["message"].Value.ToString(); 
 
-            // Örnek verileri DisplayEmployee tipine dönüştürme
-            List<DisplayEmployee> displayData = sampleData.Select(employee => new DisplayEmployee
-            {
-                FirstName = employee.FirstName,
-                phone = employee.phone,
-                email = employee.email,
-                age = employee.age,
-                languageLevel = employee.languageLevel
-            }).ToList();
-
-            // DataGridView'e veriyi atama
-            dataGridView1.DataSource = displayData;
+                lblPersonName.Text = username;
+                lblPhoneNumber.Text = phoneNumber;
+                lblMail.Text = email;
+                lblAge.Text = age;
+                lblLanguage.Text = englishLevel;
+                cv.Text = cvlink;
+                lblMessage.Text = message;
+            }
         }
 
 
@@ -134,52 +180,32 @@ namespace WinUI1
             PanelInfo.Visible = true;
         }
 
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void btnAccept_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private async void btnReject_Click(object sender, EventArgs e)
+        {
+            // Kişinin mülakat için uygun olmadığını belirleyin ve Firebase'den silin
             if (dataGridView1.SelectedRows.Count > 0)
             {
-                // Seçili satırın verilerine erişme
-                DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
-
-                // DataGridView'de kullanılan veri sınıfından oluşturduğunuz alt sınıf türüne dönüştürme
-                DisplayEmployee selectedEmployee = (DisplayEmployee)selectedRow.DataBoundItem;
-
-                // Seçilen satırdaki verilere erişme
-                string firstName = selectedEmployee.FirstName;
-                string phone = selectedEmployee.phone;
-                string email = selectedEmployee.email;
-                double age = selectedEmployee.age;
-                string languageLevel = selectedEmployee.languageLevel;
-
-                showOnPanel($"{firstName}-{phone}-{email}-{age}-{languageLevel}");
-                //MessageBox.Show($"İsim: {firstName}\nTelefon: {phone}\nEmail: {email}\nYaş: {age}\nYabancı Dil Seviyesi: {languageLevel}");
+                string employeeId = dataGridView1.SelectedRows[0].Cells["id"].Value.ToString(); // Örnek bir alan adı
+                FirebaseResponse response = await _firebaseClient.DeleteAsync("Recourse/" + employeeId);
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    MessageBox.Show("Kişi başarıyla silindi.");
+                    LoadDataFromFirebase(); // Verileri yeniden yükle
+                }
+                else
+                {
+                    MessageBox.Show("Kişi silinirken bir hata oluştu.");
+                }
             }
             else
             {
-                MessageBox.Show("Lütfen bir satır seçin.");
+                MessageBox.Show("Lütfen silmek istediğiniz satırı seçin.");
             }
         }
-
-        private void showOnPanel(String info)
-        {
-            string[] infos = info.Split('-');
-            lblPersonName.Text = infos[0];
-            lblPhoneNumber.Text = infos[1];
-            lblMail.Text = infos[2];
-            lblAge.Text = infos[3];
-            lblLanguage.Text = infos[4];
-        }
     }
-
-   
-
-    public class DisplayEmployee
-    {
-        public string FirstName { get; set; }
-        public string phone { get; set; }
-        public string email { get; set; }
-        public double age { get; set; }
-        public string languageLevel { get; set; }
-    }
-
 }

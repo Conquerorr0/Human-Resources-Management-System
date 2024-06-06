@@ -53,11 +53,6 @@
             this.ageCount = new System.Windows.Forms.NumericUpDown();
             this.Label = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.personName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.age = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.language = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.Info = new System.Windows.Forms.Panel();
             this.lblCandidateName = new System.Windows.Forms.Label();
@@ -82,6 +77,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.calendar = new System.Windows.Forms.MonthCalendar();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.PanelInfo.SuspendLayout();
@@ -135,9 +131,9 @@
             this.PanelInfo.Controls.Add(this.Label8);
             this.PanelInfo.Controls.Add(this.splitter1);
             this.PanelInfo.Controls.Add(this.lblPersonName);
-            this.PanelInfo.Location = new System.Drawing.Point(905, 0);
+            this.PanelInfo.Location = new System.Drawing.Point(776, 0);
             this.PanelInfo.Name = "PanelInfo";
-            this.PanelInfo.Size = new System.Drawing.Size(508, 694);
+            this.PanelInfo.Size = new System.Drawing.Size(637, 694);
             this.PanelInfo.TabIndex = 5;
             this.PanelInfo.Visible = false;
             // 
@@ -145,7 +141,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(38, 347);
+            this.label5.Location = new System.Drawing.Point(32, 347);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 20);
             this.label5.TabIndex = 15;
@@ -154,18 +150,19 @@
             // cv
             // 
             this.cv.AutoSize = true;
-            this.cv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cv.Location = new System.Drawing.Point(104, 343);
+            this.cv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cv.Location = new System.Drawing.Point(70, 347);
             this.cv.Name = "cv";
-            this.cv.Size = new System.Drawing.Size(110, 25);
+            this.cv.Size = new System.Drawing.Size(94, 20);
             this.cv.TabIndex = 14;
             this.cv.TabStop = true;
             this.cv.Text = "linkLabel1";
+            this.cv.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.cv_LinkClicked);
             // 
             // lblMessage
             // 
             this.lblMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblMessage.Location = new System.Drawing.Point(38, 413);
+            this.lblMessage.Location = new System.Drawing.Point(82, 409);
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(300, 184);
             this.lblMessage.TabIndex = 13;
@@ -176,24 +173,26 @@
             this.btnReject.BackColor = System.Drawing.Color.Red;
             this.btnReject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnReject.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnReject.Location = new System.Drawing.Point(205, 614);
+            this.btnReject.Location = new System.Drawing.Point(249, 610);
             this.btnReject.Name = "btnReject";
             this.btnReject.Size = new System.Drawing.Size(113, 41);
             this.btnReject.TabIndex = 12;
             this.btnReject.Text = "REDDET";
             this.btnReject.UseVisualStyleBackColor = false;
+            this.btnReject.Click += new System.EventHandler(this.btnReject_Click);
             // 
             // btnAccept
             // 
             this.btnAccept.BackColor = System.Drawing.Color.Lime;
             this.btnAccept.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnAccept.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnAccept.Location = new System.Drawing.Point(52, 614);
+            this.btnAccept.Location = new System.Drawing.Point(96, 610);
             this.btnAccept.Name = "btnAccept";
             this.btnAccept.Size = new System.Drawing.Size(113, 41);
             this.btnAccept.TabIndex = 11;
             this.btnAccept.Text = "KABUL ET";
             this.btnAccept.UseVisualStyleBackColor = false;
+            this.btnAccept.Click += new System.EventHandler(this.btnAccept_Click);
             // 
             // lblLanguage
             // 
@@ -298,6 +297,7 @@
             // 
             // TablePanel
             // 
+            this.TablePanel.Controls.Add(this.textBox1);
             this.TablePanel.Controls.Add(this.btnFilter);
             this.TablePanel.Controls.Add(this.cbEnglishLevel);
             this.TablePanel.Controls.Add(this.label1);
@@ -306,12 +306,12 @@
             this.TablePanel.Controls.Add(this.dataGridView1);
             this.TablePanel.Location = new System.Drawing.Point(-3, -12);
             this.TablePanel.Name = "TablePanel";
-            this.TablePanel.Size = new System.Drawing.Size(918, 706);
+            this.TablePanel.Size = new System.Drawing.Size(773, 706);
             this.TablePanel.TabIndex = 4;
             // 
             // btnFilter
             // 
-            this.btnFilter.Location = new System.Drawing.Point(401, 31);
+            this.btnFilter.Location = new System.Drawing.Point(351, 35);
             this.btnFilter.Name = "btnFilter";
             this.btnFilter.Size = new System.Drawing.Size(69, 29);
             this.btnFilter.TabIndex = 23;
@@ -330,7 +330,7 @@
             "B2",
             "C1",
             "C2"});
-            this.cbEnglishLevel.Location = new System.Drawing.Point(305, 34);
+            this.cbEnglishLevel.Location = new System.Drawing.Point(255, 38);
             this.cbEnglishLevel.Name = "cbEnglishLevel";
             this.cbEnglishLevel.Size = new System.Drawing.Size(80, 24);
             this.cbEnglishLevel.TabIndex = 20;
@@ -338,7 +338,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(186, 38);
+            this.label1.Location = new System.Drawing.Point(136, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 16);
             this.label1.TabIndex = 19;
@@ -346,7 +346,7 @@
             // 
             // ageCount
             // 
-            this.ageCount.Location = new System.Drawing.Point(113, 35);
+            this.ageCount.Location = new System.Drawing.Point(63, 39);
             this.ageCount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ageCount.Minimum = new decimal(new int[] {
             18,
@@ -365,7 +365,7 @@
             // Label
             // 
             this.Label.AutoSize = true;
-            this.Label.Location = new System.Drawing.Point(69, 38);
+            this.Label.Location = new System.Drawing.Point(19, 42);
             this.Label.Name = "Label";
             this.Label.Size = new System.Drawing.Size(37, 16);
             this.Label.TabIndex = 9;
@@ -374,60 +374,14 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.personName,
-            this.phone,
-            this.mail,
-            this.age,
-            this.language});
-            this.dataGridView1.Location = new System.Drawing.Point(9, 78);
+            this.dataGridView1.Location = new System.Drawing.Point(13, 81);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(902, 614);
+            this.dataGridView1.Size = new System.Drawing.Size(754, 614);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.Click += new System.EventHandler(this.dataGridView1_Click);
-            // 
-            // personName
-            // 
-            this.personName.HeaderText = "İsim Soyisim";
-            this.personName.MinimumWidth = 6;
-            this.personName.Name = "personName";
-            this.personName.ReadOnly = true;
-            this.personName.Width = 125;
-            // 
-            // phone
-            // 
-            this.phone.HeaderText = "Telefon Numarası";
-            this.phone.MinimumWidth = 6;
-            this.phone.Name = "phone";
-            this.phone.ReadOnly = true;
-            this.phone.Width = 125;
-            // 
-            // mail
-            // 
-            this.mail.HeaderText = "Email";
-            this.mail.MinimumWidth = 6;
-            this.mail.Name = "mail";
-            this.mail.ReadOnly = true;
-            this.mail.Width = 125;
-            // 
-            // age
-            // 
-            this.age.HeaderText = "Yaş";
-            this.age.MinimumWidth = 6;
-            this.age.Name = "age";
-            this.age.ReadOnly = true;
-            this.age.Width = 125;
-            // 
-            // language
-            // 
-            this.language.HeaderText = "Yabancı Dil Seviyesi";
-            this.language.MinimumWidth = 6;
-            this.language.Name = "language";
-            this.language.ReadOnly = true;
-            this.language.Width = 125;
             // 
             // tabPage2
             // 
@@ -698,6 +652,13 @@
             this.calendar.Name = "calendar";
             this.calendar.TabIndex = 0;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(443, 39);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(264, 22);
+            this.textBox1.TabIndex = 24;
+            // 
             // Hiring
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -740,11 +701,6 @@
         private System.Windows.Forms.NumericUpDown ageCount;
         private System.Windows.Forms.Label Label;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn personName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phone;
-        private System.Windows.Forms.DataGridViewTextBoxColumn mail;
-        private System.Windows.Forms.DataGridViewTextBoxColumn age;
-        private System.Windows.Forms.DataGridViewTextBoxColumn language;
         private System.Windows.Forms.MonthCalendar calendar;
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.TabPage tabPage3;
@@ -782,5 +738,6 @@
         private System.Windows.Forms.LinkLabel cv;
         private System.Windows.Forms.Label lblMessage;
         private System.Windows.Forms.Button btnFilter;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
