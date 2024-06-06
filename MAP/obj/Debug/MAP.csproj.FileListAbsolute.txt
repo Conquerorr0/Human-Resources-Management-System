@@ -43,3 +43,17 @@ C:\Users\User\Desktop\Human-Resources-Management-System\MAP\obj\Debug\MAP.csproj
 C:\Users\User\Desktop\Human-Resources-Management-System\MAP\obj\Debug\MAP.dll
 C:\Users\User\Desktop\Human-Resources-Management-System\MAP\obj\Debug\MAP.pdb
 >>>>>>> ae622936f17e96ba31452634860f2121831b9ae6
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\MAP.dll.config
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\MAP.dll
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\MAP.pdb
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\Entities.dll
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\EntityFramework.dll
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\Entities.pdb
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\EntityFramework.xml
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.csproj.AssemblyReference.cache
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.csproj.CoreCompileInputs.cache
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.csproj.Up2Date
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.dll
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.pdb

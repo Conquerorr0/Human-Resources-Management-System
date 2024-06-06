@@ -10,10 +10,9 @@ namespace Entities.Models
 {
     public abstract class BaseEntity
     {//her tabloda olmasını istedigimiz özellikleri tanımlıyoruz 
-        public int tc { get; set; }
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int id { get; set; } 
+        public string  tc { get; set; }
+      
+       // public int id { get; set; } 
        
         //yaratılma güncellenem ve silnme tarıhlerini de alabiliriz veya verinni hangi durumda oldugunu da 
         protected BaseEntity()

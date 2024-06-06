@@ -22,5 +22,10 @@ namespace WinUI1
         {
 
         }
+
+        private void btnMoreWage_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
