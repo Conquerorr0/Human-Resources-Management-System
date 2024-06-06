@@ -13,12 +13,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Net.Mime.MediaTypeNames;
 using Entities.Models;
+using RestSharp.Extensions;
+using System.IO;
+using Firebase.Storage;
+using Google.Cloud.Firestore;
+using Google.Cloud.Firestore.V1;
 
 namespace WinUI1
 {
     public partial class Form3 : Form
     {
-
         // firebase baglantilarimiz
         IFirebaseConfig config = new FirebaseConfig
         {
@@ -26,6 +30,16 @@ namespace WinUI1
             BasePath = "https://humanresourcemanagmentsy-588b9-default-rtdb.europe-west1.firebasedatabase.app/",
         };
         IFirebaseClient client;
+        private FirestoreDb firestoreDb;
+        string downloadUrl="";
+
+        private void InitializeFirestore()
+        {
+            string path = AppDomain.CurrentDomain.BaseDirectory + @"firebase-adminsdk.json";
+            Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", path);
+
+            firestoreDb = FirestoreDb.Create("6Z0KM9sVW6mj8zOqeOLgS1FtJy9jRamR81JUEYKc");
+        }
 
         //interente bagli olup olmadiigmizin kontrolu
         static bool connectionCheck()
@@ -60,10 +74,23 @@ namespace WinUI1
 
         public static string usernamepass;
 
+        private async Task<string> UploadFileToFirebaseStorage(string filePath, string fileName)
+        {
+            var stream = File.Open(filePath, FileMode.Open);
+            var task = new FirebaseStorage(
+                "humanresourcemanagmentsy-588b9.appspot.com"
+            ).Child("pdfs").Child(fileName).PutAsync(stream);
+
+            string downloadUrl = await task;
+            return downloadUrl;
+        }
+
+
         public Form3()
         {
             InitializeComponent();
             connectionCheck_Load();
+            InitializeFirestore();
         }
 
         // basvuru gonderme
@@ -72,7 +99,7 @@ namespace WinUI1
             connectionCheck_Load(); // internet baglantisi kontrolu
 
             //login
-            if (string.IsNullOrEmpty(txtEmail.Text) || string.IsNullOrEmpty(txtMessage.Text) || string.IsNullOrEmpty(txtPhoneNumber.Text) || string.IsNullOrEmpty(txtUsername.Text))
+            if (string.IsNullOrEmpty(txtEmail.Text) || string.IsNullOrEmpty(txtMessage.Text) || string.IsNullOrEmpty(txtPhoneNumber.Text) || string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(ageCount.Value.ToString()) || string.IsNullOrEmpty(comboBoxEnnglishLevel.Text))
             {
                 MessageBox.Show("Lütfen tüm bilgileri doldurunuz!");
             }
@@ -86,6 +113,9 @@ namespace WinUI1
                     message = txtMessage.Text,
                     phoneNumber = txtPhoneNumber.Text,
                     id = randomId,
+                    age = ageCount.Value.ToString(),
+                    englishLevel = comboBoxEnnglishLevel.Text,
+                    cvUrl = downloadUrl,
                 };
 
 
@@ -102,6 +132,22 @@ namespace WinUI1
                 txtEmail.Text = String.Empty;
                 txtMessage.Text = String.Empty;
                 txtPhoneNumber.Text = String.Empty;
+            }
+        }
+
+        private async void buttonCv_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.Filter = "PDF files (*.pdf)|*.pdf|All files (*.*)|*.*";
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string filePath = openFileDialog.FileName;
+                    string fileName = Path.GetFileName(filePath);
+                    // Upload the file to Firebase Storage
+                    downloadUrl = await UploadFileToFirebaseStorage(filePath, fileName);
+                    MessageBox.Show("PDF yüklenildi");
+                }
             }
         }
     }
