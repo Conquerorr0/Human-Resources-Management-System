@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Human-Resources-Management-System\\",
   "Documents": [
     {
@@ -25,6 +26,89 @@
     {
       "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Human-Resources-Management-System\\entities\\models\\survey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\survey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\conquerorr0\\human-resources-management-system\\entities\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\conquerorr0\\human-resources-management-system\\winui1\\personelbligigirisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\personelbligigirisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\conquerorr0\\human-resources-management-system\\winui1\\personelbligigirisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\personelbligigirisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\entities\\models\\appusersemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\appusersemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\winui1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\conquerorr0\\human-resources-management-system\\entities\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\conquerorr0\\human-resources-management-system\\entities\\models\\recourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\recourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\conquerorr0\\human-resources-management-system\\entities\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\entities\\models\\appuserempoyeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\appuserempoyeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\conquerorr0\\human-resources-management-system\\winui1\\hiring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\hiring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\conquerorr0\\human-resources-management-system\\winui1\\hiring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\hiring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\conquerorr0\\human-resources-management-system\\winui1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\conquerorr0\\human-resources-management-system\\winui1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\winui1\\anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\winui1\\izinislemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\izinislemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\conquerorr0\\human-resources-management-system\\winui1\\izinislemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\izinislemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> 259877f329cecf37375e454ca0e156787b232924
     }
   ],
   "DocumentGroupContainers": [
@@ -51,6 +135,7 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+<<<<<<< HEAD
             },
             {
               "$type": "Document",
@@ -113,10 +198,29 @@
               "ViewState": "AQIAAFsAAAAAAAAAAAA0wF0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T08:57:14.015Z",
+=======
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "register.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\Entities\\Models\\register.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\register.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\Entities\\Models\\register.cs",
+              "RelativeToolTip": "Entities\\Models\\register.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:29:35.405Z",
+>>>>>>> 259877f329cecf37375e454ca0e156787b232924
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
@@ -127,6 +231,245 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T14:39:03.017Z",
               "EditorCaption": ""
+=======
+              "DocumentIndex": 6,
+              "Title": "recourse.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\Entities\\Models\\recourse.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\recourse.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\Entities\\Models\\recourse.cs",
+              "RelativeToolTip": "Entities\\Models\\recourse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:29:34.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FeedBack.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\Entities\\Models\\FeedBack.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\FeedBack.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\Entities\\Models\\FeedBack.cs",
+              "RelativeToolTip": "Entities\\Models\\FeedBack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:29:32.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\Entities\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\Entities\\Models\\BaseEntity.cs*",
+              "RelativeToolTip": "Entities\\Models\\BaseEntity.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:29:31.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Hiring.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Hiring.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Hiring.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Hiring.cs",
+              "RelativeToolTip": "WinUI1\\Hiring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:29:16.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Hiring.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Hiring.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Hiring.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Hiring.cs [Design]",
+              "RelativeToolTip": "WinUI1\\Hiring.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:29:12.448Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form2.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form2.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form2.cs",
+              "RelativeToolTip": "WinUI1\\Form2.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:29:01.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form2.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form2.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form2.cs [Design]",
+              "RelativeToolTip": "WinUI1\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:28:52.568Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonelBligiGirisi.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs",
+              "RelativeDocumentMoniker": "WinUI1\\PersonelBligiGirisi.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs*",
+              "RelativeToolTip": "WinUI1\\PersonelBligiGirisi.cs*",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwD0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:13:54.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonelBligiGirisi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs",
+              "RelativeDocumentMoniker": "WinUI1\\PersonelBligiGirisi.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs [Design]*",
+              "RelativeToolTip": "WinUI1\\PersonelBligiGirisi.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:53:31.515Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "izinIslemleri.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.cs",
+              "RelativeDocumentMoniker": "WinUI1\\izinIslemleri.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.cs [Design]",
+              "RelativeToolTip": "WinUI1\\izinIslemleri.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:19:12.292Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppUsersEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\Entities\\Models\\AppUsersEmployee.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\AppUsersEmployee.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\Entities\\Models\\AppUsersEmployee.cs",
+              "RelativeToolTip": "Entities\\Models\\AppUsersEmployee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:19:12.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppUserEmpoyeeProfile.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\Entities\\Models\\AppUserEmpoyeeProfile.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\AppUserEmpoyeeProfile.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\Entities\\Models\\AppUserEmpoyeeProfile.cs",
+              "RelativeToolTip": "Entities\\Models\\AppUserEmpoyeeProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:19:12.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "izinIslemleri.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.cs",
+              "RelativeDocumentMoniker": "WinUI1\\izinIslemleri.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.cs",
+              "RelativeToolTip": "WinUI1\\izinIslemleri.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAwwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:19:12.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Anket.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Anket.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Anket.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Anket.cs [Design]",
+              "RelativeToolTip": "WinUI1\\Anket.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:19:12.299Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Program.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Program.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Program.cs",
+              "RelativeToolTip": "WinUI1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:19:12.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form3.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
+              "RelativeToolTip": "WinUI1\\Form3.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAkwIQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:19:12.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form3.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form3.cs [Design]",
+              "RelativeToolTip": "WinUI1\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:19:12.302Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form1.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
+              "RelativeToolTip": "WinUI1\\Form1.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAswIIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:19:12.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form1.cs",
+              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form1.cs [Design]",
+              "RelativeToolTip": "WinUI1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:19:12.304Z",
+              "EditorCaption": " [Design]"
+>>>>>>> 259877f329cecf37375e454ca0e156787b232924
             }
           ]
         },
@@ -136,11 +479,22 @@
           "Children": [
             {
               "$type": "Bookmark",
+<<<<<<< HEAD
+=======
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+>>>>>>> 259877f329cecf37375e454ca0e156787b232924
               "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
               "$type": "Bookmark",
+<<<<<<< HEAD
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+=======
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+>>>>>>> 259877f329cecf37375e454ca0e156787b232924
             }
           ]
         }

@@ -311,6 +311,18 @@
     <Compile Include="Hiring.Designer.cs">
       <DependentUpon>Hiring.cs</DependentUpon>
     </Compile>
+    <Compile Include="izinIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="izinIslemleri.Designer.cs">
+      <DependentUpon>izinIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelBligiGirisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelBligiGirisi.Designer.cs">
+      <DependentUpon>PersonelBligiGirisi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Anket.resx">
@@ -327,6 +339,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Hiring.resx">
       <DependentUpon>Hiring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="izinIslemleri.resx">
+      <DependentUpon>izinIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelBligiGirisi.resx">
+      <DependentUpon>PersonelBligiGirisi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

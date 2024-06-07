@@ -9,6 +9,11 @@ namespace WinUI1
         {
             InitializeComponent();
         }
+
+        private void btnAccept_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

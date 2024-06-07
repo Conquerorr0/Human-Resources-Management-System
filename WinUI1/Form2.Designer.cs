@@ -406,6 +406,7 @@
             this.btnMoreWage.TabIndex = 14;
             this.btnMoreWage.Text = "Çok";
             this.btnMoreWage.UseVisualStyleBackColor = true;
+            this.btnMoreWage.Click += new System.EventHandler(this.btnMoreWage_Click);
             // 
             // Form2
             // 

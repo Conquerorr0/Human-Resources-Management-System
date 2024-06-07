@@ -31,6 +31,11 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.PanelInfo = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cv = new System.Windows.Forms.LinkLabel();
+            this.lblMessage = new System.Windows.Forms.Label();
+            this.btnReject = new System.Windows.Forms.Button();
+            this.btnAccept = new System.Windows.Forms.Button();
             this.lblLanguage = new System.Windows.Forms.Label();
             this.lblAge = new System.Windows.Forms.Label();
             this.lblMail = new System.Windows.Forms.Label();
@@ -82,11 +87,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.calendar = new System.Windows.Forms.MonthCalendar();
-            this.btnAccept = new System.Windows.Forms.Button();
-            this.btnReject = new System.Windows.Forms.Button();
-            this.lblMessage = new System.Windows.Forms.Label();
-            this.cv = new System.Windows.Forms.LinkLabel();
-            this.label5 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.PanelInfo.SuspendLayout();
@@ -145,6 +145,61 @@
             this.PanelInfo.Name = "PanelInfo";
             this.PanelInfo.Size = new System.Drawing.Size(508, 694);
             this.PanelInfo.TabIndex = 5;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(54, 347);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 20);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "CV:";
+            // 
+            // cv
+            // 
+            this.cv.AutoSize = true;
+            this.cv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cv.Location = new System.Drawing.Point(120, 343);
+            this.cv.Name = "cv";
+            this.cv.Size = new System.Drawing.Size(110, 25);
+            this.cv.TabIndex = 14;
+            this.cv.TabStop = true;
+            this.cv.Text = "linkLabel1";
+            // 
+            // lblMessage
+            // 
+            this.lblMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblMessage.Location = new System.Drawing.Point(54, 413);
+            this.lblMessage.Name = "lblMessage";
+            this.lblMessage.Size = new System.Drawing.Size(300, 184);
+            this.lblMessage.TabIndex = 13;
+            this.lblMessage.Text = "label5";
+            // 
+            // btnReject
+            // 
+            this.btnReject.BackColor = System.Drawing.Color.Red;
+            this.btnReject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnReject.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnReject.Location = new System.Drawing.Point(205, 614);
+            this.btnReject.Name = "btnReject";
+            this.btnReject.Size = new System.Drawing.Size(113, 41);
+            this.btnReject.TabIndex = 12;
+            this.btnReject.Text = "REDDET";
+            this.btnReject.UseVisualStyleBackColor = false;
+            // 
+            // btnAccept
+            // 
+            this.btnAccept.BackColor = System.Drawing.Color.Lime;
+            this.btnAccept.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAccept.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnAccept.Location = new System.Drawing.Point(52, 614);
+            this.btnAccept.Name = "btnAccept";
+            this.btnAccept.Size = new System.Drawing.Size(113, 41);
+            this.btnAccept.TabIndex = 11;
+            this.btnAccept.Text = "KABUL ET";
+            this.btnAccept.UseVisualStyleBackColor = false;
+            this.btnAccept.Click += new System.EventHandler(this.btnAccept_Click);
             // 
             // lblLanguage
             // 
@@ -716,60 +771,6 @@
             this.calendar.MinDate = new System.DateTime(2020, 1, 1, 0, 0, 0, 0);
             this.calendar.Name = "calendar";
             this.calendar.TabIndex = 0;
-            // 
-            // btnAccept
-            // 
-            this.btnAccept.BackColor = System.Drawing.Color.Lime;
-            this.btnAccept.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnAccept.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnAccept.Location = new System.Drawing.Point(52, 614);
-            this.btnAccept.Name = "btnAccept";
-            this.btnAccept.Size = new System.Drawing.Size(113, 41);
-            this.btnAccept.TabIndex = 11;
-            this.btnAccept.Text = "KABUL ET";
-            this.btnAccept.UseVisualStyleBackColor = false;
-            // 
-            // btnReject
-            // 
-            this.btnReject.BackColor = System.Drawing.Color.Red;
-            this.btnReject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnReject.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnReject.Location = new System.Drawing.Point(205, 614);
-            this.btnReject.Name = "btnReject";
-            this.btnReject.Size = new System.Drawing.Size(113, 41);
-            this.btnReject.TabIndex = 12;
-            this.btnReject.Text = "REDDET";
-            this.btnReject.UseVisualStyleBackColor = false;
-            // 
-            // lblMessage
-            // 
-            this.lblMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblMessage.Location = new System.Drawing.Point(54, 413);
-            this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(300, 184);
-            this.lblMessage.TabIndex = 13;
-            this.lblMessage.Text = "label5";
-            // 
-            // cv
-            // 
-            this.cv.AutoSize = true;
-            this.cv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cv.Location = new System.Drawing.Point(120, 343);
-            this.cv.Name = "cv";
-            this.cv.Size = new System.Drawing.Size(110, 25);
-            this.cv.TabIndex = 14;
-            this.cv.TabStop = true;
-            this.cv.Text = "linkLabel1";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(54, 347);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 20);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "CV:";
             // 
             // Hiring
             // 

@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\WinUI1"
+    ""
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\WinUI1\\Form3.cs",
+=======
+  "SelectedNode": "\\Human Resource Managment System.sln",
+>>>>>>> 259877f329cecf37375e454ca0e156787b232924
   "PreviewInSolutionExplorer": false
 }
