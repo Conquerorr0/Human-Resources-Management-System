@@ -39,3 +39,19 @@ C:\Users\User\Desktop\Human-Resources-Management-System\BLL\obj\Debug\BLL.csproj
 C:\Users\User\Desktop\Human-Resources-Management-System\BLL\obj\Debug\BLL.dll
 C:\Users\User\Desktop\Human-Resources-Management-System\BLL\obj\Debug\BLL.pdb
 >>>>>>> ae622936f17e96ba31452634860f2121831b9ae6
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\BLL.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\BLL.pdb
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\DAL.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\MAP.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\Entities.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\EntityFramework.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\DAL.pdb
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\MAP.pdb
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\MAP.dll.config
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\Entities.pdb
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\EntityFramework.xml
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\obj\Debug\BLL.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\obj\Debug\BLL.pdb

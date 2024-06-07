@@ -281,6 +281,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Anket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anket.Designer.cs">
+      <DependentUpon>Anket.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -307,6 +313,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Anket.resx">
+      <DependentUpon>Anket.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

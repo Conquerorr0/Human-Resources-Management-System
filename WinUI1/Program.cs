@@ -17,7 +17,7 @@ namespace WinUI1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Hiring());
+            Application.Run(new Anket());
         }
     }
 }
