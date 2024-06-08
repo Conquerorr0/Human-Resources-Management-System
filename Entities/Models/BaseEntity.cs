@@ -12,7 +12,7 @@ namespace Entities.Models
     {//her tabloda olmasını istedigimiz özellikleri tanımlıyoruz 
         public string  tc { get; set; }
       
-       // public int id { get; set; } 
+        public int id { get; set; } 
        
         //yaratılma güncellenem ve silnme tarıhlerini de alabiliriz veya verinni hangi durumda oldugunu da 
         protected BaseEntity()
