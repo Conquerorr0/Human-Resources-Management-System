@@ -377,3 +377,4 @@ C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System
 >>>>>>> 259877f329cecf37375e454ca0e156787b232924
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.izinIslemleri.resources
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.PersonelBligiGirisi.resources
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Home.resources

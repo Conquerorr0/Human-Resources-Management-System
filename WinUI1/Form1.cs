@@ -107,7 +107,7 @@ namespace WinUI1
                             }else
                             {
                                     usernamepass = txtUsername.Text;
-                                    Form2 form = new Form2();
+                                    Home form = new Home();
                                     form.Show();
                                     this.Hide();
                                     MessageBox.Show("Hoşgeldin " + txtUsername.Text);
