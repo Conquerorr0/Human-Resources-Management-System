@@ -28,3 +28,18 @@ C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Man
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\Entities\obj\Debug\Entities.dll
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\Entities\obj\Debug\Entities.pdb
+<<<<<<< HEAD
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\Entities\bin\Debug\Entities.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\Entities\bin\Debug\Entities.pdb
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\Entities\obj\Debug\Entities.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\Entities\obj\Debug\Entities.pdb
+=======
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\Entities\bin\Debug\Entities.dll
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\Entities\bin\Debug\Entities.pdb
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\Entities\obj\Debug\Entities.dll
+C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\Entities\obj\Debug\Entities.pdb
+>>>>>>> 259877f329cecf37375e454ca0e156787b232924
