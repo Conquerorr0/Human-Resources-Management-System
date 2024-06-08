@@ -145,9 +145,6 @@ namespace WinUI1
                     qa = response.ResultAs<questionAnswer>();
                 }
 
-                // Güncellemeden önceki sayıları logla
-                MessageBox.Show($"Güncelleme Öncesi -{qa.questionId} - A: {qa.aCount}, B: {qa.bCount}, C: {qa.cCount}, D: {qa.dCount}");
-
                 // Seçilen yanıta göre sayıyı güncelle
                 switch (selectedAnswer)
                 {
@@ -164,9 +161,6 @@ namespace WinUI1
                         qa.dCount++;
                         break;
                 }
-
-                // Güncellemeden sonraki sayıları logla
-                MessageBox.Show($"Güncelleme Sonrası -{qa.questionId}  A: {qa.aCount}, B: {qa.bCount}, C: {qa.cCount}, D: {qa.dCount}");
 
                 // Firebase'i yeni sayılarla güncelle
                 response = client.Set("questionAnswer/" + questionId, qa);
