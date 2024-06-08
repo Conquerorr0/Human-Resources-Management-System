@@ -362,6 +362,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Hiring.resx">
       <DependentUpon>Hiring.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -459,6 +460,10 @@
     <None Include="Resources\hide.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{8f4fd372-4f55-4fa5-9f24-d6c3794dd3c4}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{d27c927a-4dec-4472-9077-c018354e4eb6}</Project>
       <Name>Entities</Name>

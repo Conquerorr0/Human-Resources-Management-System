@@ -78,10 +78,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.calendar = new System.Windows.Forms.MonthCalendar();
-<<<<<<< HEAD
-=======
-            this.Label3 = new System.Windows.Forms.Label();
->>>>>>> iseAlim
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.PanelInfo.SuspendLayout();
@@ -704,18 +700,6 @@
             this.calendar.Name = "calendar";
             this.calendar.TabIndex = 0;
             // 
-<<<<<<< HEAD
-=======
-            // Label3
-            // 
-            this.Label3.AutoSize = true;
-            this.Label3.Location = new System.Drawing.Point(72, 43);
-            this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(34, 16);
-            this.Label3.TabIndex = 25;
-            this.Label3.Text = "İsim:";
-            // 
->>>>>>> iseAlim
             // Hiring
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);

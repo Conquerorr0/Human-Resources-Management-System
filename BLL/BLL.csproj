@@ -53,10 +53,6 @@
       <Project>{d27c927a-4dec-4472-9077-c018354e4eb6}</Project>
       <Name>Entities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MAP\MAP.csproj">
-      <Project>{0b18a10b-bd4a-41e5-b247-06259ebfe006}</Project>
-      <Name>MAP</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

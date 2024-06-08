@@ -113,7 +113,7 @@ namespace WinUI1
                     message = txtMessage.Text,
                     phoneNumber = txtPhoneNumber.Text,
                     id = randomId,
-                    age = ageCount.Value.ToString(),
+                    age = Convert.ToInt32(ageCount.Value),
                     englishLevel = comboBoxEnnglishLevel.Text,
                     cvUrl = downloadUrl,
                 };

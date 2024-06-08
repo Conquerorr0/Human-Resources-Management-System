@@ -63,7 +63,7 @@ namespace WinUI1
                     id=randomId,
                     FirstName = txtAd.Text,
                     LastName = txtSoyad.Text,
-                    age = txtYas.Text,
+                    age = Convert.ToDouble(txtYas.Text),
                     department = txtDepartman.Text,
                     email = txtMail.Text,
                     phone = txtTelefonNo.Text,
