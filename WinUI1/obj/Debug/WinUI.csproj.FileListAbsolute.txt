@@ -160,7 +160,6 @@ C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\BLL.dll
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\BLL.pdb
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Hiring.resources
 >>>>>>> ae622936f17e96ba31452634860f2121831b9ae6
-<<<<<<< HEAD
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI.csproj.AssemblyReference.cache
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Anket.resources
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Form1.resources
@@ -267,7 +266,6 @@ C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-Syst
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\WinUI1\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\WinUI1\bin\Debug\System.ValueTuple.xml
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI.csproj.Up2Date
-=======
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI.csproj.AssemblyReference.cache
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Anket.resources
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Form1.resources
@@ -377,3 +375,5 @@ C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\System.ValueTuple.xml
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI.csproj.Up2Date
 >>>>>>> 259877f329cecf37375e454ca0e156787b232924
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.izinIslemleri.resources
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.PersonelBligiGirisi.resources

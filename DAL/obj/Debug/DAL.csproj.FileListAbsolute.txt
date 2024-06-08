@@ -25,7 +25,6 @@ C:\Users\User\Desktop\Human-Resources-Management-System\DAL\obj\Debug\DAL.csproj
 C:\Users\User\Desktop\Human-Resources-Management-System\DAL\obj\Debug\DAL.dll
 C:\Users\User\Desktop\Human-Resources-Management-System\DAL\obj\Debug\DAL.pdb
 >>>>>>> ae622936f17e96ba31452634860f2121831b9ae6
-<<<<<<< HEAD
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\DAL\bin\Debug\DAL.dll
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\DAL\bin\Debug\DAL.pdb
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\DAL\bin\Debug\Entities.dll
@@ -35,7 +34,6 @@ C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-Syst
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\DAL\obj\Debug\DAL.dll
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\DAL\obj\Debug\DAL.pdb
-=======
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\DAL\bin\Debug\DAL.dll
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\DAL\bin\Debug\DAL.pdb
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\DAL\bin\Debug\Entities.dll

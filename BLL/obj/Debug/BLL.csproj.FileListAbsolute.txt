@@ -39,7 +39,6 @@ C:\Users\User\Desktop\Human-Resources-Management-System\BLL\obj\Debug\BLL.csproj
 C:\Users\User\Desktop\Human-Resources-Management-System\BLL\obj\Debug\BLL.dll
 C:\Users\User\Desktop\Human-Resources-Management-System\BLL\obj\Debug\BLL.pdb
 >>>>>>> ae622936f17e96ba31452634860f2121831b9ae6
-<<<<<<< HEAD
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\BLL.dll
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\BLL.pdb
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\bin\Debug\DAL.dll
@@ -56,7 +55,6 @@ C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-Syst
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\obj\Debug\BLL.csproj.Up2Date
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\obj\Debug\BLL.dll
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\BLL\obj\Debug\BLL.pdb
-=======
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\BLL\bin\Debug\BLL.dll
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\BLL\bin\Debug\BLL.pdb
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\BLL\bin\Debug\DAL.dll
