@@ -19,6 +19,10 @@
       "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\user\\desktop\\human-resources-management-system\\entities\\models\\recourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\recourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 305,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,6 +62,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "recourse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\Entities\\Models\\recourse.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\recourse.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\Entities\\Models\\recourse.cs",
+              "RelativeToolTip": "Entities\\Models\\recourse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:24:01.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Interview.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\Entities\\Models\\Interview.cs",
@@ -77,7 +94,7 @@
               "RelativeDocumentMoniker": "WinUI1\\Hiring.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Hiring.cs",
               "RelativeToolTip": "WinUI1\\Hiring.cs",
-              "ViewState": "AQIAAIUBAAAAAAAAAAAAAKwBAAAAAAAA",
+              "ViewState": "AQIAAAcBAAAAAAAAAAAqwCIBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T09:35:14.16Z",
               "EditorCaption": ""
@@ -109,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
               "RelativeDocumentMoniker": "WinUI1\\Form1.cs",
@@ -121,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
               "RelativeDocumentMoniker": "WinUI1\\Form3.cs",

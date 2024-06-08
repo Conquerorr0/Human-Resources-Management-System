@@ -14,7 +14,7 @@ namespace Entities.Models
         public string message { get; set; }
         public string email { get; set; }
         public string phoneNumber { get; set; }
-        public string age { get; set; }
+        public int age { get; set; }
         public string cvUrl { get; set; }
         public string englishLevel { get; set; }
 

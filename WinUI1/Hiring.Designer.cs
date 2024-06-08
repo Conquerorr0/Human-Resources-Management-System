@@ -47,7 +47,7 @@
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.lblPersonName = new System.Windows.Forms.Label();
             this.TablePanel = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNameSearch = new System.Windows.Forms.TextBox();
             this.btnFilter = new System.Windows.Forms.Button();
             this.cbEnglishLevel = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -78,6 +78,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.calendar = new System.Windows.Forms.MonthCalendar();
+            this.Label3 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.PanelInfo.SuspendLayout();
@@ -297,7 +298,8 @@
             // 
             // TablePanel
             // 
-            this.TablePanel.Controls.Add(this.textBox1);
+            this.TablePanel.Controls.Add(this.Label3);
+            this.TablePanel.Controls.Add(this.txtNameSearch);
             this.TablePanel.Controls.Add(this.btnFilter);
             this.TablePanel.Controls.Add(this.cbEnglishLevel);
             this.TablePanel.Controls.Add(this.label1);
@@ -309,16 +311,16 @@
             this.TablePanel.Size = new System.Drawing.Size(773, 706);
             this.TablePanel.TabIndex = 4;
             // 
-            // textBox1
+            // txtNameSearch
             // 
-            this.textBox1.Location = new System.Drawing.Point(443, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(264, 22);
-            this.textBox1.TabIndex = 24;
+            this.txtNameSearch.Location = new System.Drawing.Point(112, 40);
+            this.txtNameSearch.Name = "txtNameSearch";
+            this.txtNameSearch.Size = new System.Drawing.Size(190, 22);
+            this.txtNameSearch.TabIndex = 24;
             // 
             // btnFilter
             // 
-            this.btnFilter.Location = new System.Drawing.Point(351, 35);
+            this.btnFilter.Location = new System.Drawing.Point(652, 35);
             this.btnFilter.Name = "btnFilter";
             this.btnFilter.Size = new System.Drawing.Size(69, 29);
             this.btnFilter.TabIndex = 23;
@@ -337,7 +339,7 @@
             "B2",
             "C1",
             "C2"});
-            this.cbEnglishLevel.Location = new System.Drawing.Point(255, 38);
+            this.cbEnglishLevel.Location = new System.Drawing.Point(556, 38);
             this.cbEnglishLevel.Name = "cbEnglishLevel";
             this.cbEnglishLevel.Size = new System.Drawing.Size(80, 24);
             this.cbEnglishLevel.TabIndex = 20;
@@ -345,7 +347,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(136, 42);
+            this.label1.Location = new System.Drawing.Point(437, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 16);
             this.label1.TabIndex = 19;
@@ -353,7 +355,7 @@
             // 
             // ageCount
             // 
-            this.ageCount.Location = new System.Drawing.Point(63, 39);
+            this.ageCount.Location = new System.Drawing.Point(364, 39);
             this.ageCount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ageCount.Minimum = new decimal(new int[] {
             18,
@@ -372,7 +374,7 @@
             // Label
             // 
             this.Label.AutoSize = true;
-            this.Label.Location = new System.Drawing.Point(19, 42);
+            this.Label.Location = new System.Drawing.Point(320, 42);
             this.Label.Name = "Label";
             this.Label.Size = new System.Drawing.Size(37, 16);
             this.Label.TabIndex = 9;
@@ -644,6 +646,15 @@
             this.calendar.Name = "calendar";
             this.calendar.TabIndex = 0;
             // 
+            // Label3
+            // 
+            this.Label3.AutoSize = true;
+            this.Label3.Location = new System.Drawing.Point(72, 43);
+            this.Label3.Name = "Label3";
+            this.Label3.Size = new System.Drawing.Size(34, 16);
+            this.Label3.TabIndex = 25;
+            this.Label3.Text = "İsim:";
+            // 
             // Hiring
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -716,7 +727,7 @@
         private System.Windows.Forms.LinkLabel cv;
         private System.Windows.Forms.Label lblMessage;
         private System.Windows.Forms.Button btnFilter;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNameSearch;
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Label lblDate;
         private System.Windows.Forms.Label lblDepartmant;
@@ -725,5 +736,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ComboBox cbDepartmant;
         private System.Windows.Forms.Label Label13;
+        private System.Windows.Forms.Label Label3;
     }
 }
