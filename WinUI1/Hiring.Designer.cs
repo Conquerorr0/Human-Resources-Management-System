@@ -47,38 +47,29 @@
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.lblPersonName = new System.Windows.Forms.Label();
             this.TablePanel = new System.Windows.Forms.Panel();
+            this.txtNameSearch = new System.Windows.Forms.TextBox();
+            this.btnFilter = new System.Windows.Forms.Button();
             this.cbEnglishLevel = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmDepartmants = new System.Windows.Forms.ComboBox();
-            this.btnMoreWage = new System.Windows.Forms.Button();
-            this.btnLessWage = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.lblWage = new System.Windows.Forms.Label();
             this.ageCount = new System.Windows.Forms.NumericUpDown();
             this.Label = new System.Windows.Forms.Label();
-            this.lblDepartmant = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.personName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.age = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.language = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.Info = new System.Windows.Forms.Panel();
+            this.lblStatus = new System.Windows.Forms.Label();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.lblDepartmant = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             this.lblCandidateName = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.candidateName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.departmant = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.time = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.cbDepartmant = new System.Windows.Forms.ComboBox();
+            this.Label13 = new System.Windows.Forms.Label();
             this.btnAddInterview = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.cbMinute = new System.Windows.Forms.ComboBox();
-            this.cbHour = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.lblInterviewTime = new System.Windows.Forms.Label();
@@ -87,11 +78,14 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.calendar = new System.Windows.Forms.MonthCalendar();
+<<<<<<< HEAD
+=======
+            this.Label3 = new System.Windows.Forms.Label();
+>>>>>>> iseAlim
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.PanelInfo.SuspendLayout();
             this.TablePanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ageCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage2.SuspendLayout();
@@ -141,10 +135,68 @@
             this.PanelInfo.Controls.Add(this.Label8);
             this.PanelInfo.Controls.Add(this.splitter1);
             this.PanelInfo.Controls.Add(this.lblPersonName);
-            this.PanelInfo.Location = new System.Drawing.Point(905, 0);
+            this.PanelInfo.Location = new System.Drawing.Point(776, 0);
             this.PanelInfo.Name = "PanelInfo";
-            this.PanelInfo.Size = new System.Drawing.Size(508, 694);
+            this.PanelInfo.Size = new System.Drawing.Size(637, 694);
             this.PanelInfo.TabIndex = 5;
+            this.PanelInfo.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(32, 347);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 20);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "CV:";
+            // 
+            // cv
+            // 
+            this.cv.AutoSize = true;
+            this.cv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cv.Location = new System.Drawing.Point(70, 347);
+            this.cv.Name = "cv";
+            this.cv.Size = new System.Drawing.Size(94, 20);
+            this.cv.TabIndex = 14;
+            this.cv.TabStop = true;
+            this.cv.Text = "linkLabel1";
+            this.cv.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.cv_LinkClicked);
+            // 
+            // lblMessage
+            // 
+            this.lblMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblMessage.Location = new System.Drawing.Point(82, 409);
+            this.lblMessage.Name = "lblMessage";
+            this.lblMessage.Size = new System.Drawing.Size(300, 184);
+            this.lblMessage.TabIndex = 13;
+            this.lblMessage.Text = "label5";
+            // 
+            // btnReject
+            // 
+            this.btnReject.BackColor = System.Drawing.Color.Red;
+            this.btnReject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnReject.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnReject.Location = new System.Drawing.Point(249, 610);
+            this.btnReject.Name = "btnReject";
+            this.btnReject.Size = new System.Drawing.Size(113, 41);
+            this.btnReject.TabIndex = 12;
+            this.btnReject.Text = "REDDET";
+            this.btnReject.UseVisualStyleBackColor = false;
+            this.btnReject.Click += new System.EventHandler(this.btnReject_Click);
+            // 
+            // btnAccept
+            // 
+            this.btnAccept.BackColor = System.Drawing.Color.Lime;
+            this.btnAccept.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAccept.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnAccept.Location = new System.Drawing.Point(96, 610);
+            this.btnAccept.Name = "btnAccept";
+            this.btnAccept.Size = new System.Drawing.Size(113, 41);
+            this.btnAccept.TabIndex = 11;
+            this.btnAccept.Text = "KABUL ET";
+            this.btnAccept.UseVisualStyleBackColor = false;
+            this.btnAccept.Click += new System.EventHandler(this.btnAccept_Click);
             // 
             // label5
             // 
@@ -205,7 +257,7 @@
             // 
             this.lblLanguage.AutoSize = true;
             this.lblLanguage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblLanguage.Location = new System.Drawing.Point(241, 301);
+            this.lblLanguage.Location = new System.Drawing.Point(245, 301);
             this.lblLanguage.Name = "lblLanguage";
             this.lblLanguage.Size = new System.Drawing.Size(59, 20);
             this.lblLanguage.TabIndex = 10;
@@ -215,7 +267,7 @@
             // 
             this.lblAge.AutoSize = true;
             this.lblAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblAge.Location = new System.Drawing.Point(121, 255);
+            this.lblAge.Location = new System.Drawing.Point(105, 255);
             this.lblAge.Name = "lblAge";
             this.lblAge.Size = new System.Drawing.Size(59, 20);
             this.lblAge.TabIndex = 9;
@@ -225,7 +277,7 @@
             // 
             this.lblMail.AutoSize = true;
             this.lblMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblMail.Location = new System.Drawing.Point(121, 211);
+            this.lblMail.Location = new System.Drawing.Point(105, 211);
             this.lblMail.Name = "lblMail";
             this.lblMail.Size = new System.Drawing.Size(59, 20);
             this.lblMail.TabIndex = 8;
@@ -235,7 +287,7 @@
             // 
             this.lblPhoneNumber.AutoSize = true;
             this.lblPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblPhoneNumber.Location = new System.Drawing.Point(241, 170);
+            this.lblPhoneNumber.Location = new System.Drawing.Point(225, 170);
             this.lblPhoneNumber.Name = "lblPhoneNumber";
             this.lblPhoneNumber.Size = new System.Drawing.Size(59, 20);
             this.lblPhoneNumber.TabIndex = 7;
@@ -245,7 +297,7 @@
             // 
             this.Label11.AutoSize = true;
             this.Label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Label11.Location = new System.Drawing.Point(48, 301);
+            this.Label11.Location = new System.Drawing.Point(32, 301);
             this.Label11.Name = "Label11";
             this.Label11.Size = new System.Drawing.Size(187, 20);
             this.Label11.TabIndex = 6;
@@ -255,7 +307,7 @@
             // 
             this.Label10.AutoSize = true;
             this.Label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Label10.Location = new System.Drawing.Point(48, 255);
+            this.Label10.Location = new System.Drawing.Point(32, 255);
             this.Label10.Name = "Label10";
             this.Label10.Size = new System.Drawing.Size(46, 20);
             this.Label10.TabIndex = 5;
@@ -265,7 +317,7 @@
             // 
             this.Label9.AutoSize = true;
             this.Label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Label9.Location = new System.Drawing.Point(48, 211);
+            this.Label9.Location = new System.Drawing.Point(32, 211);
             this.Label9.Name = "Label9";
             this.Label9.Size = new System.Drawing.Size(62, 20);
             this.Label9.TabIndex = 4;
@@ -275,7 +327,7 @@
             // 
             this.Label8.AutoSize = true;
             this.Label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Label8.Location = new System.Drawing.Point(48, 170);
+            this.Label8.Location = new System.Drawing.Point(32, 170);
             this.Label8.Name = "Label8";
             this.Label8.Size = new System.Drawing.Size(163, 20);
             this.Label8.TabIndex = 3;
@@ -304,21 +356,35 @@
             // 
             // TablePanel
             // 
+            this.TablePanel.Controls.Add(this.Label3);
+            this.TablePanel.Controls.Add(this.txtNameSearch);
+            this.TablePanel.Controls.Add(this.btnFilter);
             this.TablePanel.Controls.Add(this.cbEnglishLevel);
             this.TablePanel.Controls.Add(this.label1);
-            this.TablePanel.Controls.Add(this.cmDepartmants);
-            this.TablePanel.Controls.Add(this.btnMoreWage);
-            this.TablePanel.Controls.Add(this.btnLessWage);
-            this.TablePanel.Controls.Add(this.numericUpDown1);
-            this.TablePanel.Controls.Add(this.lblWage);
             this.TablePanel.Controls.Add(this.ageCount);
             this.TablePanel.Controls.Add(this.Label);
-            this.TablePanel.Controls.Add(this.lblDepartmant);
             this.TablePanel.Controls.Add(this.dataGridView1);
             this.TablePanel.Location = new System.Drawing.Point(-3, -12);
             this.TablePanel.Name = "TablePanel";
-            this.TablePanel.Size = new System.Drawing.Size(918, 706);
+            this.TablePanel.Size = new System.Drawing.Size(773, 706);
             this.TablePanel.TabIndex = 4;
+            // 
+            // txtNameSearch
+            // 
+            this.txtNameSearch.Location = new System.Drawing.Point(112, 40);
+            this.txtNameSearch.Name = "txtNameSearch";
+            this.txtNameSearch.Size = new System.Drawing.Size(190, 22);
+            this.txtNameSearch.TabIndex = 24;
+            // 
+            // btnFilter
+            // 
+            this.btnFilter.Location = new System.Drawing.Point(652, 35);
+            this.btnFilter.Name = "btnFilter";
+            this.btnFilter.Size = new System.Drawing.Size(69, 29);
+            this.btnFilter.TabIndex = 23;
+            this.btnFilter.Text = "Filtrele";
+            this.btnFilter.UseVisualStyleBackColor = true;
+            this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
             // 
             // cbEnglishLevel
             // 
@@ -331,7 +397,7 @@
             "B2",
             "C1",
             "C2"});
-            this.cbEnglishLevel.Location = new System.Drawing.Point(796, 33);
+            this.cbEnglishLevel.Location = new System.Drawing.Point(556, 38);
             this.cbEnglishLevel.Name = "cbEnglishLevel";
             this.cbEnglishLevel.Size = new System.Drawing.Size(80, 24);
             this.cbEnglishLevel.TabIndex = 20;
@@ -339,81 +405,15 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(677, 37);
+            this.label1.Location = new System.Drawing.Point(437, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 16);
             this.label1.TabIndex = 19;
             this.label1.Text = "İngilizce Seviyesi:";
             // 
-            // cmDepartmants
-            // 
-            this.cmDepartmants.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmDepartmants.FormattingEnabled = true;
-            this.cmDepartmants.Items.AddRange(new object[] {
-            "Departman 1",
-            "Departman 2",
-            "Departman 3"});
-            this.cmDepartmants.Location = new System.Drawing.Point(112, 32);
-            this.cmDepartmants.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.cmDepartmants.Name = "cmDepartmants";
-            this.cmDepartmants.Size = new System.Drawing.Size(106, 24);
-            this.cmDepartmants.TabIndex = 7;
-            // 
-            // btnMoreWage
-            // 
-            this.btnMoreWage.Location = new System.Drawing.Point(606, 32);
-            this.btnMoreWage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnMoreWage.Name = "btnMoreWage";
-            this.btnMoreWage.Size = new System.Drawing.Size(55, 23);
-            this.btnMoreWage.TabIndex = 18;
-            this.btnMoreWage.Text = "Çok";
-            this.btnMoreWage.UseVisualStyleBackColor = true;
-            // 
-            // btnLessWage
-            // 
-            this.btnLessWage.Location = new System.Drawing.Point(549, 32);
-            this.btnLessWage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnLessWage.Name = "btnLessWage";
-            this.btnLessWage.Size = new System.Drawing.Size(51, 23);
-            this.btnLessWage.TabIndex = 17;
-            this.btnLessWage.Text = "Az";
-            this.btnLessWage.UseVisualStyleBackColor = true;
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(423, 33);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            150000,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            17002,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 22);
-            this.numericUpDown1.TabIndex = 16;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            17002,
-            0,
-            0,
-            0});
-            // 
-            // lblWage
-            // 
-            this.lblWage.AutoSize = true;
-            this.lblWage.Location = new System.Drawing.Point(373, 35);
-            this.lblWage.Name = "lblWage";
-            this.lblWage.Size = new System.Drawing.Size(44, 16);
-            this.lblWage.TabIndex = 15;
-            this.lblWage.Text = "Maaş:";
-            // 
             // ageCount
             // 
-            this.ageCount.Location = new System.Drawing.Point(293, 32);
+            this.ageCount.Location = new System.Drawing.Point(364, 39);
             this.ageCount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ageCount.Minimum = new decimal(new int[] {
             18,
@@ -432,76 +432,23 @@
             // Label
             // 
             this.Label.AutoSize = true;
-            this.Label.Location = new System.Drawing.Point(249, 35);
+            this.Label.Location = new System.Drawing.Point(320, 42);
             this.Label.Name = "Label";
             this.Label.Size = new System.Drawing.Size(37, 16);
             this.Label.TabIndex = 9;
             this.Label.Text = "Yaş: ";
             // 
-            // lblDepartmant
-            // 
-            this.lblDepartmant.BackColor = System.Drawing.Color.Transparent;
-            this.lblDepartmant.Location = new System.Drawing.Point(28, 36);
-            this.lblDepartmant.Name = "lblDepartmant";
-            this.lblDepartmant.Size = new System.Drawing.Size(120, 18);
-            this.lblDepartmant.TabIndex = 8;
-            this.lblDepartmant.Text = "Departman: ";
-            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.personName,
-            this.phone,
-            this.mail,
-            this.age,
-            this.language});
-            this.dataGridView1.Location = new System.Drawing.Point(9, 78);
+            this.dataGridView1.Location = new System.Drawing.Point(13, 81);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(902, 628);
+            this.dataGridView1.Size = new System.Drawing.Size(754, 614);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // personName
-            // 
-            this.personName.HeaderText = "İsim Soyisim";
-            this.personName.MinimumWidth = 6;
-            this.personName.Name = "personName";
-            this.personName.ReadOnly = true;
-            this.personName.Width = 125;
-            // 
-            // phone
-            // 
-            this.phone.HeaderText = "Telefon Numarası";
-            this.phone.MinimumWidth = 6;
-            this.phone.Name = "phone";
-            this.phone.ReadOnly = true;
-            this.phone.Width = 125;
-            // 
-            // mail
-            // 
-            this.mail.HeaderText = "Email";
-            this.mail.MinimumWidth = 6;
-            this.mail.Name = "mail";
-            this.mail.ReadOnly = true;
-            this.mail.Width = 125;
-            // 
-            // age
-            // 
-            this.age.HeaderText = "Yaş";
-            this.age.MinimumWidth = 6;
-            this.age.Name = "age";
-            this.age.ReadOnly = true;
-            this.age.Width = 125;
-            // 
-            // language
-            // 
-            this.language.HeaderText = "Yabancı Dil Seviyesi";
-            this.language.MinimumWidth = 6;
-            this.language.Name = "language";
-            this.language.ReadOnly = true;
-            this.language.Width = 125;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.Click += new System.EventHandler(this.dataGridView1_Click);
             // 
             // tabPage2
             // 
@@ -519,11 +466,78 @@
             // 
             // Info
             // 
+            this.Info.Controls.Add(this.lblStatus);
+            this.Info.Controls.Add(this.lblDate);
+            this.Info.Controls.Add(this.lblDepartmant);
+            this.Info.Controls.Add(this.label17);
+            this.Info.Controls.Add(this.label18);
+            this.Info.Controls.Add(this.label19);
             this.Info.Controls.Add(this.lblCandidateName);
             this.Info.Location = new System.Drawing.Point(642, 213);
             this.Info.Name = "Info";
             this.Info.Size = new System.Drawing.Size(620, 464);
             this.Info.TabIndex = 3;
+            this.Info.Visible = false;
+            // 
+            // lblStatus
+            // 
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblStatus.Location = new System.Drawing.Point(288, 231);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(59, 20);
+            this.lblStatus.TabIndex = 17;
+            this.lblStatus.Text = "label5";
+            // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblDate.Location = new System.Drawing.Point(288, 178);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(59, 20);
+            this.lblDate.TabIndex = 16;
+            this.lblDate.Text = "label5";
+            // 
+            // lblDepartmant
+            // 
+            this.lblDepartmant.AutoSize = true;
+            this.lblDepartmant.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblDepartmant.Location = new System.Drawing.Point(288, 137);
+            this.lblDepartmant.Name = "lblDepartmant";
+            this.lblDepartmant.Size = new System.Drawing.Size(59, 20);
+            this.lblDepartmant.TabIndex = 15;
+            this.lblDepartmant.Text = "label5";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label17.Location = new System.Drawing.Point(95, 231);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(152, 20);
+            this.label17.TabIndex = 13;
+            this.label17.Text = "Mülakat Durumu:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label18.Location = new System.Drawing.Point(95, 178);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(134, 20);
+            this.label18.TabIndex = 12;
+            this.label18.Text = "Mülakat Tarihi:";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label19.Location = new System.Drawing.Point(95, 137);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(107, 20);
+            this.label19.TabIndex = 11;
+            this.label19.Text = "Departman:";
             // 
             // lblCandidateName
             // 
@@ -538,50 +552,13 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.candidateName,
-            this.departmant,
-            this.time,
-            this.status});
             this.dataGridView2.Location = new System.Drawing.Point(-4, 206);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(640, 470);
             this.dataGridView2.TabIndex = 2;
-            // 
-            // candidateName
-            // 
-            this.candidateName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.candidateName.HeaderText = "İsim ";
-            this.candidateName.MinimumWidth = 6;
-            this.candidateName.Name = "candidateName";
-            this.candidateName.ReadOnly = true;
-            this.candidateName.Width = 63;
-            // 
-            // departmant
-            // 
-            this.departmant.HeaderText = "Başvurulan Departman";
-            this.departmant.MinimumWidth = 6;
-            this.departmant.Name = "departmant";
-            this.departmant.ReadOnly = true;
-            this.departmant.Width = 125;
-            // 
-            // time
-            // 
-            this.time.HeaderText = "Mülakat Tarihi";
-            this.time.MinimumWidth = 6;
-            this.time.Name = "time";
-            this.time.ReadOnly = true;
-            this.time.Width = 125;
-            // 
-            // status
-            // 
-            this.status.HeaderText = "Mülakat Durumu";
-            this.status.MinimumWidth = 6;
-            this.status.Name = "status";
-            this.status.ReadOnly = true;
-            this.status.Width = 125;
+            this.dataGridView2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
             // 
             // tabControl2
             // 
@@ -595,12 +572,10 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.cbDepartmant);
+            this.tabPage3.Controls.Add(this.Label13);
             this.tabPage3.Controls.Add(this.btnAddInterview);
             this.tabPage3.Controls.Add(this.txtName);
-            this.tabPage3.Controls.Add(this.label4);
-            this.tabPage3.Controls.Add(this.cbMinute);
-            this.tabPage3.Controls.Add(this.cbHour);
-            this.tabPage3.Controls.Add(this.label3);
             this.tabPage3.Controls.Add(this.label2);
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Name = "tabPage3";
@@ -609,6 +584,27 @@
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Mülakat Ekle";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // cbDepartmant
+            // 
+            this.cbDepartmant.FormattingEnabled = true;
+            this.cbDepartmant.Items.AddRange(new object[] {
+            "Departman1",
+            "Departman2",
+            "Departman3"});
+            this.cbDepartmant.Location = new System.Drawing.Point(316, 62);
+            this.cbDepartmant.Name = "cbDepartmant";
+            this.cbDepartmant.Size = new System.Drawing.Size(150, 24);
+            this.cbDepartmant.TabIndex = 8;
+            // 
+            // Label13
+            // 
+            this.Label13.AutoSize = true;
+            this.Label13.Location = new System.Drawing.Point(225, 70);
+            this.Label13.Name = "Label13";
+            this.Label13.Size = new System.Drawing.Size(77, 16);
+            this.Label13.TabIndex = 7;
+            this.Label13.Text = "Departman:";
             // 
             // btnAddInterview
             // 
@@ -619,6 +615,7 @@
             this.btnAddInterview.TabIndex = 6;
             this.btnAddInterview.Text = "EKLE";
             this.btnAddInterview.UseVisualStyleBackColor = true;
+            this.btnAddInterview.Click += new System.EventHandler(this.btnAddInterview_Click);
             // 
             // txtName
             // 
@@ -628,72 +625,6 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(150, 22);
             this.txtName.TabIndex = 5;
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(324, 61);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(13, 33);
-            this.label4.TabIndex = 4;
-            this.label4.Text = ":";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // cbMinute
-            // 
-            this.cbMinute.FormattingEnabled = true;
-            this.cbMinute.Items.AddRange(new object[] {
-            "00",
-            "10",
-            "20",
-            "30",
-            "40",
-            "50"});
-            this.cbMinute.Location = new System.Drawing.Point(341, 68);
-            this.cbMinute.Name = "cbMinute";
-            this.cbMinute.Size = new System.Drawing.Size(52, 24);
-            this.cbMinute.TabIndex = 3;
-            // 
-            // cbHour
-            // 
-            this.cbHour.FormattingEnabled = true;
-            this.cbHour.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23"});
-            this.cbHour.Location = new System.Drawing.Point(269, 67);
-            this.cbHour.Name = "cbHour";
-            this.cbHour.Size = new System.Drawing.Size(52, 24);
-            this.cbHour.TabIndex = 2;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(225, 70);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 16);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Saat:";
             // 
             // label2
             // 
@@ -736,6 +667,7 @@
             this.btnDelete.TabIndex = 13;
             this.btnDelete.Text = "SİL";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // txtDeleteInterview
             // 
@@ -772,6 +704,18 @@
             this.calendar.Name = "calendar";
             this.calendar.TabIndex = 0;
             // 
+<<<<<<< HEAD
+=======
+            // Label3
+            // 
+            this.Label3.AutoSize = true;
+            this.Label3.Location = new System.Drawing.Point(72, 43);
+            this.Label3.Name = "Label3";
+            this.Label3.Size = new System.Drawing.Size(34, 16);
+            this.Label3.TabIndex = 25;
+            this.Label3.Text = "İsim:";
+            // 
+>>>>>>> iseAlim
             // Hiring
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -786,11 +730,11 @@
             this.PanelInfo.PerformLayout();
             this.TablePanel.ResumeLayout(false);
             this.TablePanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ageCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.Info.ResumeLayout(false);
+            this.Info.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.tabControl2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
@@ -812,29 +756,14 @@
         private System.Windows.Forms.Panel TablePanel;
         private System.Windows.Forms.ComboBox cbEnglishLevel;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnMoreWage;
-        private System.Windows.Forms.Button btnLessWage;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Label lblWage;
         private System.Windows.Forms.NumericUpDown ageCount;
         private System.Windows.Forms.Label Label;
-        private System.Windows.Forms.Label lblDepartmant;
-        private System.Windows.Forms.ComboBox cmDepartmants;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn personName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phone;
-        private System.Windows.Forms.DataGridViewTextBoxColumn mail;
-        private System.Windows.Forms.DataGridViewTextBoxColumn age;
-        private System.Windows.Forms.DataGridViewTextBoxColumn language;
         private System.Windows.Forms.MonthCalendar calendar;
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cbMinute;
-        private System.Windows.Forms.ComboBox cbHour;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Button btnAddInterview;
         private System.Windows.Forms.Button btnDelete;
@@ -843,10 +772,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lblInterviewTime;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn candidateName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn departmant;
-        private System.Windows.Forms.DataGridViewTextBoxColumn time;
-        private System.Windows.Forms.DataGridViewTextBoxColumn status;
         private System.Windows.Forms.Panel Info;
         private System.Windows.Forms.Label lblCandidateName;
         private System.Windows.Forms.Label Label11;
@@ -862,5 +787,16 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.LinkLabel cv;
         private System.Windows.Forms.Label lblMessage;
+        private System.Windows.Forms.Button btnFilter;
+        private System.Windows.Forms.TextBox txtNameSearch;
+        private System.Windows.Forms.Label lblStatus;
+        private System.Windows.Forms.Label lblDate;
+        private System.Windows.Forms.Label lblDepartmant;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.ComboBox cbDepartmant;
+        private System.Windows.Forms.Label Label13;
+        private System.Windows.Forms.Label Label3;
     }
 }
