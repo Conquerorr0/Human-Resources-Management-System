@@ -34,6 +34,7 @@
             this.SignIn = new System.Windows.Forms.TabPage();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.btnShowHide = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.linkLabel = new System.Windows.Forms.LinkLabel();
             this.btnSignIn = new System.Windows.Forms.Button();
             this.lblMessage = new System.Windows.Forms.Label();
@@ -48,7 +49,6 @@
             this.txtRegisterUsername = new System.Windows.Forms.TextBox();
             this.lblRegisterPassword = new System.Windows.Forms.Label();
             this.lblRegisterUsername = new System.Windows.Forms.Label();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tabControl1.SuspendLayout();
             this.SignIn.SuspendLayout();
             this.Register.SuspendLayout();
@@ -108,6 +108,13 @@
             this.btnShowHide.TabIndex = 7;
             this.btnShowHide.UseVisualStyleBackColor = true;
             this.btnShowHide.Click += new System.EventHandler(this.btnShowHide_Click);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "hide.png");
+            this.imageList1.Images.SetKeyName(1, "show.png");
             // 
             // linkLabel
             // 
@@ -248,13 +255,6 @@
             this.lblRegisterUsername.TabIndex = 7;
             this.lblRegisterUsername.Text = "Kullanıcı Adı: ";
             // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "hide.png");
-            this.imageList1.Images.SetKeyName(1, "show.png");
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -264,6 +264,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Giriş Ekranı";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.SignIn.ResumeLayout(false);
             this.SignIn.PerformLayout();

@@ -17,11 +17,23 @@ namespace WinUI1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
 
             Application.Run(new Home());
 
             Application.Run(new PersonelBligiGirisi());
 
+=======
+<<<<<<< HEAD
+            Application.Run(new Form1());
+=======
+<<<<<<< HEAD
+            Application.Run(new Anket());
+=======
+            Application.Run(new PersonelBligiGirisi());
+>>>>>>> 259877f329cecf37375e454ca0e156787b232924
+>>>>>>> 9e08e34f25c33caca62fdbc571f999b63d933765
+>>>>>>> 90abf5da641b55f996a6d2cb8520454915acf24b
         }
     }
 }

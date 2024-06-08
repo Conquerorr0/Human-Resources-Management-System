@@ -14,7 +14,11 @@ namespace Entities.Models
         public string message { get; set; }
         public string email { get; set; }
         public string phoneNumber { get; set; }
+<<<<<<< HEAD
         public string age { get; set; }
+=======
+        public int age { get; set; }
+>>>>>>> iseAlim
         public string cvUrl { get; set; }
         public string englishLevel { get; set; }
 
