@@ -11,7 +11,6 @@ using FireSharp.Interfaces;
 using Newtonsoft.Json;
 using Entities;
 using Entities.Models;
-using System.ComponentModel;
 
 namespace WinUI1
 {
@@ -121,7 +120,13 @@ namespace WinUI1
                     Dictionary<string, Interview> firebaseData = JsonConvert.DeserializeObject<Dictionary<string, Interview>>(response.Body);
 
                     // DataGridView2'ye veriyi atama
-                    var interviewList = new BindingList<Interview>(firebaseData.Values.ToList());
+                    var interviewList = firebaseData.Values.Select(i => new Interview
+                    {
+                        date = i.date,
+                        departmant = i.departmant,
+                        name = i.name,
+                        status = i.status
+                    }).ToList();
 
                     // DataGridView2'nin DataSource özelliğini bu listeye bağlama
                     dataGridView2.DataSource = interviewList;
@@ -139,10 +144,9 @@ namespace WinUI1
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Veri yüklenirken bir hata oluştu: {ex.Message}");
+                MessageBox.Show($"Veri yüklenirken bir hata oluştu:i {ex.Message}");
             }
         }
-
         private void FilterButton_Click(object sender, EventArgs e)
         {
             // Kriterlerin oluşturulması
@@ -237,16 +241,10 @@ namespace WinUI1
             PanelInfo.Visible = true;
         }
 
-        private async void btnAccept_Click(object sender, EventArgs e)
+        private void btnAccept_Click(object sender, EventArgs e)
         {
-            if (dataGridView1.SelectedRows.Count > 0)
-            {
-                try
-                {
-                    // dataGridView1'den seçili kişinin bilgilerini al
-                    DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
-                    string username = selectedRow.Cells["username"].Value.ToString();
 
+<<<<<<< HEAD
                     // Yeni Interview nesnesi oluştur
                     var interview = new Interview
                     {
@@ -294,9 +292,9 @@ namespace WinUI1
             {
                 MessageBox.Show("Lütfen mülakata eklemek istediğiniz kişiyi seçin.");
             }
+=======
+>>>>>>> parent of c74542b (Mülakat ekleme ve silme işlemleri tamamlandı.)
         }
-
-
 
         private async void btnReject_Click(object sender, EventArgs e)
         {
@@ -339,7 +337,6 @@ namespace WinUI1
 
                 txtDeleteInterview.Text = name;
                 lblInterviewTime.Text = date;
-                txtName.Text = name;
             }
         }
 
@@ -353,8 +350,16 @@ namespace WinUI1
                 string date = calendar.SelectionStart.ToString("dd.MM.yyyy");
                 string status = "Beklemede";
 
+<<<<<<< HEAD
                 // Yeni Interview nesnesi oluştur
                 var newInterview = new Interview
+=======
+                // ID oluşturma
+                string interviewId = Guid.NewGuid().ToString();
+
+                // Veriyi Firebase'e ekle
+                var interview = new Interview
+>>>>>>> parent of c74542b (Mülakat ekleme ve silme işlemleri tamamlandı.)
                 {
                     name = name,
                     date = date,
@@ -362,6 +367,7 @@ namespace WinUI1
                     status = status
                 };
 
+<<<<<<< HEAD
                 // DataGridView2'de aynı isme sahip bir kayıt olup olmadığını kontrol et
                 var dataSource = dataGridView2.DataSource as BindingList<Interview>;
                 var existingInterview = dataSource?.FirstOrDefault(i => i.name == name);
@@ -384,6 +390,9 @@ namespace WinUI1
 
                 // Yeni veriyi Firebase'e ekle
                 FirebaseResponse response = await _firebaseClient.PushAsync("Interview", newInterview);
+=======
+                FirebaseResponse response = await _firebaseClient.PushAsync("Interview", interview);
+>>>>>>> parent of c74542b (Mülakat ekleme ve silme işlemleri tamamlandı.)
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
                     // Veri başarıyla eklendi, yeni verinin Firebase'den dönen Key değerini alarak nesneye ata
@@ -392,16 +401,11 @@ namespace WinUI1
 
                     MessageBox.Show("Veri başarıyla eklendi.");
 
-                    if (dataSource != null)
-                    {
-                        dataSource.Add(newInterview);
-                    }
-                    else
-                    {
-                        // Eğer DataSource null ise yeni bir BindingList oluştur ve ona ekle
-                        dataSource = new BindingList<Interview> { newInterview };
-                        dataGridView2.DataSource = dataSource;
-                    }
+                    // DataGridView'e yeni veriyi ekleme
+                    var dataSource = dataGridView2.DataSource as List<Interview>;
+                    dataSource.Add(interview);
+                    dataGridView2.DataSource = null;
+                    dataGridView2.DataSource = dataSource;
                 }
                 else
                 {
@@ -418,11 +422,14 @@ namespace WinUI1
 
         private async void btnDelete_Click(object sender, EventArgs e)
         {
+            // Seçili satırın kontrolünü yapın
             if (dataGridView2.SelectedRows.Count > 0)
             {
                 try
                 {
+                    // Seçili satırın indeksini alın
                     int selectedIndex = dataGridView2.SelectedRows[0].Index;
+<<<<<<< HEAD
                     string interviewId = dataGridView2.Rows[selectedIndex].Cells["id"].Value?.ToString();
 
                     if (string.IsNullOrEmpty(interviewId))
@@ -434,12 +441,18 @@ namespace WinUI1
                     // Firebase'den ilgili veriyi sil
                     FirebaseResponse response =  _firebaseClient.Delete("Interview/" + interviewId);
                     MessageBox.Show(interviewId);
+=======
+
+                    // DataGridView'den silinecek satıra karşılık gelen verinin ID'sini alın
+                    string interviewId = dataGridView2.Rows[selectedIndex].Cells["id"].Value.ToString();
+
+                    // Firebase'den veriyi sil
+                    FirebaseResponse response = await _firebaseClient.DeleteAsync("Interview/" + interviewId);
+>>>>>>> parent of c74542b (Mülakat ekleme ve silme işlemleri tamamlandı.)
                     if (response.StatusCode == System.Net.HttpStatusCode.OK)
                     {
-                        // DataGridView'e bağlı olan BindingList'ten ilgili öğeyi kaldırın
-                        BindingList<Interview> dataSource = (BindingList<Interview>)dataGridView2.DataSource;
-                        dataSource.RemoveAt(selectedIndex);
-
+                        // Firebase'den başarıyla silindiyse, DataGridView'den de silme işlemini gerçekleştir
+                        dataGridView2.Rows.RemoveAt(selectedIndex);
                         MessageBox.Show("Veri başarıyla silindi.");
                     }
                     else
