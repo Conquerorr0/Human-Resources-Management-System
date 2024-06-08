@@ -43,6 +43,20 @@ C:\Users\User\Desktop\Human-Resources-Management-System\MAP\obj\Debug\MAP.csproj
 C:\Users\User\Desktop\Human-Resources-Management-System\MAP\obj\Debug\MAP.dll
 C:\Users\User\Desktop\Human-Resources-Management-System\MAP\obj\Debug\MAP.pdb
 >>>>>>> ae622936f17e96ba31452634860f2121831b9ae6
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\bin\Debug\MAP.dll.config
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\bin\Debug\MAP.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\bin\Debug\MAP.pdb
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\bin\Debug\Entities.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\bin\Debug\EntityFramework.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\bin\Debug\Entities.pdb
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\bin\Debug\EntityFramework.xml
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\obj\Debug\MAP.csproj.AssemblyReference.cache
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\obj\Debug\MAP.csproj.CoreCompileInputs.cache
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\obj\Debug\MAP.csproj.Up2Date
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\obj\Debug\MAP.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Human-Resources-Management-System\MAP\obj\Debug\MAP.pdb
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\MAP.dll.config
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\MAP.dll
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\bin\Debug\MAP.pdb
@@ -57,3 +71,4 @@ C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.csproj.Up2Date
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.dll
 C:\Users\evind\OneDrive\Masaüstü\Conquerorr0\Human-Resources-Management-System\MAP\obj\Debug\MAP.pdb
+>>>>>>> 259877f329cecf37375e454ca0e156787b232924

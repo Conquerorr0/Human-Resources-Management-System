@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\",
+  "WorkspaceRootPath": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Human-Resources-Management-System\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,6 +22,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\winui1\\personelbligigirisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\personelbligigirisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\human-resources-management-system\\winui1\\anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\human-resources-management-system\\winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 9e08e34f25c33caca62fdbc571f999b63d933765
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +39,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 305,
+<<<<<<< HEAD
           "SelectedChildIndex": 1,
+=======
+          "SelectedChildIndex": 4,
+>>>>>>> 9e08e34f25c33caca62fdbc571f999b63d933765
           "Children": [
             {
               "$type": "Document",
@@ -78,6 +91,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
@@ -111,6 +125,29 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T14:19:12.3Z",
+=======
+              "DocumentIndex": 0,
+              "Title": "Anket.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Human-Resources-Management-System\\WinUI1\\Anket.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Anket.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Human-Resources-Management-System\\WinUI1\\Anket.cs [Tasar\u0131m]",
+              "RelativeToolTip": "WinUI1\\Anket.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:14:43.825Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form1.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
+              "RelativeToolTip": "WinUI1\\Form1.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAcwG8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T16:53:38.576Z",
+>>>>>>> 9e08e34f25c33caca62fdbc571f999b63d933765
               "EditorCaption": ""
             }
           ]
@@ -121,15 +158,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

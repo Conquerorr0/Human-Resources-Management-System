@@ -3,6 +3,10 @@
     "",
     "\\WinUI1"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\WinUI1\\izinIslemleri.cs",
+=======
+  "SelectedNode": "\\WinUI1\\Anket.cs",
+>>>>>>> 9e08e34f25c33caca62fdbc571f999b63d933765
   "PreviewInSolutionExplorer": false
 }
