@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
-    internal class izin
+    public  class permission
     {
-    }
+        public string TC { get; set; }
+        public DateTime startDateTime { get; set; }
+
+        public DateTime endDateTime { get; set; }   
+    } 
 }

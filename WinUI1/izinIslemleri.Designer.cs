@@ -28,81 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtRegisterUsername = new System.Windows.Forms.TextBox();
-            this.txtRegisterPassword = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.btnIzin = new System.Windows.Forms.Button();
+            this.startDateTime = new System.Windows.Forms.DateTimePicker();
+            this.endDateTime = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnIzinliCalısanlar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtTc = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // btnIzin
             // 
-            this.button1.Location = new System.Drawing.Point(410, 210);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "İzin Ver";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnIzin.Location = new System.Drawing.Point(403, 172);
+            this.btnIzin.Name = "btnIzin";
+            this.btnIzin.Size = new System.Drawing.Size(108, 28);
+            this.btnIzin.TabIndex = 0;
+            this.btnIzin.Text = "İzin Talep Et";
+            this.btnIzin.UseVisualStyleBackColor = true;
+            this.btnIzin.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
+            // startDateTime
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(26, 53);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(27, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Ad:";
+            this.startDateTime.Location = new System.Drawing.Point(172, 114);
+            this.startDateTime.Name = "startDateTime";
+            this.startDateTime.Size = new System.Drawing.Size(200, 22);
+            this.startDateTime.TabIndex = 5;
             // 
-            // label2
+            // endDateTime
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(29, 99);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Soyad:";
-            // 
-            // txtRegisterUsername
-            // 
-            this.txtRegisterUsername.Location = new System.Drawing.Point(156, 53);
-            this.txtRegisterUsername.Name = "txtRegisterUsername";
-            this.txtRegisterUsername.Size = new System.Drawing.Size(200, 22);
-            this.txtRegisterUsername.TabIndex = 3;
-            this.txtRegisterUsername.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // txtRegisterPassword
-            // 
-            this.txtRegisterPassword.Location = new System.Drawing.Point(156, 96);
-            this.txtRegisterPassword.Name = "txtRegisterPassword";
-            this.txtRegisterPassword.Size = new System.Drawing.Size(200, 22);
-            this.txtRegisterPassword.TabIndex = 4;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(156, 155);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker1.TabIndex = 5;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(156, 208);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker2.TabIndex = 6;
+            this.endDateTime.Location = new System.Drawing.Point(172, 167);
+            this.endDateTime.Name = "endDateTime";
+            this.endDateTime.Size = new System.Drawing.Size(200, 22);
+            this.endDateTime.TabIndex = 6;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(29, 155);
+            this.label3.Location = new System.Drawing.Point(29, 114);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 16);
             this.label3.TabIndex = 7;
@@ -111,52 +73,44 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(29, 208);
+            this.label4.Location = new System.Drawing.Point(29, 172);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(75, 16);
             this.label4.TabIndex = 8;
             this.label4.Text = "  Bitiş Tarihi";
             // 
-            // dataGridView1
+            // label1
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(14, 336);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(471, 261);
-            this.dataGridView1.TabIndex = 9;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(29, 62);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(25, 16);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "TC";
             // 
-            // btnIzinliCalısanlar
+            // txtTc
             // 
-            this.btnIzinliCalısanlar.Location = new System.Drawing.Point(29, 290);
-            this.btnIzinliCalısanlar.Name = "btnIzinliCalısanlar";
-            this.btnIzinliCalısanlar.Size = new System.Drawing.Size(177, 40);
-            this.btnIzinliCalısanlar.TabIndex = 10;
-            this.btnIzinliCalısanlar.Text = "İzinli Olan çalşanlar ";
-            this.btnIzinliCalısanlar.UseVisualStyleBackColor = true;
+            this.txtTc.Location = new System.Drawing.Point(172, 62);
+            this.txtTc.MaxLength = 11;
+            this.txtTc.Name = "txtTc";
+            this.txtTc.Size = new System.Drawing.Size(200, 22);
+            this.txtTc.TabIndex = 10;
             // 
             // izinIslemleri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(577, 609);
-            this.Controls.Add(this.btnIzinliCalısanlar);
-            this.Controls.Add(this.dataGridView1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(636, 287);
+            this.Controls.Add(this.txtTc);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.txtRegisterPassword);
-            this.Controls.Add(this.txtRegisterUsername);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.endDateTime);
+            this.Controls.Add(this.startDateTime);
+            this.Controls.Add(this.btnIzin);
             this.Name = "izinIslemleri";
             this.Text = "izinIslemleri";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,16 +118,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtRegisterUsername;
-        private System.Windows.Forms.TextBox txtRegisterPassword;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Button btnIzin;
+        private System.Windows.Forms.DateTimePicker startDateTime;
+        private System.Windows.Forms.DateTimePicker endDateTime;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnIzinliCalısanlar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtTc;
     }
 }

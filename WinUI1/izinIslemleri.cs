@@ -19,6 +19,7 @@ namespace WinUI1
         public izinIslemleri()
         {
             InitializeComponent();
+            connectionCheck_Load();
         }
         // firebase baglantilarimiz
         IFirebaseConfig config = new FirebaseConfig
@@ -67,22 +68,82 @@ namespace WinUI1
         private void button1_Click(object sender, EventArgs e)
         {
 
-            string randomId = Guid.NewGuid().ToString(); //random id yaratiyoruz
-            
-            //mdelde buraya özle brir yapı kur ve caçr zin için
-            var res = new register
+            if (kontrol(txtTc.Text) == false)
             {
-                username = txtRegisterUsername.Text,
-                password = txtRegisterPassword.Text,
-                id = randomId,
-                isUser = false
+                MessageBox.Show("bu tc'ye sahip bir kişi bulunamdı");
+                return;
+            }
+            // FirebaseClient'in null olup olmadığını kontrol edin
+            if (client == null)
+            {
+                //MessageBox.Show("Firebase bağlantısı kurulamadı.");
+                return;
+            }
+            if (txtTc.Text.Length != 11)
+            {
+                MessageBox.Show("TC numarasını eksik veya fazla girdiniz");
+                return;
+            }
+            var per = new permission
+            {
+                TC = txtTc.Text,
+                startDateTime = startDateTime.Value,
+                endDateTime = endDateTime.Value,
             };
+            if (string.IsNullOrEmpty(txtTc.Text))
+            {
+                MessageBox.Show("Lütfen TC'yi giriniz.");
+                return;
+            }else
+            {
+                if (txtTc.Text.Length > 11 || txtTc.Text.Length < 11)
+                {
+                    MessageBox.Show("tc numarasını eksik veya fazal giridiniz");
+                }
+                else
+                {
+                      try
+            {
+                FirebaseResponse response = client.Set("wantPermission/" + txtTc.Text, per);
+                MessageBox.Show("izininiz gönderildi");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Veri kaydedilirken bir hata oluştu: " + ex.Message);
+            }
+                }
+            }
+           
 
-            FirebaseResponse firebaseResponse = client.Set("employessOnLeave/" +randomId, res);
+           
+
+           
+
+          
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+       public bool  kontrol(string tc)
         {
+            bool esitMi=false;
+            // FirebaseClient'in null olup olmadığını kontrol edin
+            if (client == null)
+            {
+                MessageBox.Show("Firebase bağlantısı kurulamadı.");
+                
+            }
+
+            FirebaseResponse response = client.Get("Person/");
+            Dictionary<string, permission> result = response.ResultAs<Dictionary<string,permission>>();
+            foreach (var get in result)
+            {
+                string tc0 = get.Value.TC;
+                if(tc0.Equals(tc))
+                { 
+                    esitMi = true; 
+                    break;
+                }
+        }
+            
+            return esitMi;
 
         }
     }
