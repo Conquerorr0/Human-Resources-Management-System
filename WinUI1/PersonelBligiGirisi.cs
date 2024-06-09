@@ -19,8 +19,9 @@ namespace WinUI1
         public PersonelBligiGirisi()
         {
             InitializeComponent();
+            connectionCheck_Load();
         }
-        IFirebaseConfig fc = new FirebaseConfig()
+        IFirebaseConfig config = new FirebaseConfig()
         {
             AuthSecret = "6Z0KM9sVW6mj8zOqeOLgS1FtJy9jRamR81JUEYKc",
             BasePath = "https://humanresourcemanagmentsy-588b9-default-rtdb.europe-west1.firebasedatabase.app/",
@@ -28,16 +29,40 @@ namespace WinUI1
 
         IFirebaseClient client;
 
-        private void PersonelBligiGirisi_Load(object sender, EventArgs e)
+        //interente bagli olup olmadiigmizin kontrolu
+        static bool connectionCheck()
         {
             try
             {
-                client = new FireSharp.FirebaseClient(fc);
+                return new System.Net.NetworkInformation.Ping().Send("www.google.com", 1000).Status == System.Net.NetworkInformation.IPStatus.Success;
             }
-            catch
+            catch (Exception)
             {
-                MessageBox.Show("Veri tabanı baglantısı sorunlu ");
+                return false;
             }
+        }
+        private void connectionCheck_Load()
+        {
+            //internete bagli mi degil mi
+            if (connectionCheck() == false)
+            {
+                MessageBox.Show("İnternet Bağlantınızı Kontrol Ediniz!");
+                this.Close();
+            }
+            else
+            {
+                //firebase islemleri
+                client = new FireSharp.FirebaseClient(config);
+                if (client == null)
+                {
+                    MessageBox.Show("Bağlantı Kurulamadı!");
+                }
+            }
+        }
+
+        private void PersonelBligiGirisi_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void btnEkle_Click(object sender, EventArgs e)
@@ -49,7 +74,7 @@ namespace WinUI1
             }
             if (string.IsNullOrEmpty(cobEvliMi.Text) || string.IsNullOrEmpty(txtAd.Text) || string.IsNullOrEmpty(txtSoyad.Text) || string.IsNullOrEmpty(txtMaas.Text)
                 || string.IsNullOrEmpty(txtMail.Text) || string.IsNullOrEmpty(txtDepartman.Text) || string.IsNullOrEmpty(txtTelefonNo.Text) || string.IsNullOrEmpty(txtTelefonNo.Text)
-                || string.IsNullOrEmpty(txtYas.Text) || string.IsNullOrEmpty(txtCocukSayisi.Text) || string.IsNullOrEmpty(cobCinsiyet.Text) || string.IsNullOrEmpty(cobEvliMi.Text))
+                || string.IsNullOrEmpty(txtYas.Text) || string.IsNullOrEmpty(txtCocukSayisi.Text) || string.IsNullOrEmpty(cobCinsiyet.Text) || string.IsNullOrEmpty(cobEvliMi.Text) || string.IsNullOrEmpty(textBoxUsername.Text) || string.IsNullOrEmpty(textBoxPassword.Text))
             {
                 MessageBox.Show("Lütfen bütün bilgileri giriniz!!");
             }
@@ -58,9 +83,9 @@ namespace WinUI1
                 string randomId = Guid.NewGuid().ToString();//random şd yaratır 
 
                 AppUsersEmployee person1 = new AppUsersEmployee()
-                {   
-                    tc=txtTC.Text,
-                    id=randomId,
+                {
+                    tc = txtTC.Text,
+                    id = randomId,
                     FirstName = txtAd.Text,
                     LastName = txtSoyad.Text,
                     age = Convert.ToDouble(txtYas.Text),
@@ -72,11 +97,19 @@ namespace WinUI1
                     wage = Convert.ToDouble(txtMaas.Text),
                     married = evliMi,
                     gender = cobCinsiyet.Text,
-
-
-
                 };
                 FirebaseResponse response = client.Set("Person/" + randomId, person1);
+
+                var register = new register
+                {
+                    username = textBoxUsername.Text,
+                    password = textBoxPassword.Text,
+                    id = randomId,
+                    isUser = false,
+                    isPerson = true,
+                };
+                FirebaseResponse prs = client.Set("Users/" + randomId, register);
+                MessageBox.Show(textBoxUsername.Text + " Ekleníldi ");
             }
             txtTC.Text = "";
             txtAd.Text = "";
@@ -90,11 +123,8 @@ namespace WinUI1
             cobCinsiyet.Text = "";
             cobEvliMi.Text = "";
             txtMaas.Text = "";
-
-
-
-
-
+            textBoxPassword.Text = "";
+            textBoxUsername.Text = "";
         }
     
     }
