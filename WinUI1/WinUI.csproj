@@ -340,6 +340,12 @@
     <Compile Include="izinIslemleri.Designer.cs">
       <DependentUpon>izinIslemleri.cs</DependentUpon>
     </Compile>
+    <Compile Include="PersonalHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalHome.Designer.cs">
+      <DependentUpon>PersonalHome.cs</DependentUpon>
+    </Compile>
     <Compile Include="PersonelBligiGirisi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -369,6 +375,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="izinIslemleri.resx">
       <DependentUpon>izinIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalHome.resx">
+      <DependentUpon>PersonalHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PersonelBligiGirisi.resx">
       <DependentUpon>PersonelBligiGirisi.cs</DependentUpon>

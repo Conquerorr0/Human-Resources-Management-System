@@ -20,7 +20,7 @@ namespace WinUI1
         private void InitializeMainScreen()
         {
             // Pencere ayarları
-            this.Text = "Ana Sayfa";
+            this.Text = "İnsan Kaynakları Ana Sayfa";
             this.Size = new System.Drawing.Size(800, 600);
             this.BackColor = Color.LightSteelBlue;
 
@@ -37,32 +37,26 @@ namespace WinUI1
             // Butonların yaratıcı yerleşimi ve tasarımı
             int buttonWidth = 300;
             int buttonHeight = 50;
-            int spacing = 20;
+            int buttonCount = 4; // Buton sayısı
+            int spacing = 10;
             Color buttonColor = Color.LightGray;
-            int startX = (panel.Width - buttonWidth) / 2; // Butonları ortalamak için X konumu
-            int startY = 20; // İlk butonun Y konumu
 
-            Button btnPersonnelInfo = CreateButton("Personel Bilgileri", new Point(startX, startY), buttonWidth, buttonHeight, buttonColor);
+            // Butonların oluşturulması
+            Button btnPersonnelInfo = CreateButton("Personel Bilgileri", new Point(0, 0), buttonWidth, buttonHeight, buttonColor);
             btnPersonnelInfo.Click += (sender, e) => OpenForm(new Form2());
 
-            Button btnJobApplication = CreateButton("İş Başvuru Formu", new Point(startX, startY + (buttonHeight + spacing) * 1), buttonWidth, buttonHeight, buttonColor);
+            Button btnJobApplication = CreateButton("İş Başvuru Formu", new Point(0, 0), buttonWidth, buttonHeight, buttonColor);
             btnJobApplication.Click += (sender, e) => OpenForm(new Hiring());
 
-            Button btnRecruitment = CreateButton("Personel Kaydı", new Point(startX, startY + (buttonHeight + spacing) * 2), buttonWidth, buttonHeight, buttonColor);
+            Button btnRecruitment = CreateButton("Personel Kaydı", new Point(0, 0), buttonWidth, buttonHeight, buttonColor);
             btnRecruitment.Click += (sender, e) => OpenForm(new PersonelBligiGirisi());
 
-            Button btnEmployeeSatisfaction = CreateButton("Çalışan Memnuniyeti Anketi", new Point(startX, startY + (buttonHeight + spacing) * 3), buttonWidth, buttonHeight, buttonColor);
-            btnEmployeeSatisfaction.Click += (sender, e) => OpenForm(new Anket());
-
-            Button btnLeaveManagement = CreateButton("İzin ve İşgücü Yönetimi", new Point(startX, startY + (buttonHeight + spacing) * 4), buttonWidth, buttonHeight, buttonColor);
+            Button btnLeaveManagement = CreateButton("İzin ve İşgücü Yönetimi", new Point(0, 0), buttonWidth, buttonHeight, buttonColor);
             btnLeaveManagement.Click += (sender, e) => OpenForm(new izinIslemleri());
-
-            Button btnJobListings = CreateButton("İş İlanları", new Point(startX, startY + (buttonHeight + spacing) * 5), buttonWidth, buttonHeight, buttonColor);
-            //btnJobListings.Click += (sender, e) => OpenForm(new JobListings());
 
             // Çıkış Yap butonu
             int logoutButtonWidth = 100;
-            Button btnLogout = CreateButton("Çıkış Yap", new Point(panel.Width - logoutButtonWidth - 20, panel.Height - buttonHeight - 20), logoutButtonWidth, buttonHeight, Color.Red);
+            Button btnLogout = CreateButton("Çıkış Yap", new Point(0, 0), logoutButtonWidth, buttonHeight, Color.Red);
             btnLogout.Click += (sender, e) => OpenForm(new Form1());
             btnLogout.Font = new Font("Arial", 8, FontStyle.Regular);
 
@@ -70,10 +64,45 @@ namespace WinUI1
             panel.Controls.Add(btnPersonnelInfo);
             panel.Controls.Add(btnJobApplication);
             panel.Controls.Add(btnRecruitment);
-            panel.Controls.Add(btnEmployeeSatisfaction);
             panel.Controls.Add(btnLeaveManagement);
-            panel.Controls.Add(btnJobListings);
             panel.Controls.Add(btnLogout);
+
+            // Formun yeniden boyutlandırılması durumunda butonların yeniden düzenlenmesi için Resize olayına abonelik
+            this.Resize += (sender, e) => LayoutButtons(panel, buttonWidth, buttonHeight, spacing);
+
+            // İlk düzenleme
+            LayoutButtons(panel, buttonWidth, buttonHeight, spacing);
+        }
+
+        private void LayoutButtons(Panel panel, int buttonWidth, int buttonHeight, int spacing)
+        {
+            // Butonların listesi
+            var buttons = new Button[]
+            {
+                (Button)panel.Controls[0], // btnPersonnelInfo
+                (Button)panel.Controls[1], // btnJobApplication
+                (Button)panel.Controls[2], // btnRecruitment
+                (Button)panel.Controls[3], // btnLeaveManagement
+                (Button)panel.Controls[4]  // btnLogout
+            };
+
+            // Panel genişliği ve yüksekliği
+            int panelWidth = panel.ClientSize.Width;
+            int panelHeight = panel.ClientSize.Height;
+
+            // Toplam kullanılabilir yükseklik
+            int totalButtonHeight = buttonHeight * buttons.Length + spacing * (buttons.Length - 1);
+            int startY = (panelHeight - totalButtonHeight) / 2; // Butonları dikeyde ortalamak için Y konumu
+
+            for (int i = 0; i < buttons.Length - 1; i++)
+            {
+                buttons[i].Location = new Point((panelWidth - buttonWidth) / 2, startY + i * (buttonHeight + spacing));
+                buttons[i].Size = new Size(buttonWidth, buttonHeight);
+            }
+
+            // Çıkış butonunun konumu
+            Button btnLogout = buttons[buttons.Length - 1];
+            btnLogout.Location = new Point(panelWidth - btnLogout.Width - 20, panelHeight - btnLogout.Height - 20);
         }
 
         private Button CreateButton(string text, Point location, int width, int height, Color backColor)

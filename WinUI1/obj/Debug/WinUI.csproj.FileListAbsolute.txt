@@ -478,6 +478,7 @@ C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\System.
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\bin\Debug\System.ValueTuple.xml
+<<<<<<< HEAD
 C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\bin\Debug\grpc_csharp_ext.x86.dll
 C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\bin\Debug\grpc_csharp_ext.x64.dll
 C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\bin\Debug\libgrpc_csharp_ext.x64.so
@@ -600,3 +601,24 @@ C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\
 C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI.csproj.Up2Date
 C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.exe
 C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.pdb
+=======
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\DAL.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\DAL.pdb
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI.csproj.App.config
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Anket.resources
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Hiring.resources
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.Home.resources
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.izinIslemleri.resources
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.PersonelBligiGirisi.resources
+C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.PersonalHome.resources
+>>>>>>> personalHome

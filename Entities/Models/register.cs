@@ -14,6 +14,7 @@ namespace Entities.Models
         public string password { get; set; }
         public string id { get; set; }
         public bool isUser { get; set; }
+        public bool isPerson { get; set; }
 
     }
 }
