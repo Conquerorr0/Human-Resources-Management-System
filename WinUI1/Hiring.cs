@@ -12,6 +12,8 @@ using Newtonsoft.Json;
 using Entities;
 using Entities.Models;
 using System.ComponentModel;
+using Firebase.Storage;
+using System.IO;
 
 namespace WinUI1
 {
@@ -19,6 +21,7 @@ namespace WinUI1
     {
         private readonly EmployeeService _employeeService;
         private readonly IFirebaseClient _firebaseClient;
+        String pdfUrl="";
 
         public Hiring()
         {
@@ -206,7 +209,7 @@ namespace WinUI1
                 lblMail.Text = email;
                 lblAge.Text = age;
                 lblLanguage.Text = englishLevel;
-                cv.Text = cvlink;
+                pdfUrl = cvlink;
                 lblMessage.Text = message;
             }
         }
@@ -226,41 +229,51 @@ namespace WinUI1
                     // dataGridView1'den seçili kişinin bilgilerini al
                     DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
                     string username = selectedRow.Cells["username"].Value.ToString();
+                    string currentId = selectedRow.Cells["id"].Value.ToString();
 
+                    //FirebaseResponse res = _firebaseClient.Get("Recourse/");
+                    //Dictionary<string, recourse> result = res.ResultAs<Dictionary<string, recourse>>();
+                    //foreach (var get in result)
+                    //{
+                    //    currentId = get.Value.id;
+                    //}
+                    //if (res.Body != "null")
+                    //{
                     // Yeni Interview nesnesi oluştur
                     var interview = new Interview
-                    {
-                        id = Guid.NewGuid().ToString(),
-                        name = username,
-                        date = "", // Tarih eklemiyoruz
-                        departmant = "", // Departman eklemiyoruz
-                        status = "Beklemede"
-                    };
+                        {
+                            id = currentId,
+                            name = username,
+                            date = "", // Tarih eklemiyoruz
+                            departmant = "", // Departman eklemiyoruz
+                            status = "Beklemede"
+                        };
 
-                    // Yeni Interview nesnesini Firebase'e ekle
-                    FirebaseResponse response = await _firebaseClient.PushAsync("Interview", interview);
-                    if (response.StatusCode == System.Net.HttpStatusCode.OK)
-                    {
-                        MessageBox.Show("Kişi başarıyla mülakata eklendi.");
-                    }
-                    else
-                    {
-                        MessageBox.Show("Kişi eklenirken bir hata oluştu.");
-                    }
+                        // Yeni Interview nesnesini Firebase'e ekle
+                        FirebaseResponse response = await _firebaseClient.PushAsync("Interview/" +currentId, interview);
+                        if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                        {
+                            MessageBox.Show("Kişi başarıyla mülakata eklendi.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Kişi eklenirken bir hata oluştu.");
+                        }
 
-                    // dataGridView2'nin veri kaynağını BindingList<Interview> olarak alın
-                    var dataSource = dataGridView2.DataSource as BindingList<Interview>;
-                    if (dataSource != null)
-                    {
-                        // Yeni Interview nesnesini listeye ekleyin
-                        dataSource.Add(interview);
-                    }
-                    else
-                    {
-                        // Eğer DataSource null ise yeni bir BindingList oluştur ve ona ekle
-                        dataSource = new BindingList<Interview> { interview };
-                        dataGridView2.DataSource = dataSource;
-                    }
+                        // dataGridView2'nin veri kaynağını BindingList<Interview> olarak alın
+                        var dataSource = dataGridView2.DataSource as BindingList<Interview>;
+                        if (dataSource != null)
+                        {
+                            // Yeni Interview nesnesini listeye ekleyin
+                            dataSource.Add(interview);
+                        }
+                        else
+                        {
+                            // Eğer DataSource null ise yeni bir BindingList oluştur ve ona ekle
+                            dataSource = new BindingList<Interview> { interview };
+                            dataGridView2.DataSource = dataSource;
+                        }
+                     //}
                 }
                 catch (Exception ex)
                 {
@@ -322,6 +335,8 @@ namespace WinUI1
 
         private async void btnAddInterview_Click(object sender, EventArgs e)
         {
+            btnAddInterview.Enabled = false; // Çift tıklamayı önlemek için butonu devre dışı bırak
+
             try
             {
                 // Kullanıcıdan verileri al
@@ -364,7 +379,7 @@ namespace WinUI1
                 }
 
                 // Yeni veriyi Firebase'e ekle
-                FirebaseResponse response = await _firebaseClient.PushAsync("Interview", newInterview);
+                FirebaseResponse response = await _firebaseClient.SetAsync("Interview/" + interviewId, newInterview);  // PushAsync'den SetAsync'e değiştirildi
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
                     MessageBox.Show("Veri başarıyla eklendi.");
@@ -388,6 +403,10 @@ namespace WinUI1
             catch (Exception ex)
             {
                 MessageBox.Show($"Veri eklenirken bir hata oluştu: {ex.Message}");
+            }
+            finally
+            {
+                btnAddInterview.Enabled = true; // Butonu yeniden etkinleştir
             }
         }
 
@@ -427,5 +446,12 @@ namespace WinUI1
             }
         }
 
+        private async void cvb_Click(object sender, EventArgs e)
+        {
+            
+                    cvPanel pdfViewerForm = new cvPanel();
+                    pdfViewerForm.PdfUrl = pdfUrl;
+                    pdfViewerForm.Show();
+        }
     }
 }

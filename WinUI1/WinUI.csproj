@@ -304,6 +304,12 @@
     <Compile Include="Anket.Designer.cs">
       <DependentUpon>Anket.cs</DependentUpon>
     </Compile>
+    <Compile Include="cvPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cvPanel.Designer.cs">
+      <DependentUpon>cvPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -340,11 +346,19 @@
     <Compile Include="izinIslemleri.Designer.cs">
       <DependentUpon>izinIslemleri.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="izinOnay.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="izinOnay.Designer.cs">
       <DependentUpon>izinOnay.cs</DependentUpon>
+=======
+    <Compile Include="PersonalHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalHome.Designer.cs">
+      <DependentUpon>PersonalHome.cs</DependentUpon>
+>>>>>>> e6c622d2b24c0761e927f927ba63ad084e8594da
     </Compile>
     <Compile Include="PersonelBligiGirisi.cs">
       <SubType>Form</SubType>
@@ -356,6 +370,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Anket.resx">
       <DependentUpon>Anket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cvPanel.resx">
+      <DependentUpon>cvPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -376,8 +393,13 @@
     <EmbeddedResource Include="izinIslemleri.resx">
       <DependentUpon>izinIslemleri.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="izinOnay.resx">
       <DependentUpon>izinOnay.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="PersonalHome.resx">
+      <DependentUpon>PersonalHome.cs</DependentUpon>
+>>>>>>> e6c622d2b24c0761e927f927ba63ad084e8594da
     </EmbeddedResource>
     <EmbeddedResource Include="PersonelBligiGirisi.resx">
       <DependentUpon>PersonelBligiGirisi.cs</DependentUpon>
