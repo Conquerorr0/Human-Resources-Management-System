@@ -3,10 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\user\\desktop\\human-resources-management-system\\winui1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\user\\desktop\\human-resources-management-system\\winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\user\\desktop\\human-resources-management-system\\winui1\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -40,6 +41,9 @@
       "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
 =======
       "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\user\\desktop\\human-resources-management-system\\winui1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+=======
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\winui1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+>>>>>>> personelListeleme
       "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -197,15 +201,14 @@
 =======
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Program.cs",
-              "RelativeDocumentMoniker": "WinUI1\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Program.cs*",
-              "RelativeToolTip": "WinUI1\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAlAAAA",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Form1.cs [Design]",
+              "RelativeToolTip": "WinUI1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T12:26:38.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T17:27:23.694Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -215,9 +218,9 @@
               "RelativeDocumentMoniker": "WinUI1\\Form2.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Form2.cs",
               "RelativeToolTip": "WinUI1\\Form2.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwDwAAAAJAAAA",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAAAIQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T12:19:29.341Z",
+              "WhenOpened": "2024-06-10T15:55:49.225Z",
               "EditorCaption": ""
             },
             {
@@ -229,7 +232,7 @@
               "ToolTip": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Form2.cs [Design]",
               "RelativeToolTip": "WinUI1\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T12:19:25.859Z",
+              "WhenOpened": "2024-06-10T15:55:36.865Z",
               "EditorCaption": " [Design]"
 >>>>>>> personelListeleme
             }

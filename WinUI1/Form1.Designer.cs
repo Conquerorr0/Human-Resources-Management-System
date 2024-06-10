@@ -35,7 +35,6 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.btnShowHide = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.linkLabel = new System.Windows.Forms.LinkLabel();
             this.btnSignIn = new System.Windows.Forms.Button();
             this.lblMessage = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
@@ -71,7 +70,6 @@
             this.SignIn.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.SignIn.Controls.Add(this.linkLabel1);
             this.SignIn.Controls.Add(this.btnShowHide);
-            this.SignIn.Controls.Add(this.linkLabel);
             this.SignIn.Controls.Add(this.btnSignIn);
             this.SignIn.Controls.Add(this.lblMessage);
             this.SignIn.Controls.Add(this.txtPassword);
@@ -115,17 +113,6 @@
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             this.imageList1.Images.SetKeyName(0, "hide.png");
             this.imageList1.Images.SetKeyName(1, "show.png");
-            // 
-            // linkLabel
-            // 
-            this.linkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.linkLabel.Location = new System.Drawing.Point(408, 201);
-            this.linkLabel.Name = "linkLabel";
-            this.linkLabel.Size = new System.Drawing.Size(147, 22);
-            this.linkLabel.TabIndex = 6;
-            this.linkLabel.TabStop = true;
-            this.linkLabel.Text = "Şifremi Unuttum";
-            this.linkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_LinkClicked);
             // 
             // btnSignIn
             // 
@@ -284,7 +271,6 @@
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.LinkLabel linkLabel;
         private System.Windows.Forms.Button btnSignIn;
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.TextBox txtRegisterPassword;
