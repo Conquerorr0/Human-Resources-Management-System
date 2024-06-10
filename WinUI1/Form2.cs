@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-<<<<<<< HEAD
 using System.ComponentModel;
 using System.Net.Http;
 using System.Threading.Tasks;
-=======
-using System.Data;
->>>>>>> personelListeleme
 using System.Windows.Forms;
 using FireSharp.Config;
 using FireSharp.Interfaces;
 using FireSharp.Response;
 using Entities.Models;
+using System.Data;
 
 namespace WinUI1
 {

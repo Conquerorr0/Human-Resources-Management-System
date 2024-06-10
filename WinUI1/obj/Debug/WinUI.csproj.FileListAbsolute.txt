@@ -600,9 +600,7 @@ C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\
 C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI.csproj.Up2Date
 C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.exe
 C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.pdb
-<<<<<<< HEAD
 C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.izinOnay.resources
-=======
 >>>>>>> personelListeleme
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\DAL.dll
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\bin\Debug\Microsoft.Threading.Tasks.dll
@@ -624,12 +622,9 @@ C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Man
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.PersonelBligiGirisi.resources
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.PersonalHome.resources
 >>>>>>> personalHome
-<<<<<<< HEAD
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\PdfViewerForm.resources
 C:\Users\kavan\OneDrive\Belgeler\MyGitHubProject\Conquerorr0\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.CvPanel.resources
 >>>>>>> e6c622d2b24c0761e927f927ba63ad084e8594da
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.cvPanel.resources
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.izinOnay.resources
-=======
->>>>>>> personelListeleme
 C:\Users\User\Desktop\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.PersonalHome.resources
