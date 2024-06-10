@@ -600,3 +600,4 @@ C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\
 C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI.csproj.Up2Date
 C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.exe
 C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.pdb
+C:\Users\evind\OneDrive\Masaüstü\Human-Resources-Management-System\WinUI1\obj\Debug\WinUI1.izinOnay.resources
