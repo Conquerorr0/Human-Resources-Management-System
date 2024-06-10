@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\",
-=======
   "WorkspaceRootPath": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\",
->>>>>>> personalHome
   "Documents": [],
   "DocumentGroupContainers": [
     {
@@ -39,15 +35,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

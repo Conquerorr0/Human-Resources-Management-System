@@ -1,102 +1,135 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\",
+  "WorkspaceRootPath": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\winui1\\izinislemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\izinislemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\cvpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\cvpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:WinUI1\\izinIslemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\cvpanel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\cvpanel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\entities\\models\\appusersemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\appusersemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\winui1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\entities\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\entities\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\entities\\models\\appuseremployeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\appuseremployeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\winui1\\izinislemleri.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\izinislemleri.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|c:\\users\\evind\\onedrive\\masa\u00FCst\u00FC\\human-resources-management-system\\entities\\models\\questionanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\models\\questionanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:WinUI1\\Form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\winui1\\hiring.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\hiring.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\winui1\\hiring.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\hiring.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:WinUI1\\PersonelBligiGirisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\winui1\\personelbligigirisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\personelbligigirisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:WinUI1\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\entities\\filtercriteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D27C927A-4DEC-4472-9077-C018354E4EB6}|Entities\\Entities.csproj|solutionrelative:entities\\filtercriteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD14E493-56AC-4074-BCAC-AFE28DA5AE54}|BLL\\BLL.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\bll\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD14E493-56AC-4074-BCAC-AFE28DA5AE54}|BLL\\BLL.csproj|solutionrelative:bll\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\winui1\\hiring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\winui1\\hiring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\hiring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Anket.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:WinUI1\\Anket.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\hiring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\hiring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:WinUI1\\Anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\hiring.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\hiring.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:WinUI1\\Home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:WinUI1\\Anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-=======
-  "WorkspaceRootPath": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\",
-  "Documents": [
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\cvpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\cvpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\hiring.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\hiring.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\form3.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form3.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\anket.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\anket.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\anket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\anket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\personelbligigirisi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\personelbligigirisi.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\personelbligigirisi.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\personelbligigirisi.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\personalhome.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\personalhome.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\personalhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\personalhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\izinislemleri.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\izinislemleri.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\izinislemleri.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\izinislemleri.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\home.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\home.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\form2.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form2.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\personelbligigirisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\personelbligigirisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -106,13 +139,8 @@
       "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\personelbligigirisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\izinislemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\izinislemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> personalHome
+      "AbsoluteMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|c:\\users\\kavan\\onedrive\\belgeler\\mygithubproject\\conquerorr0\\human-resources-management-system\\winui1\\anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B57E96-D384-4B9F-90D1-048704306427}|WinUI1\\WinUI.csproj|solutionrelative:winui1\\anket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,39 +150,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 442,
-<<<<<<< HEAD
-          "SelectedChildIndex": 1,
-=======
-          "SelectedChildIndex": 4,
->>>>>>> personalHome
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "izinIslemleri.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.cs",
-              "RelativeDocumentMoniker": "WinUI1\\izinIslemleri.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.cs*",
-              "RelativeToolTip": "WinUI1\\izinIslemleri.cs*",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAgwJYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:36:55.853Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "izinIslemleri.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.cs",
-              "RelativeDocumentMoniker": "WinUI1\\izinIslemleri.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.cs [Design]*",
-              "RelativeToolTip": "WinUI1\\izinIslemleri.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T10:37:46.755Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -173,307 +170,441 @@
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 3,
-              "Title": "AppUsersEmployee.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\AppUsersEmployee.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\AppUsersEmployee.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\AppUsersEmployee.cs",
-              "RelativeToolTip": "Entities\\Models\\AppUsersEmployee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "cvPanel.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\cvPanel.Designer.cs",
+              "RelativeDocumentMoniker": "WinUI1\\cvPanel.Designer.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\cvPanel.Designer.cs",
+              "RelativeToolTip": "WinUI1\\cvPanel.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T13:41:24.375Z",
+              "WhenOpened": "2024-06-10T14:11:57.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Program.cs",
-              "RelativeDocumentMoniker": "WinUI1\\Program.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Program.cs",
-              "RelativeToolTip": "WinUI1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAcwBQAAAAtAAAA",
+              "DocumentIndex": 0,
+              "Title": "cvPanel.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\cvPanel.cs",
+              "RelativeDocumentMoniker": "WinUI1\\cvPanel.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\cvPanel.cs",
+              "RelativeToolTip": "WinUI1\\cvPanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T12:15:36.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppUserEmployeeProfile.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\AppUserEmployeeProfile.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\AppUserEmployeeProfile.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\AppUserEmployeeProfile.cs",
-              "RelativeToolTip": "Entities\\Models\\AppUserEmployeeProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T11:55:10.366Z",
+              "WhenOpened": "2024-06-10T14:08:31.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\BaseEntity.cs",
-              "RelativeToolTip": "Entities\\Models\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAGAAAA",
+              "Title": "cvPanel.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\cvPanel.cs",
+              "RelativeDocumentMoniker": "WinUI1\\cvPanel.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\cvPanel.cs [Tasar\u0131m]",
+              "RelativeToolTip": "WinUI1\\cvPanel.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T11:55:03.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T14:08:29.073Z",
+              "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "questionAnswer.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\questionAnswer.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\questionAnswer.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\questionAnswer.cs",
-              "RelativeToolTip": "Entities\\Models\\questionAnswer.cs",
+              "DocumentIndex": 7,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form1.Designer.cs",
+              "RelativeToolTip": "WinUI1\\Form1.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T11:43:42.824Z",
+              "WhenOpened": "2024-06-10T13:06:57.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "permission.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\permission.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\permission.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\Models\\permission.cs",
-              "RelativeToolTip": "Entities\\Models\\permission.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAGAAAA",
+              "DocumentIndex": 14,
+              "Title": "Anket.resx",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Anket.resx",
+              "RelativeDocumentMoniker": "WinUI1\\Anket.resx",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Anket.resx",
+              "RelativeToolTip": "WinUI1\\Anket.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-10T13:06:33.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hiring.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Hiring.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Hiring.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Hiring.cs [Tasar\u0131m]",
+              "RelativeToolTip": "WinUI1\\Hiring.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T11:43:12.787Z",
+              "WhenOpened": "2024-06-10T12:55:34.813Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hiring.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Hiring.Designer.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Hiring.Designer.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Hiring.Designer.cs",
+              "RelativeToolTip": "WinUI1\\Hiring.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOECAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T13:05:34.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "izinIslemleri.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.Designer.cs",
-              "RelativeDocumentMoniker": "WinUI1\\izinIslemleri.Designer.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.Designer.cs*",
-              "RelativeToolTip": "WinUI1\\izinIslemleri.Designer.cs*",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAkwG8AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T11:25:44.356Z",
+              "Title": "Hiring.resx",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Hiring.resx",
+              "RelativeDocumentMoniker": "WinUI1\\Hiring.resx",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Hiring.resx",
+              "RelativeToolTip": "WinUI1\\Hiring.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-10T13:05:42.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinUI1\\Form1.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
-              "RelativeToolTip": "WinUI1\\Form1.cs",
-              "ViewState": "AQIAAL8AAAAAAAAAAAAqwHYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:15:01.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Hiring.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Hiring.Designer.cs",
-              "RelativeDocumentMoniker": "WinUI1\\Hiring.Designer.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Hiring.Designer.cs",
-              "RelativeToolTip": "WinUI1\\Hiring.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:12:44.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Hiring.resx",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Hiring.resx",
-              "RelativeDocumentMoniker": "WinUI1\\Hiring.resx",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Hiring.resx",
-              "RelativeToolTip": "WinUI1\\Hiring.resx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH0AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-08T15:11:05.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
-              "RelativeDocumentMoniker": "WinUI1\\Form3.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
-              "RelativeToolTip": "WinUI1\\Form3.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAewHEAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:36:54.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PersonelBligiGirisi.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs",
-              "RelativeDocumentMoniker": "WinUI1\\PersonelBligiGirisi.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs",
-              "RelativeToolTip": "WinUI1\\PersonelBligiGirisi.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAvwCAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:36:56.244Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FilterCriteria.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\FilterCriteria.cs",
-              "RelativeDocumentMoniker": "Entities\\FilterCriteria.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\Entities\\FilterCriteria.cs",
-              "RelativeToolTip": "Entities\\FilterCriteria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:10:44.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\BLL\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "BLL\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\BLL\\EmployeeService.cs",
-              "RelativeToolTip": "BLL\\EmployeeService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAewBYAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:10:27.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "Hiring.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Hiring.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Hiring.cs",
               "RelativeDocumentMoniker": "WinUI1\\Hiring.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Hiring.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Hiring.cs",
               "RelativeToolTip": "WinUI1\\Hiring.cs",
-              "ViewState": "AQIAAJEAAAAAAAAAAAAowJ0AAABDAAAA",
+              "ViewState": "AQIAALEBAAAAAAAAAAAlwMIBAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:36:55.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Anket.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Anket.Designer.cs",
-              "RelativeDocumentMoniker": "WinUI1\\Anket.Designer.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Anket.Designer.cs",
-              "RelativeToolTip": "WinUI1\\Anket.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:36:53.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Anket.cs",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Anket.cs",
-              "RelativeDocumentMoniker": "WinUI1\\Anket.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Anket.cs",
-              "RelativeToolTip": "WinUI1\\Anket.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T10:17:37.448Z"
+              "WhenOpened": "2024-06-10T12:46:35.044Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinUI1\\Form1.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Form1.cs [Design]",
-              "RelativeToolTip": "WinUI1\\Form1.cs [Design]",
-=======
-              "DocumentIndex": 0,
-              "Title": "PersonelBligiGirisi.cs",
-              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs",
-              "RelativeDocumentMoniker": "WinUI1\\PersonelBligiGirisi.cs",
-              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs*",
-              "RelativeToolTip": "WinUI1\\PersonelBligiGirisi.cs*",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAawG8AAABGAAAA",
+              "Title": "Anket.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Anket.Designer.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Anket.Designer.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Anket.Designer.cs",
+              "RelativeToolTip": "WinUI1\\Anket.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:53:16.977Z",
+              "WhenOpened": "2024-06-10T13:06:32.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PersonelBligiGirisi.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs",
-              "RelativeDocumentMoniker": "WinUI1\\PersonelBligiGirisi.cs",
-              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs [Tasar\u0131m]*",
-              "RelativeToolTip": "WinUI1\\PersonelBligiGirisi.cs [Tasar\u0131m]*",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Program.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Program.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Program.cs",
+              "RelativeToolTip": "WinUI1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:53:13.745Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinUI1\\Form1.cs",
-              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form1.cs*",
-              "RelativeToolTip": "WinUI1\\Form1.cs*",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAIwGAAAAAZAAAA",
->>>>>>> personalHome
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:44:28.593Z",
+              "WhenOpened": "2024-06-10T12:58:44.525Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 21,
-              "Title": "Home.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Home.cs",
-              "RelativeDocumentMoniker": "WinUI1\\Home.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Home.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Home.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T12:26:00.282Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "PersonelBligiGirisi.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs",
-              "RelativeDocumentMoniker": "WinUI1\\PersonelBligiGirisi.cs",
-              "ToolTip": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs [Design]",
-              "RelativeToolTip": "WinUI1\\PersonelBligiGirisi.cs [Design]",
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form1.resx",
+              "RelativeDocumentMoniker": "WinUI1\\Form1.resx",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form1.resx",
+              "RelativeToolTip": "WinUI1\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-10T13:07:01.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form3.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form3.Designer.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form3.Designer.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form3.Designer.cs",
+              "RelativeToolTip": "WinUI1\\Form3.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T10:15:52.12Z"
+              "WhenOpened": "2024-06-10T13:07:11.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form3.resx",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form3.resx",
+              "RelativeDocumentMoniker": "WinUI1\\Form3.resx",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form3.resx",
+              "RelativeToolTip": "WinUI1\\Form3.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-10T13:07:14.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PersonelBligiGirisi.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.Designer.cs",
+              "RelativeDocumentMoniker": "WinUI1\\PersonelBligiGirisi.Designer.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.Designer.cs",
+              "RelativeToolTip": "WinUI1\\PersonelBligiGirisi.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T13:06:22.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PersonelBligiGirisi.resx",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.resx",
+              "RelativeDocumentMoniker": "WinUI1\\PersonelBligiGirisi.resx",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.resx",
+              "RelativeToolTip": "WinUI1\\PersonelBligiGirisi.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-10T13:06:23.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form1.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "WinUI1\\Form1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:58:53.071Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form3.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form3.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form3.cs [Tasar\u0131m]",
+              "RelativeToolTip": "WinUI1\\Form3.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:59:10.327Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PersonalHome.resx",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonalHome.resx",
+              "RelativeDocumentMoniker": "WinUI1\\PersonalHome.resx",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonalHome.resx",
+              "RelativeToolTip": "WinUI1\\PersonalHome.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-10T13:06:20.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PersonalHome.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonalHome.Designer.cs",
+              "RelativeDocumentMoniker": "WinUI1\\PersonalHome.Designer.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonalHome.Designer.cs",
+              "RelativeToolTip": "WinUI1\\PersonalHome.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T13:06:19.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "izinIslemleri.resx",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.resx",
+              "RelativeDocumentMoniker": "WinUI1\\izinIslemleri.resx",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.resx",
+              "RelativeToolTip": "WinUI1\\izinIslemleri.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-10T13:06:15.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "izinIslemleri.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.Designer.cs",
+              "RelativeDocumentMoniker": "WinUI1\\izinIslemleri.Designer.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.Designer.cs",
+              "RelativeToolTip": "WinUI1\\izinIslemleri.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T13:06:14.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Home.resx",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Home.resx",
+              "RelativeDocumentMoniker": "WinUI1\\Home.resx",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Home.resx",
+              "RelativeToolTip": "WinUI1\\Home.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-10T13:06:09.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form2.Designer.cs",
+              "RelativeToolTip": "WinUI1\\Form2.Designer.cs",
+              "ViewState": "AQIAANcBAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T13:06:02.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Form2.resx",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form2.resx",
+              "RelativeDocumentMoniker": "WinUI1\\Form2.resx",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form2.resx",
+              "RelativeToolTip": "WinUI1\\Form2.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-10T13:05:55.539Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "Anket.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\evind\\OneDrive\\Masa\u00FCst\u00FC\\Human-Resources-Management-System\\WinUI1\\Anket.cs",
-              "RelativeDocumentMoniker": "WinUI1\\Anket.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Anket.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\Human-Resources-Management-System\\WinUI1\\Anket.cs [Design]",
+              "Title": "Home.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Home.Designer.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Home.Designer.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Home.Designer.cs",
+              "RelativeToolTip": "WinUI1\\Home.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T10:14:43.825Z"
-=======
-              "DocumentIndex": 2,
-              "Title": "izinIslemleri.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.cs",
-              "RelativeDocumentMoniker": "WinUI1\\izinIslemleri.cs",
-              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\izinIslemleri.cs [Tasar\u0131m]",
-              "RelativeToolTip": "WinUI1\\izinIslemleri.cs [Tasar\u0131m]",
+              "WhenOpened": "2024-06-10T13:05:46.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Home.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Home.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Home.cs",
+              "RelativeToolTip": "WinUI1\\Home.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:53:09.684Z",
+              "WhenOpened": "2024-06-10T12:59:18.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Home.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Home.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Home.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Home.cs [Tasar\u0131m]",
+              "RelativeToolTip": "WinUI1\\Home.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:59:17.547Z",
               "EditorCaption": " [Tasar\u0131m]"
->>>>>>> personalHome
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form3.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form3.cs",
+              "RelativeToolTip": "WinUI1\\Form3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:59:12.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form2.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form2.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form2.cs",
+              "RelativeToolTip": "WinUI1\\Form2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:59:01.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Form2.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form2.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Form2.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Form2.cs [Tasar\u0131m]",
+              "RelativeToolTip": "WinUI1\\Form2.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:58:56.997Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PersonelBligiGirisi.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs",
+              "RelativeDocumentMoniker": "WinUI1\\PersonelBligiGirisi.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs",
+              "RelativeToolTip": "WinUI1\\PersonelBligiGirisi.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwEUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:58:39.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PersonelBligiGirisi.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs",
+              "RelativeDocumentMoniker": "WinUI1\\PersonelBligiGirisi.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\PersonelBligiGirisi.cs [Tasar\u0131m]",
+              "RelativeToolTip": "WinUI1\\PersonelBligiGirisi.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:58:38.447Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Anket.cs",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Anket.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Anket.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Anket.cs",
+              "RelativeToolTip": "WinUI1\\Anket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:58:33.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Anket.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Anket.cs",
+              "RelativeDocumentMoniker": "WinUI1\\Anket.cs",
+              "ToolTip": "C:\\Users\\kavan\\OneDrive\\Belgeler\\MyGitHubProject\\Conquerorr0\\Human-Resources-Management-System\\WinUI1\\Anket.cs [Tasar\u0131m]",
+              "RelativeToolTip": "WinUI1\\Anket.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:58:30.776Z",
+              "EditorCaption": " [Tasar\u0131m]"
             }
           ]
         },
@@ -483,18 +614,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-<<<<<<< HEAD
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-=======
->>>>>>> personalHome
               "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

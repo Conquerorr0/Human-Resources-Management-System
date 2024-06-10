@@ -32,7 +32,6 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.PanelInfo = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.cv = new System.Windows.Forms.LinkLabel();
             this.lblMessage = new System.Windows.Forms.Label();
             this.btnReject = new System.Windows.Forms.Button();
             this.btnAccept = new System.Windows.Forms.Button();
@@ -78,6 +77,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.calendar = new System.Windows.Forms.MonthCalendar();
+            this.cvb = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.PanelInfo.SuspendLayout();
@@ -97,7 +97,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(957, 578);
@@ -108,9 +108,9 @@
             this.tabPage1.Controls.Add(this.PanelInfo);
             this.tabPage1.Controls.Add(this.TablePanel);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage1.Size = new System.Drawing.Size(949, 552);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Başvurular";
@@ -118,8 +118,8 @@
             // 
             // PanelInfo
             // 
+            this.PanelInfo.Controls.Add(this.cvb);
             this.PanelInfo.Controls.Add(this.label5);
-            this.PanelInfo.Controls.Add(this.cv);
             this.PanelInfo.Controls.Add(this.lblMessage);
             this.PanelInfo.Controls.Add(this.btnReject);
             this.PanelInfo.Controls.Add(this.btnAccept);
@@ -134,7 +134,7 @@
             this.PanelInfo.Controls.Add(this.splitter1);
             this.PanelInfo.Controls.Add(this.lblPersonName);
             this.PanelInfo.Location = new System.Drawing.Point(582, 0);
-            this.PanelInfo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PanelInfo.Margin = new System.Windows.Forms.Padding(2);
             this.PanelInfo.Name = "PanelInfo";
             this.PanelInfo.Size = new System.Drawing.Size(478, 564);
             this.PanelInfo.TabIndex = 5;
@@ -150,19 +150,6 @@
             this.label5.Size = new System.Drawing.Size(33, 17);
             this.label5.TabIndex = 15;
             this.label5.Text = "CV:";
-            // 
-            // cv
-            // 
-            this.cv.AutoSize = true;
-            this.cv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cv.Location = new System.Drawing.Point(90, 279);
-            this.cv.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.cv.Name = "cv";
-            this.cv.Size = new System.Drawing.Size(90, 20);
-            this.cv.TabIndex = 14;
-            this.cv.TabStop = true;
-            this.cv.Text = "linkLabel1";
-            this.cv.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.cv_LinkClicked);
             // 
             // lblMessage
             // 
@@ -180,7 +167,7 @@
             this.btnReject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnReject.ForeColor = System.Drawing.SystemColors.Window;
             this.btnReject.Location = new System.Drawing.Point(154, 499);
-            this.btnReject.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReject.Margin = new System.Windows.Forms.Padding(2);
             this.btnReject.Name = "btnReject";
             this.btnReject.Size = new System.Drawing.Size(85, 33);
             this.btnReject.TabIndex = 12;
@@ -194,7 +181,7 @@
             this.btnAccept.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnAccept.ForeColor = System.Drawing.SystemColors.Window;
             this.btnAccept.Location = new System.Drawing.Point(39, 499);
-            this.btnAccept.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAccept.Margin = new System.Windows.Forms.Padding(2);
             this.btnAccept.Name = "btnAccept";
             this.btnAccept.Size = new System.Drawing.Size(85, 33);
             this.btnAccept.TabIndex = 11;
@@ -294,7 +281,7 @@
             // 
             this.splitter1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.splitter1.Location = new System.Drawing.Point(0, 0);
-            this.splitter1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.splitter1.Margin = new System.Windows.Forms.Padding(2);
             this.splitter1.MinExtra = 5;
             this.splitter1.MinSize = 5;
             this.splitter1.Name = "splitter1";
@@ -323,7 +310,7 @@
             this.TablePanel.Controls.Add(this.Label);
             this.TablePanel.Controls.Add(this.dataGridView1);
             this.TablePanel.Location = new System.Drawing.Point(-2, -10);
-            this.TablePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TablePanel.Margin = new System.Windows.Forms.Padding(2);
             this.TablePanel.Name = "TablePanel";
             this.TablePanel.Size = new System.Drawing.Size(580, 574);
             this.TablePanel.TabIndex = 4;
@@ -331,7 +318,7 @@
             // txtNameSearch
             // 
             this.txtNameSearch.Location = new System.Drawing.Point(84, 32);
-            this.txtNameSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNameSearch.Margin = new System.Windows.Forms.Padding(2);
             this.txtNameSearch.Name = "txtNameSearch";
             this.txtNameSearch.Size = new System.Drawing.Size(144, 20);
             this.txtNameSearch.TabIndex = 24;
@@ -339,7 +326,7 @@
             // btnFilter
             // 
             this.btnFilter.Location = new System.Drawing.Point(489, 28);
-            this.btnFilter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnFilter.Margin = new System.Windows.Forms.Padding(2);
             this.btnFilter.Name = "btnFilter";
             this.btnFilter.Size = new System.Drawing.Size(52, 24);
             this.btnFilter.TabIndex = 23;
@@ -359,7 +346,7 @@
             "C1",
             "C2"});
             this.cbEnglishLevel.Location = new System.Drawing.Point(417, 31);
-            this.cbEnglishLevel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbEnglishLevel.Margin = new System.Windows.Forms.Padding(2);
             this.cbEnglishLevel.Name = "cbEnglishLevel";
             this.cbEnglishLevel.Size = new System.Drawing.Size(61, 21);
             this.cbEnglishLevel.TabIndex = 20;
@@ -377,7 +364,7 @@
             // ageCount
             // 
             this.ageCount.Location = new System.Drawing.Point(273, 32);
-            this.ageCount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ageCount.Margin = new System.Windows.Forms.Padding(2);
             this.ageCount.Minimum = new decimal(new int[] {
             18,
             0,
@@ -406,7 +393,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(10, 66);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -422,9 +409,9 @@
             this.tabPage2.Controls.Add(this.tabControl2);
             this.tabPage2.Controls.Add(this.calendar);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage2.Size = new System.Drawing.Size(949, 552);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Mülakat Takvimi";
@@ -440,7 +427,7 @@
             this.Info.Controls.Add(this.label19);
             this.Info.Controls.Add(this.lblCandidateName);
             this.Info.Location = new System.Drawing.Point(482, 173);
-            this.Info.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Info.Margin = new System.Windows.Forms.Padding(2);
             this.Info.Name = "Info";
             this.Info.Size = new System.Drawing.Size(465, 377);
             this.Info.TabIndex = 3;
@@ -527,7 +514,7 @@
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(-3, 167);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
@@ -540,7 +527,7 @@
             this.tabControl2.Controls.Add(this.tabPage3);
             this.tabControl2.Controls.Add(this.tabPage4);
             this.tabControl2.Location = new System.Drawing.Point(478, 2);
-            this.tabControl2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl2.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
             this.tabControl2.Size = new System.Drawing.Size(473, 166);
@@ -554,9 +541,9 @@
             this.tabPage3.Controls.Add(this.txtName);
             this.tabPage3.Controls.Add(this.label2);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage3.Size = new System.Drawing.Size(465, 140);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Mülakat Ekle";
@@ -571,7 +558,7 @@
             "Departman2",
             "Departman3"});
             this.cbDepartmant.Location = new System.Drawing.Point(237, 50);
-            this.cbDepartmant.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbDepartmant.Margin = new System.Windows.Forms.Padding(2);
             this.cbDepartmant.Name = "cbDepartmant";
             this.cbDepartmant.Size = new System.Drawing.Size(114, 21);
             this.cbDepartmant.TabIndex = 8;
@@ -590,7 +577,7 @@
             // 
             this.btnAddInterview.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnAddInterview.Location = new System.Drawing.Point(182, 90);
-            this.btnAddInterview.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddInterview.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddInterview.Name = "btnAddInterview";
             this.btnAddInterview.Size = new System.Drawing.Size(127, 38);
             this.btnAddInterview.TabIndex = 6;
@@ -601,7 +588,7 @@
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(237, 18);
-            this.txtName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtName.Margin = new System.Windows.Forms.Padding(2);
             this.txtName.MaximumSize = new System.Drawing.Size(114, 30);
             this.txtName.MinimumSize = new System.Drawing.Size(114, 30);
             this.txtName.Name = "txtName";
@@ -625,9 +612,9 @@
             this.tabPage4.Controls.Add(this.label6);
             this.tabPage4.Controls.Add(this.label7);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage4.Size = new System.Drawing.Size(465, 140);
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "Mülakat Sil";
@@ -647,7 +634,7 @@
             // 
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnDelete.Location = new System.Drawing.Point(185, 91);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(127, 38);
             this.btnDelete.TabIndex = 13;
@@ -658,7 +645,7 @@
             // txtDeleteInterview
             // 
             this.txtDeleteInterview.Location = new System.Drawing.Point(240, 19);
-            this.txtDeleteInterview.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDeleteInterview.Margin = new System.Windows.Forms.Padding(2);
             this.txtDeleteInterview.MaximumSize = new System.Drawing.Size(114, 30);
             this.txtDeleteInterview.MinimumSize = new System.Drawing.Size(114, 30);
             this.txtDeleteInterview.Name = "txtDeleteInterview";
@@ -689,10 +676,24 @@
             // 
             this.calendar.CalendarDimensions = new System.Drawing.Size(3, 1);
             this.calendar.Location = new System.Drawing.Point(0, 0);
-            this.calendar.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.calendar.Margin = new System.Windows.Forms.Padding(7);
             this.calendar.MinDate = new System.DateTime(2020, 1, 1, 0, 0, 0, 0);
             this.calendar.Name = "calendar";
             this.calendar.TabIndex = 0;
+            // 
+            // cvb
+            // 
+            this.cvb.BackColor = System.Drawing.Color.LightPink;
+            this.cvb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cvb.ForeColor = System.Drawing.SystemColors.Window;
+            this.cvb.Location = new System.Drawing.Point(114, 274);
+            this.cvb.Margin = new System.Windows.Forms.Padding(2);
+            this.cvb.Name = "cvb";
+            this.cvb.Size = new System.Drawing.Size(85, 33);
+            this.cvb.TabIndex = 16;
+            this.cvb.Text = "görüntüle";
+            this.cvb.UseVisualStyleBackColor = false;
+            this.cvb.Click += new System.EventHandler(this.cvb_Click);
             // 
             // Hiring
             // 
@@ -700,7 +701,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(956, 575);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Hiring";
             this.Text = "İşe Alım Ekranı";
             this.tabControl1.ResumeLayout(false);
@@ -764,7 +765,6 @@
         private System.Windows.Forms.Button btnAccept;
         private System.Windows.Forms.Button btnReject;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.LinkLabel cv;
         private System.Windows.Forms.Label lblMessage;
         private System.Windows.Forms.Button btnFilter;
         private System.Windows.Forms.TextBox txtNameSearch;
@@ -776,5 +776,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ComboBox cbDepartmant;
         private System.Windows.Forms.Label Label13;
+        private System.Windows.Forms.Button cvb;
     }
 }

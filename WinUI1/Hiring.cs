@@ -13,6 +13,7 @@ using Entities;
 using Entities.Models;
 using System.ComponentModel;
 using Firebase.Storage;
+using System.IO;
 
 namespace WinUI1
 {
@@ -20,6 +21,7 @@ namespace WinUI1
     {
         private readonly EmployeeService _employeeService;
         private readonly IFirebaseClient _firebaseClient;
+        String pdfUrl="";
 
         public Hiring()
         {
@@ -207,7 +209,7 @@ namespace WinUI1
                 lblMail.Text = email;
                 lblAge.Text = age;
                 lblLanguage.Text = englishLevel;
-                cv.Text = cvlink;
+                pdfUrl = cvlink;
                 lblMessage.Text = message;
             }
         }
@@ -444,5 +446,12 @@ namespace WinUI1
             }
         }
 
+        private async void cvb_Click(object sender, EventArgs e)
+        {
+            
+                    cvPanel pdfViewerForm = new cvPanel();
+                    pdfViewerForm.PdfUrl = pdfUrl;
+                    pdfViewerForm.Show();
+        }
     }
 }
