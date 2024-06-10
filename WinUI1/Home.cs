@@ -52,7 +52,7 @@ namespace WinUI1
             btnRecruitment.Click += (sender, e) => OpenForm(new PersonelBligiGirisi());
 
             Button btnLeaveManagement = CreateButton("İzin ve İşgücü Yönetimi", new Point(0, 0), buttonWidth, buttonHeight, buttonColor);
-            btnLeaveManagement.Click += (sender, e) => OpenForm(new izinIslemleri());
+            btnLeaveManagement.Click += (sender, e) => OpenForm(new izinOnay());
 
             // Çıkış Yap butonu
             int logoutButtonWidth = 100;
